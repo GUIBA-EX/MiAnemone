@@ -1,3 +1,5 @@
+![MiAnemone 海葵目 12S 与 16S eDNA 引物概览，分类体系施工中](figures/MiAnemone_overview.png)
+
 # MiAnemone · 海葵目线粒体 12S 与 16S eDNA 引物
 
 [English](README.en.md) | 中文

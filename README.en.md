@@ -1,3 +1,5 @@
+![MiAnemone 12S and 16S eDNA primers for sea anemones. Classification in progress](figures/MiAnemone_overview.png)
+
 # MiAnemone · Mitochondrial 12S and 16S eDNA primers for sea anemones
 
 [中文](README.md) | English
