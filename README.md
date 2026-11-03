@@ -8,7 +8,7 @@
 
 [English](README.en.md) | 中文
 
-[计算预印本（PDF）](publications/MiAnemone_preprint.pdf)
+[计算预印本（PDF）](publications/MiAnemone_preprint.pdf) · [英文稿件](publications/MiAnemone_preprint.md)
 
 ## 摘要
 

@@ -6,7 +6,7 @@
 
 [中文](README.md) | English
 
-[Computational preprint (PDF)](publications/MiAnemone_preprint.pdf)
+[Computational preprint (PDF)](publications/MiAnemone_preprint.pdf) · [Manuscript](publications/MiAnemone_preprint.md)
 
 ## Abstract
 
