@@ -1,0 +1,156 @@
+gene,pair,edits,species,accession,change
+12S,XSD,F1T>C,Phyllodiscus semoni,KC812133.1,loss
+12S,XSD,F1T>C,Lebrunia neglecta,KC812130.1,loss
+12S,XSD,F1T>C,Lebrunia coralligens,KP761218.1,loss
+12S,XSD,F1T>C R1A>C,Phyllodiscus semoni,KC812133.1,loss
+12S,XSD,F1T>C R1A>C,Lebrunia neglecta,KC812130.1,loss
+12S,XSD,F1T>C R1A>C,Lebrunia coralligens,KP761218.1,loss
+12S,S,R16T>C,Synandwakia multitentaculata,PV780760.1,loss
+12S,S,R16T>C,Diadumene cincta,BK069897.1,loss
+12S,S,R16T>C,Actinostephanus haeckeli,KJ482936.1,gain
+12S,S,R16T>C,Edwardsianthus carbunculus,LC649472.1,loss
+12S,S,R16T>C,Edwardsianthus smaragdus,LC649471.1,loss
+12S,S,R16T>C,Edwardsianthus amethystus,LC649470.1,loss
+12S,S,R16T>C,Edwardsianthus sapphirus,LC649469.1,loss
+12S,S,R16T>C,Edwardsianthus gilbertensis,EU190728.1,loss
+12S,S,R16T>C,Isoparactis ferax,KC700002.1,gain
+12S,S,R16T>C,Isoparactis fionae,KC700001.1,gain
+12S,S,R16T>C,Isanthus capensis,JF832967.1,loss
+12S,S,R16T>C,Isoparactis fabiani,JF832964.1,gain
+12S,S,F9C>A R16T>C,Synandwakia multitentaculata,PV780760.1,loss
+12S,S,F9C>A R16T>C,Diadumene cincta,BK069897.1,loss
+12S,S,F9C>A R16T>C,Actinostephanus haeckeli,KJ482936.1,gain
+12S,S,F9C>A R16T>C,Edwardsianthus carbunculus,LC649472.1,loss
+12S,S,F9C>A R16T>C,Edwardsianthus smaragdus,LC649471.1,loss
+12S,S,F9C>A R16T>C,Edwardsianthus amethystus,LC649470.1,loss
+12S,S,F9C>A R16T>C,Edwardsianthus sapphirus,LC649469.1,loss
+12S,S,F9C>A R16T>C,Edwardsianthus gilbertensis,EU190728.1,loss
+12S,S,F9C>A R16T>C,Isoparactis ferax,KC700002.1,gain
+12S,S,F9C>A R16T>C,Isoparactis fionae,KC700001.1,gain
+12S,S,F9C>A R16T>C,Isanthus capensis,JF832967.1,loss
+12S,S,F9C>A R16T>C,Isoparactis fabiani,JF832964.1,gain
+12S,SD,R4A>G,Edwardsianthus pudicus,PX056171.1,loss
+12S,SD,R4A>G,Actinostephanus haeckeli,KJ482936.1,gain
+12S,SD,R4A>G,Laviactis lucida,KP761196.1,loss
+12S,L,F1T>C,Lebrunia neglecta,KC812130.1,loss
+12S,L,F1T>C,Lebrunia coralligens,KP761218.1,loss
+12S,LD,F1T>C,Lebrunia neglecta,KC812130.1,loss
+12S,LD,F1T>C,Lebrunia coralligens,KP761218.1,loss
+12S,XL,R6C>T,Exaiptasia diaphana,JBWBEE010002526.1,loss
+12S,XL,R6C>T,Bartholomea annulata,EU190721.1,loss
+12S,XL,R6C>T,Macrodactyla aspera,OQ357282.1,gain
+12S,XL,R6C>T,Aiptasia couchii,MZ547138.1,loss
+12S,XL,R6C>T,Tealidium konoplinorum,MZ569958.1,loss
+12S,XL,R6C>T,Verrillactis paguri,FJ489414.1,loss
+12S,XL,R6C>T,Halcampulactis solimar,MK279362.1,gain
+12S,XL,R6C>T,Laviactis lucida,KP761196.1,loss
+12S,XL,R6C>T,Actinauge richardi,EU190719.1,loss
+12S,XL,R12G>A,Exaiptasia diaphana,JBWBEE010002526.1,loss
+12S,XL,R12G>A,Bartholomea annulata,EU190721.1,loss
+12S,XL,R12G>A,Macrodactyla aspera,OQ357282.1,gain
+12S,XL,R12G>A,Aiptasia couchii,MZ547138.1,loss
+12S,XL,R12G>A,Tealidium konoplinorum,MZ569958.1,loss
+12S,XL,R12G>A,Verrillactis paguri,FJ489414.1,loss
+12S,XL,R12G>A,Laviactis lucida,KP761196.1,loss
+12S,XL,R12G>A,Actinauge richardi,EU190719.1,loss
+12S,XL,R6C>T R12G>A,Edwardsia alternobomen,LC895236.1,loss
+12S,XL,R6C>T R12G>A,Edwardsia tuberculata,LC895232.1,loss
+12S,XL,R6C>T R12G>A,Halcampa arctica,PZ162590.1,loss
+12S,XL,R6C>T R12G>A,Exaiptasia diaphana,JBWBEE010002526.1,loss
+12S,XL,R6C>T R12G>A,Bartholomea annulata,EU190721.1,loss
+12S,XL,R6C>T R12G>A,Paracalliactis tsukisome,LC643556.1,loss
+12S,XL,R6C>T R12G>A,Macrodactyla aspera,OQ357282.1,gain
+12S,XL,R6C>T R12G>A,Edwardsianthus gilbertensis,EU190728.1,loss
+12S,XL,R6C>T R12G>A,Cylista ornata,NC_027615.1,loss
+12S,XL,R6C>T R12G>A,Aiptasia couchii,MZ547138.1,loss
+12S,XL,R6C>T R12G>A,Tealidium konoplinorum,MZ569958.1,loss
+12S,XL,R6C>T R12G>A,Sicyonis kuznetsovi,MZ569952.1,loss
+12S,XL,R6C>T R12G>A,Paraphelliactis xishaensis,MT997141.1,loss
+12S,XL,R6C>T R12G>A,Peachia quinquecapitata,MW724531.1,loss
+12S,XL,R6C>T R12G>A,Carcinactis dolosa,MN266878.1,loss
+12S,XL,R6C>T R12G>A,Verrillactis paguri,FJ489414.1,loss
+12S,XL,R6C>T R12G>A,Calliactis tigris,MK801512.1,loss
+12S,XL,R6C>T R12G>A,Laviactis lucida,KP761196.1,loss
+12S,XL,R6C>T R12G>A,Anthosactis janmayeni,KJ482938.1,loss
+12S,XL,R6C>T R12G>A,Galatheanthemum profundale,KJ482919.1,loss
+12S,XL,R6C>T R12G>A,Hormathia digitata,HG423146.1,loss
+12S,XL,R6C>T R12G>A,Halcampa duodecimcirrata,JF832966.1,loss
+12S,XL,R6C>T R12G>A,Cereus herpetodes,JF832956.1,loss
+12S,XL,R6C>T R12G>A,Hormathia pectinata,FJ489415.1,loss
+12S,XL,R6C>T R12G>A,Hormathia lacunifera,FJ489409.1,loss
+12S,XL,R6C>T R12G>A,Calliactis polypus,FJ489404.1,loss
+12S,XL,R6C>T R12G>A,Calliactis tricolor,FJ489405.1,loss
+12S,XL,R6C>T R12G>A,Calliactis japonica,FJ489403.1,loss
+12S,XL,R6C>T R12G>A,Actinothoe sphyrodeta,FJ489401.1,loss
+12S,XL,R6C>T R12G>A,Sagartia undata,FJ489400.1,loss
+12S,XL,R6C>T R12G>A,Allantactis parasitica,FJ489399.1,loss
+12S,XL,R6C>T R12G>A,Adamsia palliata,FJ489398.1,loss
+12S,XL,R6C>T R12G>A,Anthothoe chilensis,FJ489397.1,loss
+12S,XL,R6C>T R12G>A,Paranthus niveus,GU473277.1,loss
+12S,XL,R6C>T R12G>A,Cyananthea hourdezi,GU473275.1,loss
+12S,XL,R6C>T R12G>A,Edwardsia japonica,GU473274.1,loss
+12S,XL,R6C>T R12G>A,Sagartiogeton laceratus,EU190748.1,loss
+12S,XL,R6C>T R12G>A,Cylista troglodytes,EU190746.1,loss
+12S,XL,R6C>T R12G>A,Hormathia armata,EU190731.1,loss
+12S,XL,R6C>T R12G>A,Cereus pedunculatus,EU190724.1,loss
+12S,XL,R6C>T R12G>A,Actinauge richardi,EU190719.1,loss
+12S,XL,R6C>T R12G>A,Actinoscyphia plebeia,EU190712.1,loss
+12S,XL,R6C>T R12G>A,Calliactis parasitica,EU190711.1,loss
+12S,XLD,R6C>T,Exaiptasia diaphana,JBWBEE010002526.1,loss
+12S,XLD,R6C>T,Telmatactis cricoides,PQ722768.1,loss
+12S,XLD,R6C>T,Bartholomea annulata,EU190721.1,loss
+12S,XLD,R6C>T,Aiptasia couchii,MZ547138.1,loss
+12S,XLD,R6C>T,Tealidium konoplinorum,MZ569958.1,loss
+12S,XLD,R6C>T,Verrillactis paguri,FJ489414.1,loss
+12S,XLD,R6C>T,Halcampulactis solimar,MK279362.1,gain
+12S,XLD,R6C>T,Laviactis lucida,KP761196.1,loss
+12S,XLD,R6C>T,Phellia exlex,JF832958.1,loss
+12S,XLD,R6C>T,Andvakia discipulorum,GU473273.1,loss
+12S,XLD,R6C>T,Phellia gausapata,EU190744.1,loss
+12S,XLD,R6C>T,Actinauge richardi,EU190719.1,loss
+12S,XLD,R6C>T,Andvakia boninensis,EU190717.1,loss
+16S,XSD,F17A>G,Edwardsia tuberculata,LC895246.1,gain
+16S,XSD,R4T>C,Alicia sansibarensis,NC_027610.1,loss
+16S,XSD,R4T>C,Antholoba achates,NC_027611.1,loss
+16S,XSD,R4T>C,Antholoba fabiani,OR000444.1,loss
+16S,XSD,R4T>C,Edwardsianthus amethystus,LC649478.1,loss
+16S,XSD,R4T>C,Edwardsianthus carbunculus,LC649480.1,loss
+16S,XSD,R4T>C,Edwardsianthus pudicus,LC649475.1,loss
+16S,XSD,R4T>C,Isanthus capensis,GU473291.1,gain
+16S,XSD,R4T>C,Isoparactis fabiani,GU473283.1,gain
+16S,XSD,R4T>C,Isoparactis fionae,KC700003.1,gain
+16S,XSD,R4T>C,Metedwardsia akkeshi,LC895245.1,gain
+16S,XSD,F17A>G R4T>C,Alicia sansibarensis,NC_027610.1,loss
+16S,XSD,F17A>G R4T>C,Antholoba achates,NC_027611.1,loss
+16S,XSD,F17A>G R4T>C,Antholoba fabiani,OR000444.1,loss
+16S,XSD,F17A>G R4T>C,Bathyphellia australis,FJ489422.1,gain
+16S,XSD,F17A>G R4T>C,Edwardsia tuberculata,LC895246.1,gain
+16S,XSD,F17A>G R4T>C,Edwardsianthus amethystus,LC649478.1,loss
+16S,XSD,F17A>G R4T>C,Edwardsianthus carbunculus,LC649480.1,loss
+16S,XSD,F17A>G R4T>C,Edwardsianthus pudicus,LC649475.1,loss
+16S,XSD,F17A>G R4T>C,Isanthus capensis,GU473291.1,gain
+16S,XSD,F17A>G R4T>C,Isoparactis fabiani,GU473283.1,gain
+16S,XSD,F17A>G R4T>C,Isoparactis fionae,KC700003.1,gain
+16S,XSD,F17A>G R4T>C,Metedwardsia akkeshi,LC895245.1,gain
+16S,S,F14A>C,Scolanthus callimorphus,BK068674.1,loss
+16S,S,F15A>G,Diadumene cincta,BK069897.1,loss
+16S,S,F15A>G,Hormathia digitata,HG423146.1,gain
+16S,S,F15A>G,Ragactis hyalina,BK069894.1,loss
+16S,S,F15A>G,Scolanthus callimorphus,BK068674.1,loss
+16S,S,F14A>C F15A>G,Diadumene cincta,BK069897.1,loss
+16S,S,F14A>C F15A>G,Edwardsia elegans,BK071243.1,loss
+16S,S,F14A>C F15A>G,Hormathia digitata,HG423146.1,gain
+16S,S,F14A>C F15A>G,Isohalcurias citreum,LC768570.1,loss
+16S,S,F14A>C F15A>G,Ragactis hyalina,BK069894.1,loss
+16S,S,F14A>C F15A>G,Scolanthus callimorphus,BK068674.1,loss
+16S,S,F14A>C R17T>C,Scolanthus callimorphus,BK068674.1,loss
+16S,S,F15A>G R17T>C,Diadumene cincta,BK069897.1,loss
+16S,S,F15A>G R17T>C,Hormathia digitata,HG423146.1,gain
+16S,S,F15A>G R17T>C,Ragactis hyalina,BK069894.1,loss
+16S,S,F15A>G R17T>C,Scolanthus callimorphus,BK068674.1,loss
+16S,S,F14A>C F15A>G R17T>C,Diadumene cincta,BK069897.1,loss
+16S,S,F14A>C F15A>G R17T>C,Edwardsia elegans,BK071243.1,loss
+16S,S,F14A>C F15A>G R17T>C,Hormathia digitata,HG423146.1,gain
+16S,S,F14A>C F15A>G R17T>C,Isohalcurias citreum,LC768570.1,loss
+16S,S,F14A>C F15A>G R17T>C,Ragactis hyalina,BK069894.1,loss
+16S,S,F14A>C F15A>G R17T>C,Scolanthus callimorphus,BK068674.1,loss

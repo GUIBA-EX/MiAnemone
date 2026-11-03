@@ -8,7 +8,7 @@ gene,pair,side,position_5to3,primer_base,reference_coordinate,site_species,compa
 12S,XS,F,7,G,580,230,230
 12S,XS,F,8,T,581,230,226
 12S,XS,F,9,A,582,230,222
-12S,XS,F,10,G,583,230,2
+12S,XS,F,10,A,583,230,228
 12S,XS,F,11,A,584,230,230
 12S,XS,F,12,A,585,230,230
 12S,XS,F,13,T,586,230,230

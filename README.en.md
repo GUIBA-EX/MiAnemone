@@ -24,6 +24,8 @@ Evaluable references span both sites and have no ambiguous nucleotides in their 
 
 Background scans allow 0–1,000 internal bases. Strict WC and G–T models allow two mismatches per oligo and require compatibility across its last three bases. Relaxed WC and G–T models allow three and two mismatches respectively without a terminal constraint. The selection thresholds were at most ten hits per strict model and 50 per relaxed model. Each table cell lists **ordinary / D** and each background entry lists **WC,G–T**. Each window has its own evaluable denominator.
 
+Project selection rule for same-site ordinary primers: prefer paired ΔTm ≤5°C in both concentration scenarios (50 and 200 nM per ordinary oligo). A nonterminal consensus substitution may pass review at 5–6°C only when the new base occurs in ≥90% of complete sites, the paired exact-match rate rises by ≥10 percentage points, every previously covered species is retained, and neither strict nor relaxed background scans gain a record. The existing 3′, structure and background gates still apply. This is a computational selection rule.
+
 ## Results
 
 ### 12S
@@ -32,9 +34,11 @@ Background scans allow 0–1,000 internal bases. Strict WC and G–T models allo
 
 The panel contains 250 target species and 322 other cnidarian species.
 
+In ordinary 12S XS, A occurs at forward position 10 in 228/230 complete forward sites. Substitution G10A raised paired exact matches from 2 to 192 of 245 evaluable species. The same 205 species remained covered and all four background hit sets were unchanged (nine records each). The predicted ΔTm values were 5.18°C and 5.33°C.
+
 | Window | Span (bp) | Evaluable species | Covered | Exact | Strict background | Relaxed background | Base matching |
 |---|---:|---:|---:|---:|---:|---:| --- |
-| XS | 161 | 245 | 205 / 230 | 2 / 0 | 9,9 / 9,9 | 9,9 / 9,9 | [XS](figures/template_matching/12S_XS.svg) / [XSD](figures/template_matching/12S_XSD.svg) |
+| XS | 161 | 245 | 205 / 230 | 192 / 0 | 9,9 / 9,9 | 9,9 / 9,9 | [XS](figures/template_matching/12S_XS.svg) / [XSD](figures/template_matching/12S_XSD.svg) |
 | S | 197 | 246 | 173 / 195 | 0 / 26 | 0,0 / 0,0 | 0,0 / 0,0 | [S](figures/template_matching/12S_S.svg) / [SD](figures/template_matching/12S_SD.svg) |
 | M | 230 | 242 | 220 / 224 | 198 / 208 | 9,9 / 9,9 | 9,9 / 9,9 | [M](figures/template_matching/12S_M.svg) / [MD](figures/template_matching/12S_MD.svg) |
 | L | 269 | 246 | 226 / 229 | 1 / 1 | 9,9 / 9,9 | 9,9 / 9,9 | [L](figures/template_matching/12S_L.svg) / [LD](figures/template_matching/12S_LD.svg) |
@@ -76,6 +80,8 @@ Each row identifies a species and its GenBank accession. Blue denotes IUPAC comp
 12S MD yielded the most exact matches among the 12S pairs. Compared with ordinary M, it covered four additional species and provided ten additional exact matches with the same strict background count. Where a shorter amplicon and fewer background hits are priorities, the 197 bp SD pair covered 195/246 species with zero hits in all four background models. For 16S, LD covered 93 more species than ordinary L, while relaxed WC hits increased from seven to 46.
 
 Shorter windows illustrate the distinction between coverage and exact matching. 12S XSD covered 230/245 species with zero exact matches. For 16S, XSD covered 58 more species than XS, but exact matches fell from 132 to one. Ordinary and D sequences were selected independently at each site, so both metrics matter when choosing a pair. Comparisons across windows also depend on how many references span both sites, particularly for the sparsely represented 16S windows. These results describe predicted template compatibility. Amplification efficiency in environmental samples remains to be measured.
+
+[Position-wise consensus review, substitution trials and species-level changes](audit/README.md)
 
 ## Data availability and reproducibility
 
