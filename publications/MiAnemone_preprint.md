@@ -1,7 +1,7 @@
 # MiAnemone, a set of universal PCR primers for metabarcoding environmental DNA from sea anemones
 
 **Fei Xia**
-Preprint v1.0 · 4 November 2026 · Not peer reviewed
+Preprint v1.1 · 3 November 2026 · Not peer reviewed
 
 ## Abstract
 

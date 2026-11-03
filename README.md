@@ -10,7 +10,7 @@
 
 [计算预印本（PDF）](publications/MiAnemone_preprint.pdf) · [英文稿件](publications/MiAnemone_preprint.md)
 
-**预印本 v1.0 · 2026 年 11 月 4 日 · 未经同行评审。** 固定版本含论文 PDF、同版引物序列和文件校验值。 [版本与引用](https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.0) · [CITATION.cff](CITATION.cff)
+**预印本 v1.1 · 2026 年 11 月 3 日 · 未经同行评审。** 固定版本含论文 PDF、同版引物序列和文件校验值。 [版本与引用](https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.1) · [CITATION.cff](CITATION.cff)
 
 推送至 main 后，GitHub Actions 核对序列、逐物种结果和论文表格。研究文件变更并通过检查时，自动重建 PDF、更新引用版本并发布新 Release。
 

@@ -8,7 +8,7 @@
 
 [Computational preprint (PDF)](publications/MiAnemone_preprint.pdf) · [Manuscript](publications/MiAnemone_preprint.md)
 
-**Preprint v1.0 · 4 November 2026 · Not peer reviewed.** The versioned release includes the paper, corresponding primer FASTA and file checksums. [Versioned release](https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.0) · [CITATION.cff](CITATION.cff)
+**Preprint v1.1 · 3 November 2026 · Not peer reviewed.** The versioned release includes the paper, corresponding primer FASTA and file checksums. [Versioned release](https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.1) · [CITATION.cff](CITATION.cff)
 
 On pushes to main, GitHub Actions checks the sequences, species results and manuscript tables. Changes to the research files trigger a new PDF, versioned citation and release after the checks pass.
 
