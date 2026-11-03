@@ -1,0 +1,13 @@
+name,origin,thermal_pass,structure_max,deg_F,deg_R,evaluable,covered,exact,WC,GT,WC3,GT2,pass_gate
+H,MiFish-inspired,True,15.665049317347723,1,1,165,146,122,0,0,486,500,False
+HD,Anth28S-inspired,True,40.73184392328318,4,4,165,154,136,0,1,976,501,False
+XS,MiFish-inspired,True,0.0,1,1,262,165,132,0,0,0,0,True
+XSD,Anth28S-inspired,True,34.362983879005355,6,1,262,223,1,0,0,1,0,True
+S,MiFish-inspired,True,49.989977583394705,1,1,77,63,0,0,0,0,0,True
+SD,Anth28S-inspired,True,52.70552845668368,6,8,77,70,56,0,0,0,0,True
+M,MiFish-inspired,True,54.18316968152226,1,1,76,61,51,0,0,0,0,True
+MD,Anth28S-inspired,True,54.18316968152226,1,6,76,61,52,0,0,0,0,True
+L,MiFish-inspired,True,49.87651681463598,1,1,258,138,106,0,0,7,4,True
+LD,Anth28S-inspired,True,51.72168625394005,8,6,258,231,180,0,3,46,10,True
+XL,MiFish-inspired,True,54.18316968152226,1,1,76,41,36,0,0,0,0,True
+XLD,Anth28S-inspired,True,54.18316968152226,1,8,76,61,52,0,0,0,0,True
