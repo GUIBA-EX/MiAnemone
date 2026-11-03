@@ -1,20 +1,20 @@
-![MiAnemone 12S and 16S eDNA primers for sea anemones. Classification in progress](figures/MiAnemone_overview.png)
+![MiAnemone 12S and 16S eDNA primers for sea anemones. Taxonomic framework under development](figures/MiAnemone_overview.png)
 
-# MiAnemone · Mitochondrial 12S and 16S eDNA primers for sea anemones
+# MiAnemone, a set of universal PCR primers for metabarcoding environmental DNA from sea anemones
+
+**Fei Xia**
 
 [中文](README.md) | English
 
-MiAnemone contains 22 computationally evaluated primer pairs for Actiniaria. Each marker has five size windows (XS–XL), each with an ordinary and a degenerate (D) pair sharing both binding sites. The 16S panel also includes H and HD at the original design site. Oligos are reported in synthesis orientation (5′→3′) and identified by marker, pair and direction. [Primer FASTA](primers.fasta) · [Sequences, coordinates and results](all_results.csv)
+## Abstract
 
-## Primer selection
+We designed and evaluated 22 primer pairs in silico for mitochondrial 12S and 16S rRNA genes in Actiniaria. In a 12S reference library of 250 sea anemone species, MD covered 224 of 242 evaluable species and matched both binding sites exactly in 208. In a 16S library of 265 species, LD covered 231 of 258 evaluable species, with 180 exact matches. Under strict Watson–Crick pairing, MD and LD matched nine and zero records in their respective background panels.
 
-**12S MD** covered 224 of 242 evaluable species (92.6%) with 208 exact matches (86.0%). Ordinary M covered 220 with 198 exact matches. Both hit nine background species under the strict Watson–Crick model. For a shorter product, SD covers 195/246 at 197 bp with zero hits across the four background models.
+## Introduction
 
-**16S LD** covered 231/258 species (89.5%) with 180 exact matches (69.8%), compared with 138 and 106 for ordinary L. LD hit zero and three background records under the two strict models, increasing to 46 and ten under the relaxed models.
+Primer design for environmental DNA metabarcoding must account for amplicon length, variation at binding sites among target species and matches to related non-target taxa. We drew on the conserved-flank design of MiFish and the use of degenerate sites in Anth-28S (Miya et al., 2015, McCartin et al., 2024). We compared ordinary and degenerate primers at identical coordinates in five size windows (XS–XL) per mitochondrial marker to determine how gains in coverage affect exact matching and background hits.
 
-High coverage can coincide with few exact matches. For example, 12S XSD covered 230/245 species with zero exact matches. Ordinary and D oligos were selected independently at the same coordinates.
-
-## Methods and table key
+## Materials and methods
 
 Each target panel contains one GenBank sequence per named species. All coordinates are 1-based, inclusive positions in the respective ungapped mitochondrial rRNA gene of *Metridium senile* (NC_000933.1). Ordinary primers were selected from observed templates and consensus motifs following the conserved-flank approach of MiFish. D candidates incorporate lineage variation following the Anth-28S approach, with at most eight variants per oligo and ambiguity confined to its 3′ half.
 
@@ -22,7 +22,9 @@ Evaluable references span both sites and have no ambiguous nucleotides in their 
 
 Background scans allow 0–1,000 internal bases. Strict WC and G–T models allow two mismatches per oligo and require compatibility across its last three bases. Relaxed WC and G–T models allow three and two mismatches respectively without a terminal constraint. The selection thresholds were at most ten hits per strict model and 50 per relaxed model. Each table cell lists **ordinary / D** and each background entry lists **WC,G–T**. Each window has its own evaluable denominator.
 
-## 12S
+## Results
+
+### 12S
 
 ![12S binding positions](figures/12S_binding.svg)
 
@@ -38,7 +40,7 @@ The panel contains 250 target species and 322 other cnidarian species.
 
 [Per-species results](12S/species_results.csv) · [Background hits](12S/background_hits.csv) · [Coordinates](12S/coordinates.csv) · [Insert uniqueness](12S/barcode_identity.csv)
 
-## 16S
+### 16S
 
 ![16S binding positions including H and HD](figures/16S_binding.svg)
 
@@ -57,13 +59,21 @@ H and HD occupy the original design site (F 1497–1518, R 1809–1830). HD cove
 
 [Per-species results](16S/species_results.csv) · [Background hits](16S/background_hits.csv) · [Coordinates](16S/coordinate_check.csv) · [Insert uniqueness](16S/insert_resolution.csv) · [16S sequences including H and HD](16S/primers.fasta)
 
-## Reproduction and citation
+## Discussion
 
-Each marker directory includes the reference sequences, target alignment and accession panels. From the repository root, run `python3 scripts/binding_positions.py` to redraw the figures. Run `python3 scripts/verify.py` with Biopython installed to check per-record outcomes against both panels. There were 8,940 checks for 12S and 45,780 for 16S. [12S validation](12S/validation.json) · [16S validation](16S/validation.json)
+12S MD yielded the most exact matches among the 12S pairs. Compared with ordinary M, it covered four additional species and provided ten additional exact matches with the same strict background count. Where a shorter amplicon and fewer background hits are priorities, the 197 bp SD pair covered 195/246 species with zero hits in all four background models. For 16S, LD covered 93 more species than ordinary L, while relaxed WC hits increased from seven to 46.
 
-Fei Xia. [Citation](CITATION.cff) · [Copyright and permissions](COPYRIGHT.md)
+Shorter windows illustrate the distinction between coverage and exact matching. 12S XSD covered 230/245 species with zero exact matches. For 16S, XSD covered 58 more species than XS, but exact matches fell from 132 to one. Ordinary and D sequences were selected independently at each site, so both metrics matter when choosing a pair. Comparisons across windows also depend on how many references span both sites, particularly for the sparsely represented 16S windows. These results describe predicted template compatibility. Amplification efficiency in environmental samples remains to be measured.
+
+## Data availability and reproducibility
+
+Oligos are reported in synthesis orientation (5′→3′) with identifiers for gene, pair and direction, for example `12S_MD_F`. The full results table includes sequences, binding coordinates and background counts. [Primer FASTA](primers.fasta) · [Complete results](all_results.csv)
+
+Each marker directory contains target and background references, accession panels and the target alignment. With Biopython installed, run `python3 scripts/verify.py` from the repository root to verify hits, and `python3 scripts/binding_positions.py` to redraw the binding maps. All 8,940 checks for 12S and 45,780 checks for 16S agreed with the independent implementation. [12S validation](12S/validation.json) · [16S validation](16S/validation.json)
+
+[Citation](CITATION.cff) · [Copyright and permissions](COPYRIGHT.md)
 
 ## References
 
-1. Miya et al. (2015). MiFish, a set of universal PCR primers for metabarcoding environmental DNA from fishes. [Royal Society Open Science](https://doi.org/10.1098/rsos.150088)
-2. Anth-28S primer design for coral metabarcoding. [PeerJ](https://doi.org/10.7717/peerj.18607)
+1. Miya M et al. (2015). MiFish, a set of universal PCR primers for metabarcoding environmental DNA from fishes: detection of more than 230 subtropical marine species. *Royal Society Open Science*, 2, 150088. [DOI](https://doi.org/10.1098/rsos.150088)
+2. McCartin L et al. (2024). Nuclear eDNA metabarcoding primers for anthozoan coral biodiversity assessment. *PeerJ*, 12, e18607. [DOI](https://doi.org/10.7717/peerj.18607)

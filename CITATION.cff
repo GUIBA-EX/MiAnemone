@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this project's primers, data or analysis code, please cite this repository."
 type: software
-title: "MiAnemone: mitochondrial 12S and 16S eDNA primer candidates for sea anemones"
+title: "MiAnemone, a set of universal PCR primers for metabarcoding environmental DNA from sea anemones"
 authors:
   - family-names: "Xia"
     given-names: "Fei"
