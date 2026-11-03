@@ -6,6 +6,8 @@
 
 [中文](README.md) | English
 
+[Computational preprint (PDF)](publications/MiAnemone_preprint.pdf)
+
 ## Abstract
 
 We designed and evaluated 22 primer pairs in silico for mitochondrial 12S and 16S rRNA genes in Actiniaria. In a 12S reference library of 250 sea anemone species, MD covered 224 of 242 evaluable species and matched both binding sites exactly in 208. In a 16S library of 265 species, LD covered 231 of 258 evaluable species, with 180 exact matches. Under strict Watson–Crick pairing, MD and LD matched nine and zero records in their respective background panels.
@@ -30,15 +32,20 @@ Background scans allow 0–1,000 internal bases. Strict WC and G–T models allo
 
 The panel contains 250 target species and 322 other cnidarian species.
 
-| Window | Span (bp) | Evaluable species | Covered | Exact | Strict background | Relaxed background |
-|---|---:|---:|---:|---:|---:|---:|
-| XS | 161 | 245 | 205 / 230 | 2 / 0 | 9,9 / 9,9 | 9,9 / 9,9 |
-| S | 197 | 246 | 173 / 195 | 0 / 26 | 0,0 / 0,0 | 0,0 / 0,0 |
-| M | 230 | 242 | 220 / 224 | 198 / 208 | 9,9 / 9,9 | 9,9 / 9,9 |
-| L | 269 | 246 | 226 / 229 | 1 / 1 | 9,9 / 9,9 | 9,9 / 9,9 |
-| XL | 385 | 243 | 185 / 225 | 46 / 52 | 0,0 / 0,0 | 1,0 / 18,0 |
+| Window | Span (bp) | Evaluable species | Covered | Exact | Strict background | Relaxed background | Base matching |
+|---|---:|---:|---:|---:|---:|---:| --- |
+| XS | 161 | 245 | 205 / 230 | 2 / 0 | 9,9 / 9,9 | 9,9 / 9,9 | [XS](figures/template_matching/12S_XS.svg) / [XSD](figures/template_matching/12S_XSD.svg) |
+| S | 197 | 246 | 173 / 195 | 0 / 26 | 0,0 / 0,0 | 0,0 / 0,0 | [S](figures/template_matching/12S_S.svg) / [SD](figures/template_matching/12S_SD.svg) |
+| M | 230 | 242 | 220 / 224 | 198 / 208 | 9,9 / 9,9 | 9,9 / 9,9 | [M](figures/template_matching/12S_M.svg) / [MD](figures/template_matching/12S_MD.svg) |
+| L | 269 | 246 | 226 / 229 | 1 / 1 | 9,9 / 9,9 | 9,9 / 9,9 | [L](figures/template_matching/12S_L.svg) / [LD](figures/template_matching/12S_LD.svg) |
+| XL | 385 | 243 | 185 / 225 | 46 / 52 | 0,0 / 0,0 | 1,0 / 18,0 | [XL](figures/template_matching/12S_XL.svg) / [XLD](figures/template_matching/12S_XLD.svg) |
 
 [Per-species results](12S/species_results.csv) · [Background hits](12S/background_hits.csv) · [Coordinates](12S/coordinates.csv) · [Insert uniqueness](12S/barcode_identity.csv)
+
+Each row identifies a species and its GenBank accession. Blue denotes IUPAC compatibility, orange a mismatch and grey a gap or unknown base. Both ends read 5′→3′ with the terminal triplet boxed. Bases are projected onto the reference, omitting insertion columns. Raw hit is the paired search outcome on the full sequence. The excerpt shows one species from each of eight families. Table links show all evaluable species for each pair.
+
+![12S MD primer–template alignment](figures/template_matching/12S_MD_preview.svg)
+
 
 ### 16S
 
@@ -46,18 +53,23 @@ The panel contains 250 target species and 322 other cnidarian species.
 
 The panel contains 265 target species and 1,775 other cnidarian records. Only 76–77 species are evaluable for the S, M and XL windows.
 
-| Window | Span (bp) | Evaluable species | Covered | Exact | Strict background | Relaxed background |
-|---|---:|---:|---:|---:|---:|---:|
-| XS | 152 | 262 | 165 / 223 | 132 / 1 | 0,0 / 0,0 | 0,0 / 1,0 |
-| S | 186 | 77 | 63 / 70 | 0 / 56 | 0,0 / 0,0 | 0,0 / 0,0 |
-| M | 248 | 76 | 61 / 61 | 51 / 52 | 0,0 / 0,0 | 0,0 / 0,0 |
-| L | 334 | 258 | 138 / 231 | 106 / 180 | 0,0 / 0,3 | 7,4 / 46,10 |
-| XL | 404 | 76 | 41 / 61 | 36 / 52 | 0,0 / 0,0 | 0,0 / 0,0 |
-| H / HD | 334 | 165 | 146 / 154 | 122 / 136 | 0,0 / 0,1 | 486,500 / 976,501 |
+| Window | Span (bp) | Evaluable species | Covered | Exact | Strict background | Relaxed background | Base matching |
+|---|---:|---:|---:|---:|---:|---:| --- |
+| XS | 152 | 262 | 165 / 223 | 132 / 1 | 0,0 / 0,0 | 0,0 / 1,0 | [XS](figures/template_matching/16S_XS.svg) / [XSD](figures/template_matching/16S_XSD.svg) |
+| S | 186 | 77 | 63 / 70 | 0 / 56 | 0,0 / 0,0 | 0,0 / 0,0 | [S](figures/template_matching/16S_S.svg) / [SD](figures/template_matching/16S_SD.svg) |
+| M | 248 | 76 | 61 / 61 | 51 / 52 | 0,0 / 0,0 | 0,0 / 0,0 | [M](figures/template_matching/16S_M.svg) / [MD](figures/template_matching/16S_MD.svg) |
+| L | 334 | 258 | 138 / 231 | 106 / 180 | 0,0 / 0,3 | 7,4 / 46,10 | [L](figures/template_matching/16S_L.svg) / [LD](figures/template_matching/16S_LD.svg) |
+| XL | 404 | 76 | 41 / 61 | 36 / 52 | 0,0 / 0,0 | 0,0 / 0,0 | [XL](figures/template_matching/16S_XL.svg) / [XLD](figures/template_matching/16S_XLD.svg) |
+| H / HD | 334 | 165 | 146 / 154 | 122 / 136 | 0,0 / 0,1 | 486,500 / 976,501 | [H](figures/template_matching/16S_H.svg) / [HD](figures/template_matching/16S_HD.svg) |
 
 H and HD occupy the original design site (F 1497–1518, R 1809–1830). HD covers eight more species and exactly matches 14 more than H. Both exceed the relaxed background threshold.
 
 [Per-species results](16S/species_results.csv) · [Background hits](16S/background_hits.csv) · [Coordinates](16S/coordinate_check.csv) · [Insert uniqueness](16S/insert_resolution.csv) · [16S sequences including H and HD](16S/primers.fasta)
+
+Each row identifies a species and its GenBank accession. Blue denotes IUPAC compatibility, orange a mismatch and grey a gap or unknown base. Both ends read 5′→3′ with the terminal triplet boxed. Bases are projected onto the reference, omitting insertion columns. Raw hit is the paired search outcome on the full sequence. The excerpt shows one species from each of eight families. Table links show all evaluable species for each pair.
+
+![16S LD primer–template alignment](figures/template_matching/16S_LD_preview.svg)
+
 
 ## Discussion
 
