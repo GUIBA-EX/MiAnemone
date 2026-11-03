@@ -8,6 +8,8 @@
 
 [Computational preprint (PDF)](publications/MiAnemone_preprint.pdf) · [Manuscript](publications/MiAnemone_preprint.md)
 
+**Preprint v1.0 · 4 November 2026 · Not peer reviewed.** The versioned release includes the paper, corresponding primer FASTA and file checksums. [Versioned release](https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.0) · [CITATION.cff](CITATION.cff)
+
 ## Abstract
 
 We designed and evaluated 22 primer pairs in silico for mitochondrial 12S and 16S rRNA genes in Actiniaria. In a 12S reference library of 250 sea anemone species, MD covered 224 of 242 evaluable species and matched both binding sites exactly in 208. In a 16S library of 265 species, LD covered 231 of 258 evaluable species, with 180 exact matches. Under strict Watson–Crick pairing, MD and LD matched nine and zero records in their respective background panels.

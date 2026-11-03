@@ -10,6 +10,8 @@
 
 [计算预印本（PDF）](publications/MiAnemone_preprint.pdf) · [英文稿件](publications/MiAnemone_preprint.md)
 
+**预印本 v1.0 · 2026 年 11 月 4 日 · 未经同行评审。** 固定版本含论文 PDF、同版引物序列和文件校验值。 [版本与引用](https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.0) · [CITATION.cff](CITATION.cff)
+
 ## 摘要
 
 本研究针对海葵目（Actiniaria）的线粒体 12S 和 16S rRNA 基因设计并计算评估了 22 对引物。在 250 种海葵的 12S 参考库中，MD 覆盖 224/242 个可评价物种，208 个物种的双端均完全匹配。在 265 种海葵的 16S 参考库中，LD 覆盖 231/258 个可评价物种，其中 180 个双端完全匹配。严格 Watson–Crick 模型下，两者在各自背景库中分别命中 9 条和 0 条记录。
