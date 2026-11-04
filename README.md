@@ -5,13 +5,23 @@
 **Fei Xia**
 
 <!-- publication:start -->
-**预印本 v1.3 · 2026 年 11 月 4 日 · 未经同行评审。**
+**预印本 v1.4 · 2026 年 11 月 4 日 · 未经同行评审。**
 
-[PDF](publications/MiAnemone_preprint.pdf) · [论文 Markdown](publications/MiAnemone_preprint.md) · [固定版本](https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.3) · [CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib) · [构建与更新](publications/README.md)
+[PDF](publications/MiAnemone_preprint.pdf) · [论文 Markdown](publications/MiAnemone_preprint.md) · [固定版本](https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.4) · [CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib) · [构建与更新](publications/README.md)
 <!-- publication:end -->
 
 
 [English](README.en.md) · [修订论文 PDF](publications/MiAnemone_preprint.pdf) · [逐条回复](publications/response_to_review.md) · [复现说明](revision/README.md)
+
+## 使用入口
+
+| 用途 | 优先候选 |
+| --- | --- |
+| 短片段检测 | 12S XSD |
+| 匹配与参考序列区分度 | 12S MD |
+| 更广的目标覆盖 | 16S LD |
+
+[引物序列](primers.fasta) · [碱基匹配图](figures/12S_base_matching.svg) · [论文PDF](publications/MiAnemone_preprint.pdf)
 
 ## 摘要
 
@@ -55,7 +65,7 @@ G10A所用6°C例外是检查该候选后提出的事后规则。补充表列出
 
 ![公共面板覆盖与完全匹配](publications/figures/review_common_panel.svg)
 
-**图1.** 各标记共同可评价物种面板中的覆盖与完全匹配。柱上为物种数，误差线为条件Wilson 95%区间；H/HD作为历史位点对照置于最后。
+**图1.** 各标记共同可评价物种面板中的覆盖与完全匹配。柱上为物种数，误差线为条件Wilson 95%区间；H/HD作为手动设计位点对照置于最后。
 
 ![参考位点变异、有效物种数与引物位置](publications/figures/review_entropy.svg)
 
@@ -101,7 +111,7 @@ G10A所用6°C例外是检查该候选后提出的事后规则。补充表列出
 
 | 用途 | 计算优先候选 | 主要取舍 |
 | --- | --- | --- |
-| 短片段检测 | 12S XSD（采用Table3，0/1） | 末端及热力学过滤通过，覆盖227/245、完全匹配212/245；未评价鱼类、甲壳类共扩增 |
+| 短片段检测 | 12S XSD | 末端及热力学过滤通过，覆盖227/245、完全匹配212/245；未评价鱼类、甲壳类共扩增 |
 | 覆盖与区分度兼顾 | 12S MD | 完全匹配较高；存在黑珊瑚背景 |
 | 较广16S目标兼容性 | 16S LD | 较L显著增加覆盖；宽松背景也增加 |
 | 黑珊瑚共存环境 | 对本地参考比较12S S/SD及16S候选 | 背景与目标完整性必须一起判断 |
@@ -157,6 +167,8 @@ Bae S. 2025. Validation of improved cytochrome c oxidase I (COI) primers for com
 
 Hellberg ME. 2006. No variation and low synonymous substitution rates in coral mtDNA despite high nuclear variation. *BMC Evolutionary Biology* 6:24. https://doi.org/10.1186/1471-2148-6-24
 
+Katoh K, Standley DM. 2013. MAFFT multiple sequence alignment software version 7: improvements in performance and usability. *Molecular Biology and Evolution* 30:772–780. https://doi.org/10.1093/molbev/mst010
+
 McCartin L et al. 2024. Nuclear eDNA metabarcoding primers for anthozoan coral biodiversity assessment. *PeerJ* 12:e18607. https://doi.org/10.7717/peerj.18607
 
 Miya M et al. 2015. MiFish, a set of universal PCR primers for metabarcoding environmental DNA from fishes: detection of more than 230 subtropical marine species. *Royal Society Open Science* 2:150088. https://doi.org/10.1098/rsos.150088
@@ -169,8 +181,6 @@ SantaLucia J Jr. 1998. A unified view of polymer, dumbbell, and oligonucleotide 
 
 Shearer TL, Van Oppen MJH, Romano SL, Wörheide G. 2002. Slow mitochondrial DNA sequence evolution in the Anthozoa (Cnidaria). *Molecular Ecology* 11:2475–2487. https://doi.org/10.1046/j.1365-294X.2002.01652.x
 
-Katoh K, Standley DM. 2013. MAFFT multiple sequence alignment software version 7: improvements in performance and usability. *Molecular Biology and Evolution* 30:772–780. https://doi.org/10.1093/molbev/mst010
-
 Untergasser A et al. 2012. Primer3—new capabilities and interfaces. *Nucleic Acids Research* 40:e115. https://doi.org/10.1093/nar/gks596
 
 Wilson EB. 1927. Probable inference, the law of succession, and statistical inference. *Journal of the American Statistical Association* 22:209–212. https://doi.org/10.2307/2276774
@@ -178,6 +188,6 @@ Wilson EB. 1927. Probable inference, the law of succession, and statistical infe
 
 ## 引用 / Citation
 
-Xia, F. (2026). *MiAnemone: in silico design and evaluation of mitochondrial 12S and 16S rRNA primers for sea anemone (Actiniaria) eDNA metabarcoding*. Computational preprint v1.3. [GitHub Release](https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.3).
+Xia, F. (2026). *MiAnemone: in silico design and evaluation of mitochondrial 12S and 16S rRNA primers for sea anemone (Actiniaria) eDNA metabarcoding*. Computational preprint v1.4. [GitHub Release](https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.4).
 
 [著作权声明](COPYRIGHT.md)

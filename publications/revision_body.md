@@ -6,7 +6,7 @@ Computational preprint · 4 November 2026 · Revision 2
 
 ## Abstract
 
-Sea-anemone environmental DNA surveys require primer-binding sites that accommodate target variation and intervening sequences that support taxonomic identification. We evaluated 22 ordinary and degenerate primer pairs across five mitochondrial small-subunit (12S) and large-subunit (16S) rRNA windows, with an additional historical 16S site. Frozen panels contained 250 and 265 named species, respectively. We compared paired matching, mismatch positions, common-species panels, within-species records, reference discrimination, and genus-blocked reselection at fixed windows. At 12S XS, G10A increased exact matches from 2 to 192 of 245 evaluable species without changing the 205 predicted covered species. The substitution used a post hoc 6°C temperature-difference limit. Factorial controls identified fixed-base changes as the cause of zero exact matches in the previous 12S XSD. Replacing it with the nested candidate gave 227 covered and 212 exactly matched species; nine strict background hits were retained. Common-panel and multi-record analyses separated window availability from primer compatibility. Reference uniqueness was limited and depended on location as well as insert length. The results prioritize 12S XSD for short-fragment compatibility studies, 12S MD for a balance of matching and reference discrimination, and 16S LD where relaxed background matching is acceptable.
+Sea-anemone environmental DNA surveys require primers that accommodate target variation while retaining informative barcode regions. We evaluated 22 ordinary and degenerate primer pairs across five mitochondrial 12S and 16S rRNA windows and an additional manually designed 16S site. Reference panels contained 250 and 265 named species, respectively. Paired matching, common-species comparisons, multi-record analyses and genus-blocked reselection at fixed windows assessed compatibility and reference discrimination. The adopted 12S XSD covered 227 of 245 evaluable species and exactly matched 212, with nine strict background hits. Factorial controls showed that fixed-base substitutions, rather than degeneracy itself, explained the preceding candidate's loss of exact matching. Common coverage panels contained 240 species for 12S and 67 for 16S, highlighting differences in reference availability among windows. Reference uniqueness depended on barcode location as well as length. The results prioritize 12S XSD for short-fragment studies, 12S MD for matching and reference discrimination, and 16S LD for broader target coverage where relaxed background matching is acceptable. These computational comparisons provide a basis for selecting assays according to target taxa and required resolution.
 
 **Keywords:** Actiniaria; environmental DNA; mitochondrial rRNA; degenerate primers; reference databases; in silico PCR
 
@@ -92,7 +92,7 @@ The common coverage panels contained 240 12S species and only 67 16S species. Th
 
 ![Common-panel matching](figures/review_common_panel.svg)
 
-**Figure 1.** Covered and exact species on the same evaluable panel within each marker. Numbers above bars are counts. Whiskers are conditional Wilson 95% intervals. H is the historical comparator, placed last. The displayed uncertainty does not account for taxonomic sampling bias or candidate selection.
+**Figure 1.** Covered and exact species on the same evaluable panel within each marker. Numbers above bars are counts. Whiskers are conditional Wilson 95% intervals. H is the manually designed site comparator, placed last. The displayed uncertainty does not account for taxonomic sampling bias or candidate selection.
 
 ![Binding-site variation](figures/review_entropy.svg)
 
@@ -164,7 +164,7 @@ Slow anthozoan mitochondrial evolution provides biological context for shared in
 
 | Intended use | Computational priority | Reason and qualification |
 | --- | --- | --- |
-| Short-fragment sea-anemone detection | 12S XSD (adopted Table 3, 0/1) | Passes terminal and thermal filters; 227 covered and 212 exact, compared with 205/192 for ordinary XS and 230/0 for the previous XSD. Fish and crustacean co-amplification was not evaluated. |
+| Short-fragment sea-anemone detection | 12S XSD | Passes terminal and thermal filters; 227 covered and 212 exact, compared with 205/192 for ordinary XS and 230/0 for the previous XSD. Fish and crustacean co-amplification was not evaluated. |
 | Matching plus greater reference discrimination | 12S MD | Strong exact matching and more unique inserts than XS; black-coral backgrounds remain relevant. |
 | Broad 16S target compatibility | 16S LD | Large coverage gain over L; relaxed background hits include Antipatharia. |
 | Habitats rich in black corals | Compare 12S S/SD with 16S alternatives on local references | Original background screening favors some windows, but target completeness and regional species composition constrain interpretation. |
@@ -179,13 +179,15 @@ MiAnemone provides a reproducible computational comparison of 22 candidate prime
 
 ## Data availability and reproducibility
 
-The project is hosted at [https://github.com/GUIBA-EX/MiAnemone](https://github.com/GUIBA-EX/MiAnemone). The revision directory contains accession-level diagnostics, frozen input archives, calculation scripts and a reproduction guide. The revision data and scripts are archived with GitHub preprint v1.3.
+The project is hosted at [https://github.com/GUIBA-EX/MiAnemone](https://github.com/GUIBA-EX/MiAnemone). The revision directory contains accession-level diagnostics, frozen input archives, calculation scripts and a reproduction guide. The revision data and scripts are archived with GitHub preprint v1.4.
 
 ## References
 
 Bae S. 2025. Validation of improved cytochrome c oxidase I (COI) primers for comprehensive biodiversity assessment of ascidians. *PeerJ* 13:e19671. https://doi.org/10.7717/peerj.19671
 
 Hellberg ME. 2006. No variation and low synonymous substitution rates in coral mtDNA despite high nuclear variation. *BMC Evolutionary Biology* 6:24. https://doi.org/10.1186/1471-2148-6-24
+
+Katoh K, Standley DM. 2013. MAFFT multiple sequence alignment software version 7: improvements in performance and usability. *Molecular Biology and Evolution* 30:772–780. https://doi.org/10.1093/molbev/mst010
 
 McCartin L et al. 2024. Nuclear eDNA metabarcoding primers for anthozoan coral biodiversity assessment. *PeerJ* 12:e18607. https://doi.org/10.7717/peerj.18607
 
@@ -198,8 +200,6 @@ Rodríguez E et al. 2014. Hidden among sea anemones: the first comprehensive phy
 SantaLucia J Jr. 1998. A unified view of polymer, dumbbell, and oligonucleotide DNA nearest-neighbor thermodynamics. *Proceedings of the National Academy of Sciences USA* 95:1460–1465. https://doi.org/10.1073/pnas.95.4.1460
 
 Shearer TL, Van Oppen MJH, Romano SL, Wörheide G. 2002. Slow mitochondrial DNA sequence evolution in the Anthozoa (Cnidaria). *Molecular Ecology* 11:2475–2487. https://doi.org/10.1046/j.1365-294X.2002.01652.x
-
-Katoh K, Standley DM. 2013. MAFFT multiple sequence alignment software version 7: improvements in performance and usability. *Molecular Biology and Evolution* 30:772–780. https://doi.org/10.1093/molbev/mst010
 
 Untergasser A et al. 2012. Primer3—new capabilities and interfaces. *Nucleic Acids Research* 40:e115. https://doi.org/10.1093/nar/gks596
 

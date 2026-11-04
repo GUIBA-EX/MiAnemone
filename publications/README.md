@@ -11,7 +11,7 @@ python publications/plot_revision.py
 python publications/unify_figure_style.py
 python publications/assemble_revision.py
 python publications/sync_revision_readmes.py
-python scripts/stamp_preprint.py 1.3
+python scripts/stamp_preprint.py 1.4
 python publications/build_preprint.py
 python scripts/verify.py
 python scripts/check_figures.py

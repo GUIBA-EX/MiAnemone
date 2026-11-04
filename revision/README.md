@@ -36,6 +36,8 @@ python3 scripts/review_extensions.py
 python3 scripts/review_cross_validation.py
 python3 scripts/review_all_records.py
 c++ -O3 -std=c++17 scripts/review_exhaustive.cpp -o /tmp/mianemone_review_scan
+/tmp/mianemone_review_scan revision/independent_12S
+/tmp/mianemone_review_scan revision/independent_16S
 /tmp/mianemone_review_scan revision/all_records_12S
 /tmp/mianemone_review_scan revision/all_records_16S
 python3 scripts/review_record_summary.py
@@ -44,6 +46,8 @@ python3 scripts/check_factorial_filters.py
 python3 scripts/check_revision_consistency.py
 python3 publications/plot_revision.py
 python3 publications/assemble_revision.py
+python3 publications/sync_revision_readmes.py
+python3 scripts/stamp_preprint.py 1.4
 python3 publications/build_preprint.py
 ```
 

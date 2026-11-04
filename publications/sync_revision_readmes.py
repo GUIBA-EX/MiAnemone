@@ -53,7 +53,7 @@ G10A所用6°C例外是检查该候选后提出的事后规则。补充表列出
 
 ![公共面板覆盖与完全匹配](publications/figures/review_common_panel.svg)
 
-**图1.** 各标记共同可评价物种面板中的覆盖与完全匹配。柱上为物种数，误差线为条件Wilson 95%区间；H/HD作为历史位点对照置于最后。
+**图1.** 各标记共同可评价物种面板中的覆盖与完全匹配。柱上为物种数，误差线为条件Wilson 95%区间；H/HD作为手动设计位点对照置于最后。
 
 ![参考位点变异、有效物种数与引物位置](publications/figures/review_entropy.svg)
 
@@ -99,7 +99,7 @@ G10A所用6°C例外是检查该候选后提出的事后规则。补充表列出
 
 | 用途 | 计算优先候选 | 主要取舍 |
 | --- | --- | --- |
-| 短片段检测 | 12S XSD（采用Table3，0/1） | 末端及热力学过滤通过，覆盖227/245、完全匹配212/245；未评价鱼类、甲壳类共扩增 |
+| 短片段检测 | 12S XSD | 末端及热力学过滤通过，覆盖227/245、完全匹配212/245；未评价鱼类、甲壳类共扩增 |
 | 覆盖与区分度兼顾 | 12S MD | 完全匹配较高；存在黑珊瑚背景 |
 | 较广16S目标兼容性 | 16S LD | 较L显著增加覆盖；宽松背景也增加 |
 | 黑珊瑚共存环境 | 对本地参考比较12S S/SD及16S候选 | 背景与目标完整性必须一起判断 |
@@ -130,3 +130,8 @@ for file in ['README.md','README.en.md']:
  lines[idx]='**Fei Xia**';lines[idx+1:idx+1]=['','<!-- publication:start -->','<!-- publication:end -->',''];s='\n'.join(lines)+'\n'
  s+='\n## '+('引用 / Citation' if file=='README.md' else 'Citation')+'\n\nXia, F. (2026). Computational preprint.\n'
  s+='\n'+('[著作权声明](COPYRIGHT.md)' if file=='README.md' else '[Copyright and permissions](COPYRIGHT.md)')+'\n';p.write_text(s)
+
+for file in ['README.md','README.en.md']:
+ p=ROOT/file;s=p.read_text();en=file.endswith('.en.md')
+ intro=('## Start here\n\n| Intended use | Priority |\n| --- | --- |\n| Short fragments | 12S XSD |\n| Matching and reference discrimination | 12S MD |\n| Broader target coverage | 16S LD |\n\n[Primer sequences](primers.fasta) · [Nucleotide matching](figures/12S_base_matching.svg) · [PDF](publications/MiAnemone_preprint.pdf)\n\n' if en else '## 使用入口\n\n| 用途 | 优先候选 |\n| --- | --- |\n| 短片段检测 | 12S XSD |\n| 匹配与参考序列区分度 | 12S MD |\n| 更广的目标覆盖 | 16S LD |\n\n[引物序列](primers.fasta) · [碱基匹配图](figures/12S_base_matching.svg) · [论文PDF](publications/MiAnemone_preprint.pdf)\n\n')
+ key='## Abstract' if en else '## 摘要';s=s.replace(key,intro+key,1);p.write_text(s)
