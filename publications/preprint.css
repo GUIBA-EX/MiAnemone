@@ -1,0 +1,8 @@
+@page{size:A4;margin:17mm 18mm 18mm;@bottom-left{content:'PROJECT · Fei Xia · Computational preprint';font:8pt Arial;color:#54635c}@bottom-right{content:counter(page);font:8pt Arial}}
+body{font:10.5pt/1.35 Georgia,serif;color:#172b27}
+h1{font-size:21pt;text-align:center;line-height:1.18}h2{font-size:15pt}h3{font-size:12pt}h2,h3{break-after:avoid}
+p{margin:5pt 0 7pt;orphans:3;widows:3}img{width:100%;display:block}img[src$="_binding.svg"]{width:86%;margin:auto}
+figure{margin:8pt 0;break-inside:avoid}figcaption{display:none}
+table{break-inside:avoid;border-collapse:collapse;width:100%;font:8.7pt/1.4 Arial}td,th{padding:3pt;border-bottom:1px solid #cfdfda}th{background:#deede8}tr{break-inside:avoid}
+a{color:#216459}p:has(>strong:first-child){break-before:avoid}
+p:has(+table){break-after:avoid}

@@ -4,13 +4,13 @@
 
 **Fei Xia**
 
-[中文](README.md) | English
+[简体中文](README.md) · [English](README.en.md)
 
-[Computational preprint (PDF)](publications/MiAnemone_preprint.pdf) · [Manuscript](publications/MiAnemone_preprint.md)
+<!-- publication:start -->
+**Preprint v1.2 · 4 November 2026 · Not peer reviewed.**
 
-**Preprint v1.1 · 3 November 2026 · Not peer reviewed.** The versioned release includes the paper, corresponding primer FASTA and file checksums. [Versioned release](https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.1) · [CITATION.cff](CITATION.cff)
-
-On pushes to main, GitHub Actions checks the sequences, species results and manuscript tables. Changes to the research files trigger a new PDF, versioned citation and release after the checks pass.
+[PDF](publications/MiAnemone_preprint.pdf) · [Manuscript](publications/MiAnemone_preprint.md) · [Versioned release](https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.2) · [CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib) · [Build and updates](publications/README.md)
+<!-- publication:end -->
 
 ## Abstract
 
@@ -55,6 +55,22 @@ Each row identifies a species and its GenBank accession. Blue denotes IUPAC comp
 ![12S MD primer–template alignment](figures/template_matching/12S_MD_preview.svg)
 
 
+
+#### Primer sequences (5′–3′)
+
+| Assay | Forward (5′–3′) | Reverse (5′–3′) |
+| --- | --- | --- |
+| XS | `CGAAAGGTAAAATCTTCCGCCT` | `CGACGGCCATGCAATACCGG` |
+| XSD | `TGAAAGGTAAAATCTTCCGCCT` | `AGACGGCCATGCARTACCDG` |
+| S | `CGAAAGGTCAAATCTTCCGC` | `CGGGTTGGGTCCCTTTTAGC` |
+| SD | `CGAAAGGTAAAATCTTCCGC` | `CGGATTGGGTCCCTTYTAGY` |
+| M | `AAGGCGTAAAGGATGTGTAG` | `GCGGAAGATTTTACCTTTCG` |
+| MD | `AAGGCGTAAAGGATGTGTVG` | `GCGGAAGATTTDACCTTTCR` |
+| L | `TGAAAGGTAAAATCTTCCGC` | `TATAAGAAAATGTAGCGCAT` |
+| LD | `TGAAAGGTAAAATCTTCCGC` | `TATAAGAAAATGTAGCGCAY` |
+| XL | `GCGTAAAGGATGTGTAGGCC` | `CTTAACACACGGACTTACGACG` |
+| XLD | `GCGTAAAGGATGTGTARGYY` | `CTTAACACACGRACTTACGACG` |
+
 ### 16S
 
 ![16S binding positions including H and HD](figures/16S_binding.svg)
@@ -79,6 +95,24 @@ Each row identifies a species and its GenBank accession. Blue denotes IUPAC comp
 ![16S LD primer–template alignment](figures/template_matching/16S_LD_preview.svg)
 
 
+
+#### Primer sequences (5′–3′)
+
+| Assay | Forward (5′–3′) | Reverse (5′–3′) |
+| --- | --- | --- |
+| H | `AAGACCCCATTGAGCTTTACTA` | `CCCCATGGTAGCTTTTATTCGT` |
+| HD | `AAGACCCCATTGAGCTTTACYW` | `CCCCATGGTAGCTTTTATYCRT` |
+| XS | `AGTTTAGATAATGTGGGATC` | `TAACTACGGACCTTAAGCTC` |
+| XSD | `AGTTTAGATAATGTGGARBC` | `TAATTACGGACCTTAAGCTC` |
+| S | `CGTAGTTAATAGCAAGTGGCCT` | `AGGTCGCAAACATCGTTGTCGA` |
+| SD | `CGTAGTTAATAGCHRGTGGCCT` | `AGGTCGCAAACATCGKYGTCRA` |
+| M | `AAGCTAAATGCTGAAGTATG` | `TTCGTCTTACAATATGGACG` |
+| MD | `AAGCTAAATGCTGAAGTATG` | `TTCGTCTTACAATWTGDACG` |
+| L | `GGCCGGTATGAATGGCGTCACG` | `CCCCTTGCAGTCAGGCCACCGG` |
+| LD | `GGCCGGTATGAATGGCRYYACG` | `CCCCTTGCAGTCAGGCCACYDG` |
+| XL | `AAGCTAAATGCTGAAGTATG` | `AACCAAACTATCCAACTTAC` |
+| XLD | `AAGCTAAATGCTGAAGTATG` | `AACCAAACTATCYAACTYRC` |
+
 ## Discussion
 
 12S MD yielded the most exact matches among the 12S pairs. Compared with ordinary M, it covered four additional species and provided ten additional exact matches with the same strict background count. Where a shorter amplicon and fewer background hits are priorities, the 197 bp SD pair covered 195/246 species with zero hits in all four background models. For 16S, LD covered 93 more species than ordinary L, while relaxed WC hits increased from seven to 46.
@@ -94,6 +128,12 @@ Oligos are reported in synthesis orientation (5′→3′) with identifiers for 
 Each marker directory contains target and background references, accession panels and the target alignment. With Biopython installed, run `python3 scripts/verify.py` from the repository root to verify hits, and `python3 scripts/binding_positions.py` to redraw the binding maps. All 8,940 checks for 12S and 45,780 checks for 16S agreed with the independent implementation. [12S validation](12S/validation.json) · [16S validation](16S/validation.json)
 
 [Citation](CITATION.cff) · [Copyright and permissions](COPYRIGHT.md)
+
+## Citation and permissions
+
+Xia, F. (2026). *MiAnemone, a set of universal PCR primers for metabarcoding environmental DNA from sea anemones*. Computational preprint v1.2. [GitHub Release](https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.2).
+
+[CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib) · [Copyright](COPYRIGHT.md)
 
 ## References
 

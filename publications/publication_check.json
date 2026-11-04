@@ -1,0 +1,23 @@
+{
+  "project": "MiAnemone",
+  "version": "1.2",
+  "date": "2026-11-04",
+  "author": "Fei Xia",
+  "pages": 8,
+  "oligos": 44,
+  "status": "PASS",
+  "checks": [
+    "README titles, dates and release citations",
+    "CFF and BibTeX",
+    "local document links",
+    "PDF author and title metadata",
+    "all released oligos in manuscript and PDF",
+    "visible figure captions",
+    "nonempty pages"
+  ],
+  "artifacts": {
+    "publications/MiAnemone_preprint.md": "5f6a36cbc20a2762b829d65830c308d708a56ea054deb8f2f3de793630b91d58",
+    "publications/MiAnemone_preprint.pdf": "be9e961040b5a42613c2a135230b54c0917e3690798a76c7c05b986a6920a8c2",
+    "primers.fasta": "d370205d7141ad8f5b4f1c4df8897c46dd1fdd94af2b1b740b40629527b9c601"
+  }
+}

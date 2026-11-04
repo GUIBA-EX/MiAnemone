@@ -2,17 +2,15 @@
 
 # MiAnemone, a set of universal PCR primers for metabarcoding environmental DNA from sea anemones
 
-*MiAnemone，一组用于海葵环境 DNA 宏条形码分析的通用 PCR 引物*
-
 **Fei Xia**
 
-[English](README.en.md) | 中文
+[简体中文](README.md) · [English](README.en.md)
 
-[计算预印本（PDF）](publications/MiAnemone_preprint.pdf) · [英文稿件](publications/MiAnemone_preprint.md)
+<!-- publication:start -->
+**预印本 v1.2 · 2026 年 11 月 4 日 · 未经同行评审。**
 
-**预印本 v1.1 · 2026 年 11 月 3 日 · 未经同行评审。** 固定版本含论文 PDF、同版引物序列和文件校验值。 [版本与引用](https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.1) · [CITATION.cff](CITATION.cff)
-
-推送至 main 后，GitHub Actions 核对序列、逐物种结果和论文表格。研究文件变更并通过检查时，自动重建 PDF、更新引用版本并发布新 Release。
+[PDF](publications/MiAnemone_preprint.pdf) · [论文 Markdown](publications/MiAnemone_preprint.md) · [固定版本](https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.2) · [CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib) · [构建与更新](publications/README.md)
+<!-- publication:end -->
 
 ## 摘要
 
@@ -57,6 +55,22 @@
 ![12S MD primer–template alignment](figures/template_matching/12S_MD_preview.svg)
 
 
+
+#### 引物序列（5′–3′）
+
+| Assay | Forward (5′–3′) | Reverse (5′–3′) |
+| --- | --- | --- |
+| XS | `CGAAAGGTAAAATCTTCCGCCT` | `CGACGGCCATGCAATACCGG` |
+| XSD | `TGAAAGGTAAAATCTTCCGCCT` | `AGACGGCCATGCARTACCDG` |
+| S | `CGAAAGGTCAAATCTTCCGC` | `CGGGTTGGGTCCCTTTTAGC` |
+| SD | `CGAAAGGTAAAATCTTCCGC` | `CGGATTGGGTCCCTTYTAGY` |
+| M | `AAGGCGTAAAGGATGTGTAG` | `GCGGAAGATTTTACCTTTCG` |
+| MD | `AAGGCGTAAAGGATGTGTVG` | `GCGGAAGATTTDACCTTTCR` |
+| L | `TGAAAGGTAAAATCTTCCGC` | `TATAAGAAAATGTAGCGCAT` |
+| LD | `TGAAAGGTAAAATCTTCCGC` | `TATAAGAAAATGTAGCGCAY` |
+| XL | `GCGTAAAGGATGTGTAGGCC` | `CTTAACACACGGACTTACGACG` |
+| XLD | `GCGTAAAGGATGTGTARGYY` | `CTTAACACACGRACTTACGACG` |
+
 ### 16S
 
 ![16S 五档引物及 H 和 HD 的结合位置](figures/16S_binding.svg)
@@ -81,6 +95,24 @@ H 和 HD 共用原位点（F 1497–1518，R 1809–1830）。HD 比 H 多覆盖
 ![16S LD primer–template alignment](figures/template_matching/16S_LD_preview.svg)
 
 
+
+#### 引物序列（5′–3′）
+
+| Assay | Forward (5′–3′) | Reverse (5′–3′) |
+| --- | --- | --- |
+| H | `AAGACCCCATTGAGCTTTACTA` | `CCCCATGGTAGCTTTTATTCGT` |
+| HD | `AAGACCCCATTGAGCTTTACYW` | `CCCCATGGTAGCTTTTATYCRT` |
+| XS | `AGTTTAGATAATGTGGGATC` | `TAACTACGGACCTTAAGCTC` |
+| XSD | `AGTTTAGATAATGTGGARBC` | `TAATTACGGACCTTAAGCTC` |
+| S | `CGTAGTTAATAGCAAGTGGCCT` | `AGGTCGCAAACATCGTTGTCGA` |
+| SD | `CGTAGTTAATAGCHRGTGGCCT` | `AGGTCGCAAACATCGKYGTCRA` |
+| M | `AAGCTAAATGCTGAAGTATG` | `TTCGTCTTACAATATGGACG` |
+| MD | `AAGCTAAATGCTGAAGTATG` | `TTCGTCTTACAATWTGDACG` |
+| L | `GGCCGGTATGAATGGCGTCACG` | `CCCCTTGCAGTCAGGCCACCGG` |
+| LD | `GGCCGGTATGAATGGCRYYACG` | `CCCCTTGCAGTCAGGCCACYDG` |
+| XL | `AAGCTAAATGCTGAAGTATG` | `AACCAAACTATCCAACTTAC` |
+| XLD | `AAGCTAAATGCTGAAGTATG` | `AACCAAACTATCYAACTYRC` |
+
 ## 讨论
 
 12S MD 在双端完全匹配方面表现最好。与同位点普通 M 相比，它多覆盖 4 个物种，多完全匹配 10 个，严格背景命中数相同。若目标是更短的扩增子和更少的非目标命中，197 bp 的 SD 覆盖 195/246 个物种，在四个背景模型下均为零命中。16S LD 相比普通 L 多覆盖 93 个物种，但宽松 WC 背景命中从 7 条增加到 46 条。
@@ -96,6 +128,12 @@ H 和 HD 共用原位点（F 1497–1518，R 1809–1830）。HD 比 H 多覆盖
 两个基因目录均包含目标与背景参考序列、物种名录及目标比对。安装 Biopython 后，在仓库根目录运行 `python3 scripts/verify.py` 可复核命中；运行 `python3 scripts/binding_positions.py` 可重绘位置图。独立复核中，12S 的 8,940 项与 16S 的 45,780 项检查均无差异。[12S 复核](12S/validation.json) · [16S 复核](16S/validation.json)
 
 [引用信息](CITATION.cff) · [著作权与使用声明](COPYRIGHT.md)
+
+## 引用与著作权
+
+Xia, F. (2026). *MiAnemone, a set of universal PCR primers for metabarcoding environmental DNA from sea anemones*. Computational preprint v1.2. [GitHub Release](https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.2).
+
+[CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib) · [Copyright](COPYRIGHT.md)
 
 ## 参考文献
 

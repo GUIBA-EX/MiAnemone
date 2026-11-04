@@ -12,43 +12,46 @@ jobs:
   preprint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           ref: main
           fetch-depth: 0
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
-      - run: pip install biopython matplotlib
-      - name: Verify records and manuscript tables
+      - name: Install publication tools
         run: |
-          python scripts/verify.py
-          python scripts/check_preprint.py
-      - name: Determine whether research inputs changed
+          sudo apt-get update -qq && sudo apt-get install -y pandoc poppler-utils
+          python -m pip install -r publications/requirements-preprint.txt biopython
+      - name: Determine whether publication inputs changed
         id: version
         run: |
           tag=$(git tag --list 'preprint-v1.*' --sort=-version:refname | head -1)
+          test -n "$tag"
           echo "previous=$tag" >> "$GITHUB_OUTPUT"
-          if ! git diff --quiet "$tag" HEAD -- 12S 16S audit figures publications scripts/verify.py scripts/independent.py scripts/base_matching.py scripts/binding_positions.py scripts/template_matching.py all_results.csv primers.fasta; then
+          if ! git diff --quiet "$tag" HEAD -- README.md README.en.md README.zh-CN.md CITATION.cff CITATION.bib analysis results markers figures sequences publications scripts 12S 16S audit all_results.csv primers.fasta check_release.py .github/workflows/preprint.yml; then
             echo "next=1.$(( ${tag##*.} + 1 ))" >> "$GITHUB_OUTPUT"
           fi
-      - name: Rebuild and version research artifacts
+      - name: Rebuild and stamp the new version
         if: steps.version.outputs.next != ''
         env:
           VERSION: ${{ steps.version.outputs.next }}
           CHROME: /usr/bin/google-chrome
         run: |
-          sudo apt-get update -qq && sudo apt-get install -y pandoc poppler-utils
-          python scripts/binding_positions.py
-          python scripts/base_matching.py
-          python scripts/template_matching.py
-          python publications/plot_results.py
           python scripts/stamp_preprint.py "$VERSION"
           python publications/build_preprint.py
-          pdfinfo publications/MiAnemone_preprint.pdf
-          pdftotext publications/MiAnemone_preprint.pdf /tmp/paper.txt
+      - name: Validate scientific tables and publication consistency
+        run: |
+          python scripts/verify.py
+          pdftotext -layout publications/MiAnemone_preprint.pdf /tmp/paper.txt
           python scripts/check_preprint.py /tmp/paper.txt
-          sha256sum publications/MiAnemone_preprint.pdf primers.fasta | sed 's@  publications/@  @' > publications/SHA256SUMS.txt
+          python scripts/check_publication.py
+          python scripts/preprint_integrity.py
+      - name: Commit and tag verified artifacts
+        if: steps.version.outputs.next != ''
+        env:
+          VERSION: ${{ steps.version.outputs.next }}
+        run: |
           git config user.name github-actions[bot]
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add --update
@@ -61,11 +64,11 @@ jobs:
           TAG: ${{ steps.version.outputs.next && format('preprint-v{0}', steps.version.outputs.next) || steps.version.outputs.previous }}
         run: |
           if ! gh release view "$TAG" >/dev/null 2>&1; then
-            gh release create "$TAG" --verify-tag --draft --title "MiAnemone computational preprint ${TAG#preprint-}" --notes "Fei Xia. Version ${TAG#preprint-v}. Computational preprint; not peer reviewed. The PDF, primer FASTA and SHA-256 checksums correspond to the tagged source."
+            gh release create "$TAG" --verify-tag --draft --title "MiAnemone computational preprint ${TAG#preprint-}" --notes "Fei Xia. Version ${TAG#preprint-v}. Computational preprint; not peer reviewed. The PDF, primer primers.fasta and SHA-256 checksums correspond to the tagged source."
           fi
           if [ "$(gh release view "$TAG" --json isDraft --jq .isDraft)" = true ]; then
             dir=$(mktemp -d)
-            for file in publications/MiAnemone_preprint.pdf publications/SHA256SUMS.txt primers.fasta; do
+            for file in publications/MiAnemone_preprint.pdf primers.fasta publications/SHA256SUMS.txt; do
               git show "$TAG:$file" > "$dir/${file##*/}"
             done
             (cd "$dir" && sha256sum -c SHA256SUMS.txt)
