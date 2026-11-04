@@ -1,0 +1,11 @@
+{
+  "pair_count": 22,
+  "oligo_count": 44,
+  "factorial_controls": 12,
+  "substitution_candidates": 23,
+  "threshold_combinations": 368,
+  "strict_independent_checks": 57584,
+  "disagreements": 0,
+  "midori_included": false,
+  "status": "revision draft; outstanding items documented in response"
+}

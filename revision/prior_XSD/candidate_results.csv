@@ -1,0 +1,2 @@
+F_start,F_end,R_start,R_end,span,group,id,F,R,deg_F,deg_R,evaluable,covered,exact,WC,GT,WC3,GT2,pass_gate,name
+574,595,715,734,161,XS,XS_6,TGAAAGGTAAAATCTTCCGCCT,AGACGGCCATGCARTACCDG,1,6,245,230,0,9,9,9,9,True,XSD

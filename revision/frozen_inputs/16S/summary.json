@@ -1,0 +1,21 @@
+{
+  "downloaded": 2527,
+  "eligible": 1245,
+  "named_species": 265,
+  "genera": 130,
+  "families": 40,
+  "status_counts": {
+    "eligible": 1245,
+    "no_supported_16S_feature": 1281,
+    "undefined_sequence": 1
+  },
+  "method_counts": {
+    "feature_rRNA": 1244,
+    "single_locus_title": 1
+  },
+  "representative_length_min": 246,
+  "representative_length_median": 480,
+  "representative_length_max": 2265,
+  "alignment_columns": 2616,
+  "reversed": 0
+}

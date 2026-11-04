@@ -1,21 +1,21 @@
 cff-version: 1.2.0
 message: "If you use this project's primers, data or analysis code, please cite the versioned preprint."
 type: software
-title: "MiAnemone, a set of universal PCR primers for metabarcoding environmental DNA from sea anemones"
+title: "MiAnemone: in silico design and evaluation of mitochondrial 12S and 16S rRNA primers for sea anemone (Actiniaria) eDNA metabarcoding"
 authors:
   - family-names: "Xia"
     given-names: "Fei"
 date-released: "2026-11-04"
 url: "https://github.com/GUIBA-EX/MiAnemone"
 repository-code: "https://github.com/GUIBA-EX/MiAnemone"
-version: "1.2"
+version: "1.3"
 preferred-citation:
   type: unpublished
-  title: "MiAnemone, a set of universal PCR primers for metabarcoding environmental DNA from sea anemones"
+  title: "MiAnemone: in silico design and evaluation of mitochondrial 12S and 16S rRNA primers for sea anemone (Actiniaria) eDNA metabarcoding"
   authors:
     - family-names: Xia
       given-names: Fei
   year: 2026
-  version: "1.2"
-  notes: "Computational preprint, version 1.2. Published on GitHub."
-  url: "https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.2"
+  version: "1.3"
+  notes: "Computational preprint, version 1.3. Published on GitHub."
+  url: "https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.3"

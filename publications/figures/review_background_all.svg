@@ -1,0 +1,1024 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:ns4="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="728.121172pt" height="656.39952pt" viewBox="0 0 728.121172 656.39952" version="1.1">
+ <metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:date>2026-11-04T11:26:32.306971</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.10.7, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 656.39952  L 728.121172 656.39952  L 728.121172 0  L 0 0  z " style="fill: #ffffff" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 30.74375 230.595218  L 656.862471 230.595218  L 656.862471 21.515312  L 30.74375 21.515312  z " style="fill: #ffffff" />
+   </g>
+   <g clip-path="url(#pdb77e4160e)">
+    <image ns4:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAA2YAAAEjCAYAAABZ3xIIAAAGxUlEQVR4nO3ZMXECARRFUTYTB0igo0yFChygAh2owAEqqFLSIYF6iy02KsjdHc5R8OZ3d/4wTvO8Ad7mdP1d3HWvp596AvCP7s/X4u592G3rCQCL8lUPAAAA+HTCDAAAICbMAAAAYsIMAAAgJswAAABiwgwAACAmzAAAAGLCDAAAICbMAAAAYsIMAAAgJswAAABiwgwAACAmzAAAAGLCDAAAICbMAAAAYsIMAAAgJswAAABiwgwAACAmzAAAAGLCDAAAICbMAAAAYsIMAAAgJswAAABiwgwAACAmzAAAAGLCDAAAICbMAAAAYsIMAAAgNozTPNcjAID3uT9fizvvYbetJwAsio8ZAABATJgBAADEhBkAAEBMmAEAAMSEGQAAQEyYAQAAxIQZAABATJgBAADEhBkAAEBMmAEAAMSEGQAAQEyYAQAAxIQZAABATJgBAADEhBkAAEBMmAEAAMSEGQAAQEyYAQAAxIQZAABATJgBAADEhBkAAEBMmAEAAMSEGQAAQEyYAQAAxIQZAABATJgBAADEhBkAAEBMmAEAAMSGcZrnegTrdr496gms3OW4rycAAKR8zAAAAGLCDAAAICbMAAAAYsIMAAAgJswAAABiwgwAACAmzAAAAGLCDAAAICbMAAAAYsIMAAAgJswAAABiwgwAACAmzAAAAGLCDAAAICbMAAAAYsIMAAAgJswAAABiwgwAACAmzAAAAGLCDAAAICbMAAAAYsIMAAAgJswAAABiwgwAACAmzAAAAGLCDAAAICbMAAAAYsIMAAAgJswAAABiwgwAACAmzAAAAGLCDAAAICbMAAAAYsIMAAAgJswAAABiwgwAACAmzAAAAGLCDAAAICbMAAAAYsIMAAAgJswAAABiwgwAACAmzAAAAGLCDAAAICbMAAAAYsIMAAAgJswAAABiwgwAACAmzAAAAGLCDAAAICbMAAAAYsIMAAAgJswAAABiwgwAACAmzAAAAGLCDAAAICbMAAAAYsIMAAAgJswAAABiwgwAACAmzAAAAGLCDAAAICbMAAAAYsIMAAAgJswAAABiwgwAACAmzAAAAGLCDAAAICbMAAAAYsIMAAAgJswAAABiwgwAACAmzAAAAGLCDAAAICbMAAAAYsIMAAAgJswAAABiwgwAACAmzAAAAGLCDAAAICbMAAAAYsIMAAAgJswAAABiwgwAACAmzAAAAGLCDAAAICbMAAAAYsIMAAAgJswAAABiwgwAACAmzAAAAGLCDAAAICbMAAAAYsIMAAAgJswAAABiwgwAACAmzAAAAGLCDAAAICbMAAAAYsIMAAAgJswAAABiwgwAACAmzAAAAGLCDAAAICbMAAAAYsIMAAAgJswAAABiwgwAACAmzAAAAGLCDAAAICbMAAAAYsIMAAAgJswAAABiwgwAACAmzAAAAGLCDAAAIDaM0zzXIwAAAD6ZjxkAAEBMmAEAAMSEGQAAQEyYAQAAxIQZAABATJgBAADEhBkAAEBMmAEAAMSEGQAAQEyYAQAAxIQZAABATJgBAADEhBkAAEBMmAEAAMSEGQAAQEyYAQAAxIQZAABATJgBAADEhBkAAEBMmAEAAMSEGQAAQEyYAQAAxIQZAABATJgBAADEhBkAAEBMmAEAAMSEGQAAQEyYAQAAxIQZAABATJgBAADEhBkAAEBMmAEAAMSEGQAAQEyYAQAAxIQZAABATJgBAADEhBkAAEBMmAEAAMSEGQAAQEyYAQAAxIQZAABATJgBAADEhBkAAEBMmAEAAMSEGQAAQEyYAQAAxIQZAABATJgBAADEhBkAAEBMmAEAAMSEGQAAQEyYAQAAxIQZAABATJgBAADEhBkAAEBMmAEAAMSEGQAAQOy7HsD6nW+PegIrdznu6wkAACkfMwAAgJgwAwAAiAkzAACAmDADAACICTMAAICYMAMAAIgJMwAAgJgwAwAAiAkzAACAmDADAACICTMAAICYMAMAAIgJMwAAgJgwAwAAiAkzAACAmDADAACICTMAAICYMAMAAIgJMwAAgJgwAwAAiAkzAACAmDADAACICTMAAICYMAMAAIgJMwAAgJgwAwAAiAkzAACAmDADAACICTMAAICYMAMAAIgJMwAAgJgwAwAAiAkzAACAmDADAACICTMAAICYMAMAAIgJMwAAgJgwAwAAiAkzAACAmDADAACICTMAAICYMAMAAIgJMwAAgJgwAwAAiAkzAACAmDADAACICTMAAICYMAMAAIgJMwAAgJgwAwAAiAkzAACAmDADAACICTMAAICYMAMAAIgJMwAAgJgwAwAAiAkzAACATesPJsshBeGyE8wAAAAASUVORK5CYII=" id="imagea187f6662a" transform="scale(1 -1) translate(0 -209.52)" x="30.74375" y="-21.075218" width="626.4" height="209.52" />
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="maea65f5ab3" d="M 0 0  L 0 3.5  " style="stroke: #000000; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use ns4:href="#maea65f5ab3" x="82.92031" y="230.595218" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 8px; font-family: 'Avenir Next';font-family: Avenir Next;" transform="translate(73.543195 292.793497) rotate(-60)" font-family="Avenir Next">Scleractinia</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use ns4:href="#maea65f5ab3" x="187.27343" y="230.595218" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 8px; font-family: 'Avenir Next';font-family: Avenir Next;" transform="translate(176.96319 296.025937) rotate(-60)" font-family="Avenir Next">Antipatharia</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use ns4:href="#maea65f5ab3" x="291.62655" y="230.595218" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 8px; font-family: 'Avenir Next';font-family: Avenir Next;" transform="translate(276.983185 311.036322) rotate(-60)" font-family="Avenir Next">Corallimorpharia</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use ns4:href="#maea65f5ab3" x="395.97967" y="230.595218" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 8px; font-family: 'Avenir Next';font-family: Avenir Next;" transform="translate(387.243493 290.573225) rotate(-60)" font-family="Avenir Next">Zoantharia</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use ns4:href="#maea65f5ab3" x="500.332791" y="230.595218" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 8px; font-family: 'Avenir Next';font-family: Avenir Next;" transform="translate(490.327238 294.970469) rotate(-60)" font-family="Avenir Next">Octocorallia</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use ns4:href="#maea65f5ab3" x="604.685911" y="230.595218" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 8px; font-family: 'Avenir Next';font-family: Avenir Next;" transform="translate(597.054108 286.747558) rotate(-60)" font-family="Avenir Next">Hydrozoa</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7" />
+     <g id="text_7">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="43.78789" y="239.28678" transform="rotate(-0 43.78789 239.28678)" font-family="Avenir Next">W</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8" />
+     <g id="text_8">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="69.87617" y="239.28678" transform="rotate(-0 69.87617 239.28678)" font-family="Avenir Next">G</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_9" />
+     <g id="text_9">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="95.96445" y="239.28678" transform="rotate(-0 95.96445 239.28678)" font-family="Avenir Next">W+</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_10" />
+     <g id="text_10">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="122.05273" y="239.28678" transform="rotate(-0 122.05273 239.28678)" font-family="Avenir Next">G+</text>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_11" />
+     <g id="text_11">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="148.14101" y="239.28678" transform="rotate(-0 148.14101 239.28678)" font-family="Avenir Next">W</text>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_12" />
+     <g id="text_12">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="174.22929" y="239.28678" transform="rotate(-0 174.22929 239.28678)" font-family="Avenir Next">G</text>
+     </g>
+    </g>
+    <g id="xtick_13">
+     <g id="line2d_13" />
+     <g id="text_13">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="200.31757" y="239.28678" transform="rotate(-0 200.31757 239.28678)" font-family="Avenir Next">W+</text>
+     </g>
+    </g>
+    <g id="xtick_14">
+     <g id="line2d_14" />
+     <g id="text_14">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="226.40585" y="239.28678" transform="rotate(-0 226.40585 239.28678)" font-family="Avenir Next">G+</text>
+     </g>
+    </g>
+    <g id="xtick_15">
+     <g id="line2d_15" />
+     <g id="text_15">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="252.49413" y="239.28678" transform="rotate(-0 252.49413 239.28678)" font-family="Avenir Next">W</text>
+     </g>
+    </g>
+    <g id="xtick_16">
+     <g id="line2d_16" />
+     <g id="text_16">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="278.58241" y="239.28678" transform="rotate(-0 278.58241 239.28678)" font-family="Avenir Next">G</text>
+     </g>
+    </g>
+    <g id="xtick_17">
+     <g id="line2d_17" />
+     <g id="text_17">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="304.67069" y="239.28678" transform="rotate(-0 304.67069 239.28678)" font-family="Avenir Next">W+</text>
+     </g>
+    </g>
+    <g id="xtick_18">
+     <g id="line2d_18" />
+     <g id="text_18">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="330.75897" y="239.28678" transform="rotate(-0 330.75897 239.28678)" font-family="Avenir Next">G+</text>
+     </g>
+    </g>
+    <g id="xtick_19">
+     <g id="line2d_19" />
+     <g id="text_19">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="356.84725" y="239.28678" transform="rotate(-0 356.84725 239.28678)" font-family="Avenir Next">W</text>
+     </g>
+    </g>
+    <g id="xtick_20">
+     <g id="line2d_20" />
+     <g id="text_20">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="382.93553" y="239.28678" transform="rotate(-0 382.93553 239.28678)" font-family="Avenir Next">G</text>
+     </g>
+    </g>
+    <g id="xtick_21">
+     <g id="line2d_21" />
+     <g id="text_21">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="409.02381" y="239.28678" transform="rotate(-0 409.02381 239.28678)" font-family="Avenir Next">W+</text>
+     </g>
+    </g>
+    <g id="xtick_22">
+     <g id="line2d_22" />
+     <g id="text_22">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="435.11209" y="239.28678" transform="rotate(-0 435.11209 239.28678)" font-family="Avenir Next">G+</text>
+     </g>
+    </g>
+    <g id="xtick_23">
+     <g id="line2d_23" />
+     <g id="text_23">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="461.20037" y="239.28678" transform="rotate(-0 461.20037 239.28678)" font-family="Avenir Next">W</text>
+     </g>
+    </g>
+    <g id="xtick_24">
+     <g id="line2d_24" />
+     <g id="text_24">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="487.288651" y="239.28678" transform="rotate(-0 487.288651 239.28678)" font-family="Avenir Next">G</text>
+     </g>
+    </g>
+    <g id="xtick_25">
+     <g id="line2d_25" />
+     <g id="text_25">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="513.376931" y="239.28678" transform="rotate(-0 513.376931 239.28678)" font-family="Avenir Next">W+</text>
+     </g>
+    </g>
+    <g id="xtick_26">
+     <g id="line2d_26" />
+     <g id="text_26">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="539.465211" y="239.28678" transform="rotate(-0 539.465211 239.28678)" font-family="Avenir Next">G+</text>
+     </g>
+    </g>
+    <g id="xtick_27">
+     <g id="line2d_27" />
+     <g id="text_27">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="565.553491" y="239.28678" transform="rotate(-0 565.553491 239.28678)" font-family="Avenir Next">W</text>
+     </g>
+    </g>
+    <g id="xtick_28">
+     <g id="line2d_28" />
+     <g id="text_28">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="591.641771" y="239.28678" transform="rotate(-0 591.641771 239.28678)" font-family="Avenir Next">G</text>
+     </g>
+    </g>
+    <g id="xtick_29">
+     <g id="line2d_29" />
+     <g id="text_29">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="617.730051" y="239.28678" transform="rotate(-0 617.730051 239.28678)" font-family="Avenir Next">W+</text>
+     </g>
+    </g>
+    <g id="xtick_30">
+     <g id="line2d_30" />
+     <g id="text_30">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="643.818331" y="239.28678" transform="rotate(-0 643.818331 239.28678)" font-family="Avenir Next">G+</text>
+     </g>
+    </g>
+    <g id="text_31">
+     <text style="font-size: 9px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="343.80311" y="322.79976" transform="rotate(-0 343.80311 322.79976)" font-family="Avenir Next">W / G: strict WC / GT; W+ / G+: relaxed WC / GT</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_31">
+      <defs>
+       <path id="mc17b041352" d="M 0 0  L -3.5 0  " style="stroke: #000000; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use ns4:href="#mc17b041352" x="30.74375" y="31.969308" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_32">
+      <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: end;font-family: Avenir Next;" x="23.74375" y="34.993058" transform="rotate(-0 23.74375 34.993058)" font-family="Avenir Next">XS</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_32">
+      <g>
+       <use ns4:href="#mc17b041352" x="30.74375" y="52.877298" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_33">
+      <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: end;font-family: Avenir Next;" x="23.74375" y="55.901048" transform="rotate(-0 23.74375 55.901048)" font-family="Avenir Next">XSD</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_33">
+      <g>
+       <use ns4:href="#mc17b041352" x="30.74375" y="73.785289" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_34">
+      <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: end;font-family: Avenir Next;" x="23.74375" y="76.809039" transform="rotate(-0 23.74375 76.809039)" font-family="Avenir Next">S</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_34">
+      <g>
+       <use ns4:href="#mc17b041352" x="30.74375" y="94.693279" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_35">
+      <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: end;font-family: Avenir Next;" x="23.74375" y="97.717029" transform="rotate(-0 23.74375 97.717029)" font-family="Avenir Next">SD</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_35">
+      <g>
+       <use ns4:href="#mc17b041352" x="30.74375" y="115.60127" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_36">
+      <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: end;font-family: Avenir Next;" x="23.74375" y="118.62502" transform="rotate(-0 23.74375 118.62502)" font-family="Avenir Next">M</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_36">
+      <g>
+       <use ns4:href="#mc17b041352" x="30.74375" y="136.50926" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_37">
+      <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: end;font-family: Avenir Next;" x="23.74375" y="139.53301" transform="rotate(-0 23.74375 139.53301)" font-family="Avenir Next">MD</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_37">
+      <g>
+       <use ns4:href="#mc17b041352" x="30.74375" y="157.417251" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_38">
+      <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: end;font-family: Avenir Next;" x="23.74375" y="160.441001" transform="rotate(-0 23.74375 160.441001)" font-family="Avenir Next">L</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_38">
+      <g>
+       <use ns4:href="#mc17b041352" x="30.74375" y="178.325242" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_39">
+      <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: end;font-family: Avenir Next;" x="23.74375" y="181.348992" transform="rotate(-0 23.74375 181.348992)" font-family="Avenir Next">LD</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_39">
+      <g>
+       <use ns4:href="#mc17b041352" x="30.74375" y="199.233232" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_40">
+      <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: end;font-family: Avenir Next;" x="23.74375" y="202.256982" transform="rotate(-0 23.74375 202.256982)" font-family="Avenir Next">XL</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_40">
+      <g>
+       <use ns4:href="#mc17b041352" x="30.74375" y="220.141223" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_41">
+      <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: end;font-family: Avenir Next;" x="23.74375" y="223.164973" transform="rotate(-0 23.74375 223.164973)" font-family="Avenir Next">XLD</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_41">
+    <path d="M 135.09687 230.595218  L 135.09687 21.515312  " clip-path="url(#pdb77e4160e)" style="fill: none; stroke: #b7c8cf; stroke-width: 0.6; stroke-linecap: square" />
+   </g>
+   <g id="line2d_42">
+    <path d="M 239.44999 230.595218  L 239.44999 21.515312  " clip-path="url(#pdb77e4160e)" style="fill: none; stroke: #b7c8cf; stroke-width: 0.6; stroke-linecap: square" />
+   </g>
+   <g id="line2d_43">
+    <path d="M 343.80311 230.595218  L 343.80311 21.515312  " clip-path="url(#pdb77e4160e)" style="fill: none; stroke: #b7c8cf; stroke-width: 0.6; stroke-linecap: square" />
+   </g>
+   <g id="line2d_44">
+    <path d="M 448.15623 230.595218  L 448.15623 21.515312  " clip-path="url(#pdb77e4160e)" style="fill: none; stroke: #b7c8cf; stroke-width: 0.6; stroke-linecap: square" />
+   </g>
+   <g id="line2d_45">
+    <path d="M 552.509351 230.595218  L 552.509351 21.515312  " clip-path="url(#pdb77e4160e)" style="fill: none; stroke: #b7c8cf; stroke-width: 0.6; stroke-linecap: square" />
+   </g>
+   <g id="patch_3">
+    <path d="M 30.74375 230.595218  L 30.74375 21.515312  " style="fill: none; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="patch_4">
+    <path d="M 30.74375 230.595218  L 656.862471 230.595218  " style="fill: none; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="text_42">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="148.14101" y="34.033058" transform="rotate(-0 148.14101 34.033058)" font-family="Avenir Next">9</text>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="174.22929" y="34.033058" transform="rotate(-0 174.22929 34.033058)" font-family="Avenir Next">9</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="200.31757" y="34.033058" transform="rotate(-0 200.31757 34.033058)" font-family="Avenir Next">9</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="226.40585" y="34.033058" transform="rotate(-0 226.40585 34.033058)" font-family="Avenir Next">9</text>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="148.14101" y="54.941048" transform="rotate(-0 148.14101 54.941048)" font-family="Avenir Next">9</text>
+   </g>
+   <g id="text_47">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="174.22929" y="54.941048" transform="rotate(-0 174.22929 54.941048)" font-family="Avenir Next">9</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="200.31757" y="54.941048" transform="rotate(-0 200.31757 54.941048)" font-family="Avenir Next">9</text>
+   </g>
+   <g id="text_49">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="226.40585" y="54.941048" transform="rotate(-0 226.40585 54.941048)" font-family="Avenir Next">9</text>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="148.14101" y="117.66502" transform="rotate(-0 148.14101 117.66502)" font-family="Avenir Next">9</text>
+   </g>
+   <g id="text_51">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="174.22929" y="117.66502" transform="rotate(-0 174.22929 117.66502)" font-family="Avenir Next">9</text>
+   </g>
+   <g id="text_52">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="200.31757" y="117.66502" transform="rotate(-0 200.31757 117.66502)" font-family="Avenir Next">9</text>
+   </g>
+   <g id="text_53">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="226.40585" y="117.66502" transform="rotate(-0 226.40585 117.66502)" font-family="Avenir Next">9</text>
+   </g>
+   <g id="text_54">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="148.14101" y="138.57301" transform="rotate(-0 148.14101 138.57301)" font-family="Avenir Next">9</text>
+   </g>
+   <g id="text_55">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="174.22929" y="138.57301" transform="rotate(-0 174.22929 138.57301)" font-family="Avenir Next">9</text>
+   </g>
+   <g id="text_56">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="200.31757" y="138.57301" transform="rotate(-0 200.31757 138.57301)" font-family="Avenir Next">9</text>
+   </g>
+   <g id="text_57">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="226.40585" y="138.57301" transform="rotate(-0 226.40585 138.57301)" font-family="Avenir Next">9</text>
+   </g>
+   <g id="text_58">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="148.14101" y="159.481001" transform="rotate(-0 148.14101 159.481001)" font-family="Avenir Next">9</text>
+   </g>
+   <g id="text_59">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="174.22929" y="159.481001" transform="rotate(-0 174.22929 159.481001)" font-family="Avenir Next">9</text>
+   </g>
+   <g id="text_60">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="200.31757" y="159.481001" transform="rotate(-0 200.31757 159.481001)" font-family="Avenir Next">9</text>
+   </g>
+   <g id="text_61">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="226.40585" y="159.481001" transform="rotate(-0 226.40585 159.481001)" font-family="Avenir Next">9</text>
+   </g>
+   <g id="text_62">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="148.14101" y="180.388992" transform="rotate(-0 148.14101 180.388992)" font-family="Avenir Next">9</text>
+   </g>
+   <g id="text_63">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="174.22929" y="180.388992" transform="rotate(-0 174.22929 180.388992)" font-family="Avenir Next">9</text>
+   </g>
+   <g id="text_64">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="200.31757" y="180.388992" transform="rotate(-0 200.31757 180.388992)" font-family="Avenir Next">9</text>
+   </g>
+   <g id="text_65">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="226.40585" y="180.388992" transform="rotate(-0 226.40585 180.388992)" font-family="Avenir Next">9</text>
+   </g>
+   <g id="text_66">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="409.02381" y="201.296982" transform="rotate(-0 409.02381 201.296982)" font-family="Avenir Next">1</text>
+   </g>
+   <g id="text_67">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="200.31757" y="222.204973" transform="rotate(-0 200.31757 222.204973)" font-family="Avenir Next">17</text>
+   </g>
+   <g id="text_68">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="409.02381" y="222.204973" transform="rotate(-0 409.02381 222.204973)" font-family="Avenir Next">1</text>
+   </g>
+   <g id="text_69">
+    <text style="font-size: 11px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="343.80311" y="15.515312" transform="rotate(-0 343.80311 15.515312)" font-family="Avenir Next">12S</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_5">
+    <path d="M 30.74375 554.834978  L 656.862471 554.834978  L 656.862471 345.755072  L 30.74375 345.755072  z " style="fill: #ffffff" />
+   </g>
+   <g clip-path="url(#pf86eda5a2b)">
+    <image ns4:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAA2YAAAEjCAYAAABZ3xIIAAAHbElEQVR4nO3ZsYvPcRzH8e9Ptxp0GW5Srs5KSVcWw6/OgNmizEqx31msiv9ByaaYjLZLYqZusBlckuHSpZ+/QFL0/Ljf4/EXvPp8pmfv2cHhYjHxS+u3nw33Oqsnj08jeX1vXk8Y2rmdl/WE4b27v1VPGNru3n49YXib66vTSEb7sys7L+oJw/v85GY9YWgbd5/XE4b34eG1esLQTlx9NI3my4s700iO1QMAAACWnTADAACICTMAAICYMAMAAIgJMwAAgJgwAwAAiAkzAACAmDADAACICTMAAICYMAMAAIgJMwAAgJgwAwAAiAkzAACAmDADAACICTMAAICYMAMAAIgJMwAAgJgwAwAAiAkzAACAmDADAACICTMAAICYMAMAAIgJMwAAgNhKPWB0s2OzegIA/5nN9dV6AvxV17fODPeiT1++ryfwBzYvX/Bev+FiBgAAEBNmAAAAMWEGAAAQE2YAAAAxYQYAABATZgAAADFhBgAAEBNmAAAAMWEGAAAQE2YAAAAxYQYAABATZgAAADFhBgAAEBNmAAAAMWEGAAAQE2YAAAAxYQYAABATZgAAADFhBgAAEBNmAAAAMWEGAAAQE2YAAAAxYQYAABATZgAAALHZweFiUY8AAABYZi5mAAAAMWEGAAAQE2YAAAAxYQYAABATZgAAADFhBgAAEBNmAAAAMWEGAAAQE2YAAAAxYQYAABATZgAAADFhBgAAEBNmAAAAMWEGAAAQE2YAAAAxYQYAABATZgAAADFhBgAAEBNmAAAAMWEGAAAQE2YAAAAxYQYAABATZgAAADFhBgAAEBNmAAAAMWEGAAAQE2YAAAAxYQYAABATZgAAADFhBgAAEBNmAAAAMWEGAAAQE2YAAAAxYQYAABATZgAAADFhBgAAEBNmAAAAMWEGAAAQE2YAAAAxYQYAABATZgAAADFhBgAAEBNmAAAAMWEGAAAQE2YAAAAxYQYAABATZgAAALGVegAcdZcevJpGMz+7No1ke75RT4C/6vGbj0O96LfvP+oJw7t18XQ9AVhyLmYAAAAxYQYAABATZgAAADFhBgAAEBNmAAAAMWEGAAAQE2YAAAAxYQYAABATZgAAADFhBgAAEBNmAAAAMWEGAAAQE2YAAAAxYQYAABATZgAAADFhBgAAEBNmAAAAMWEGAAAQE2YAAAAxYQYAABATZgAAADFhBgAAEBNmAAAAsZV6ABx187Nr02i25xv1BDjSbpw/NY1kd29/Gs3bT1/rCQBDcTEDAACICTMAAICYMAMAAIgJMwAAgJgwAwAAiAkzAACAmDADAACICTMAAICYMAMAAIgJMwAAgJgwAwAAiAkzAACAmDADAACICTMAAICYMAMAAIgJMwAAgJgwAwAAiAkzAACAmDADAACICTMAAICYMAMAAIgJMwAAgJgwAwAAiAkzAACA2OzgcLGoRwAAACwzFzMAAICYMAMAAIgJMwAAgJgwAwAAiAkzAACAmDADAACICTMAAICYMAMAAIgJMwAAgJgwAwAAiAkzAACAmDADAACICTMAAICYMAMAAIgJMwAAgJgwAwAAiAkzAACAmDADAACICTMAAICYMAMAAIgJMwAAgJgwAwAAiAkzAACAmDADAACICTMAAICYMAMAAIgJMwAAgJgwAwAAiAkzAACAmDADAACICTMAAICYMAMAAIgJMwAAgJgwAwAAiAkzAACAmDADAACICTMAAICYMAMAAIgJMwAAgJgwAwAAiAkzAACAmDADAACICTMAAICYMAMAAIgJMwAAgJgwAwAAiAkzAACAmDADAACICTMAAICYMAMAAIgJMwAAgJgwAwAAiAkzAACAmDADAACICTMAAICYMAMAAIgJMwAAgJgwAwAAiAkzAACAmDADAACICTMAAICYMAMAAIgJMwAAgJgwAwAAiAkzAACAmDADAACICTMAAICYMAMAAIgJMwAAgJgwAwAAiAkzAACAmDADAACICTMAAICYMAMAAIgJMwAAgJgwAwAAiAkzAACAmDADAACICTMAAICYMAMAAIgJMwAAgJgwAwAAiAkzAACAmDADAACICTMAAICYMAMAAIgJMwAAgJgwAwAAiAkzAACAmDADAACICTMAAICYMAMAAIgJMwAAgJgwAwAAiAkzAACAmDADAACIrdQDAIB/a3dvf7gn3lxfrScADMXFDAAAICbMAAAAYsIMAAAgJswAAABiwgwAACAmzAAAAGLCDAAAICbMAAAAYsIMAAAgJswAAABiwgwAACAmzAAAAGLCDAAAICbMAAAAYsIMAAAgJswAAABiwgwAACAmzAAAAGLCDAAAICbMAAAAYsIMAAAgJswAAABiwgwAACA2OzhcLOoRAAAAy8zFDAAAICbMAAAAYsIMAAAgJswAAABiwgwAACAmzAAAAGLCDAAAICbMAAAAYsIMAAAgJswAAABiwgwAACAmzAAAAGLCDAAAICbMAAAAYsIMAAAgJswAAABiwgwAACAmzAAAAGLCDAAAICbMAAAAYsIMAAAgJswAAABiwgwAAGBq/QT0hT6P3ZNKMwAAAABJRU5ErkJggg==" id="image43a0bf33bb" transform="scale(1 -1) translate(0 -209.52)" x="30.74375" y="-345.314978" width="626.4" height="209.52" />
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_31">
+     <g id="line2d_46">
+      <g>
+       <use ns4:href="#maea65f5ab3" x="82.92031" y="554.834978" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_70">
+      <text style="font-size: 8px; font-family: 'Avenir Next';font-family: Avenir Next;" transform="translate(73.543195 617.033257) rotate(-60)" font-family="Avenir Next">Scleractinia</text>
+     </g>
+    </g>
+    <g id="xtick_32">
+     <g id="line2d_47">
+      <g>
+       <use ns4:href="#maea65f5ab3" x="187.27343" y="554.834978" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_71">
+      <text style="font-size: 8px; font-family: 'Avenir Next';font-family: Avenir Next;" transform="translate(176.96319 620.265697) rotate(-60)" font-family="Avenir Next">Antipatharia</text>
+     </g>
+    </g>
+    <g id="xtick_33">
+     <g id="line2d_48">
+      <g>
+       <use ns4:href="#maea65f5ab3" x="291.62655" y="554.834978" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_72">
+      <text style="font-size: 8px; font-family: 'Avenir Next';font-family: Avenir Next;" transform="translate(276.983185 635.276082) rotate(-60)" font-family="Avenir Next">Corallimorpharia</text>
+     </g>
+    </g>
+    <g id="xtick_34">
+     <g id="line2d_49">
+      <g>
+       <use ns4:href="#maea65f5ab3" x="395.97967" y="554.834978" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_73">
+      <text style="font-size: 8px; font-family: 'Avenir Next';font-family: Avenir Next;" transform="translate(387.243493 614.812985) rotate(-60)" font-family="Avenir Next">Zoantharia</text>
+     </g>
+    </g>
+    <g id="xtick_35">
+     <g id="line2d_50">
+      <g>
+       <use ns4:href="#maea65f5ab3" x="500.332791" y="554.834978" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_74">
+      <text style="font-size: 8px; font-family: 'Avenir Next';font-family: Avenir Next;" transform="translate(490.327238 619.210229) rotate(-60)" font-family="Avenir Next">Octocorallia</text>
+     </g>
+    </g>
+    <g id="xtick_36">
+     <g id="line2d_51">
+      <g>
+       <use ns4:href="#maea65f5ab3" x="604.685911" y="554.834978" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_75">
+      <text style="font-size: 8px; font-family: 'Avenir Next';font-family: Avenir Next;" transform="translate(597.054108 610.987318) rotate(-60)" font-family="Avenir Next">Hydrozoa</text>
+     </g>
+    </g>
+    <g id="xtick_37">
+     <g id="line2d_52" />
+     <g id="text_76">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="43.78789" y="563.52654" transform="rotate(-0 43.78789 563.52654)" font-family="Avenir Next">W</text>
+     </g>
+    </g>
+    <g id="xtick_38">
+     <g id="line2d_53" />
+     <g id="text_77">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="69.87617" y="563.52654" transform="rotate(-0 69.87617 563.52654)" font-family="Avenir Next">G</text>
+     </g>
+    </g>
+    <g id="xtick_39">
+     <g id="line2d_54" />
+     <g id="text_78">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="95.96445" y="563.52654" transform="rotate(-0 95.96445 563.52654)" font-family="Avenir Next">W+</text>
+     </g>
+    </g>
+    <g id="xtick_40">
+     <g id="line2d_55" />
+     <g id="text_79">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="122.05273" y="563.52654" transform="rotate(-0 122.05273 563.52654)" font-family="Avenir Next">G+</text>
+     </g>
+    </g>
+    <g id="xtick_41">
+     <g id="line2d_56" />
+     <g id="text_80">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="148.14101" y="563.52654" transform="rotate(-0 148.14101 563.52654)" font-family="Avenir Next">W</text>
+     </g>
+    </g>
+    <g id="xtick_42">
+     <g id="line2d_57" />
+     <g id="text_81">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="174.22929" y="563.52654" transform="rotate(-0 174.22929 563.52654)" font-family="Avenir Next">G</text>
+     </g>
+    </g>
+    <g id="xtick_43">
+     <g id="line2d_58" />
+     <g id="text_82">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="200.31757" y="563.52654" transform="rotate(-0 200.31757 563.52654)" font-family="Avenir Next">W+</text>
+     </g>
+    </g>
+    <g id="xtick_44">
+     <g id="line2d_59" />
+     <g id="text_83">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="226.40585" y="563.52654" transform="rotate(-0 226.40585 563.52654)" font-family="Avenir Next">G+</text>
+     </g>
+    </g>
+    <g id="xtick_45">
+     <g id="line2d_60" />
+     <g id="text_84">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="252.49413" y="563.52654" transform="rotate(-0 252.49413 563.52654)" font-family="Avenir Next">W</text>
+     </g>
+    </g>
+    <g id="xtick_46">
+     <g id="line2d_61" />
+     <g id="text_85">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="278.58241" y="563.52654" transform="rotate(-0 278.58241 563.52654)" font-family="Avenir Next">G</text>
+     </g>
+    </g>
+    <g id="xtick_47">
+     <g id="line2d_62" />
+     <g id="text_86">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="304.67069" y="563.52654" transform="rotate(-0 304.67069 563.52654)" font-family="Avenir Next">W+</text>
+     </g>
+    </g>
+    <g id="xtick_48">
+     <g id="line2d_63" />
+     <g id="text_87">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="330.75897" y="563.52654" transform="rotate(-0 330.75897 563.52654)" font-family="Avenir Next">G+</text>
+     </g>
+    </g>
+    <g id="xtick_49">
+     <g id="line2d_64" />
+     <g id="text_88">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="356.84725" y="563.52654" transform="rotate(-0 356.84725 563.52654)" font-family="Avenir Next">W</text>
+     </g>
+    </g>
+    <g id="xtick_50">
+     <g id="line2d_65" />
+     <g id="text_89">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="382.93553" y="563.52654" transform="rotate(-0 382.93553 563.52654)" font-family="Avenir Next">G</text>
+     </g>
+    </g>
+    <g id="xtick_51">
+     <g id="line2d_66" />
+     <g id="text_90">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="409.02381" y="563.52654" transform="rotate(-0 409.02381 563.52654)" font-family="Avenir Next">W+</text>
+     </g>
+    </g>
+    <g id="xtick_52">
+     <g id="line2d_67" />
+     <g id="text_91">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="435.11209" y="563.52654" transform="rotate(-0 435.11209 563.52654)" font-family="Avenir Next">G+</text>
+     </g>
+    </g>
+    <g id="xtick_53">
+     <g id="line2d_68" />
+     <g id="text_92">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="461.20037" y="563.52654" transform="rotate(-0 461.20037 563.52654)" font-family="Avenir Next">W</text>
+     </g>
+    </g>
+    <g id="xtick_54">
+     <g id="line2d_69" />
+     <g id="text_93">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="487.288651" y="563.52654" transform="rotate(-0 487.288651 563.52654)" font-family="Avenir Next">G</text>
+     </g>
+    </g>
+    <g id="xtick_55">
+     <g id="line2d_70" />
+     <g id="text_94">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="513.376931" y="563.52654" transform="rotate(-0 513.376931 563.52654)" font-family="Avenir Next">W+</text>
+     </g>
+    </g>
+    <g id="xtick_56">
+     <g id="line2d_71" />
+     <g id="text_95">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="539.465211" y="563.52654" transform="rotate(-0 539.465211 563.52654)" font-family="Avenir Next">G+</text>
+     </g>
+    </g>
+    <g id="xtick_57">
+     <g id="line2d_72" />
+     <g id="text_96">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="565.553491" y="563.52654" transform="rotate(-0 565.553491 563.52654)" font-family="Avenir Next">W</text>
+     </g>
+    </g>
+    <g id="xtick_58">
+     <g id="line2d_73" />
+     <g id="text_97">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="591.641771" y="563.52654" transform="rotate(-0 591.641771 563.52654)" font-family="Avenir Next">G</text>
+     </g>
+    </g>
+    <g id="xtick_59">
+     <g id="line2d_74" />
+     <g id="text_98">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="617.730051" y="563.52654" transform="rotate(-0 617.730051 563.52654)" font-family="Avenir Next">W+</text>
+     </g>
+    </g>
+    <g id="xtick_60">
+     <g id="line2d_75" />
+     <g id="text_99">
+      <text style="font-size: 7px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="643.818331" y="563.52654" transform="rotate(-0 643.818331 563.52654)" font-family="Avenir Next">G+</text>
+     </g>
+    </g>
+    <g id="text_100">
+     <text style="font-size: 9px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="343.80311" y="647.03952" transform="rotate(-0 343.80311 647.03952)" font-family="Avenir Next">W / G: strict WC / GT; W+ / G+: relaxed WC / GT</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_11">
+     <g id="line2d_76">
+      <g>
+       <use ns4:href="#mc17b041352" x="30.74375" y="354.466735" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_101">
+      <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: end;font-family: Avenir Next;" x="23.74375" y="357.490485" transform="rotate(-0 23.74375 357.490485)" font-family="Avenir Next">XS</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_77">
+      <g>
+       <use ns4:href="#mc17b041352" x="30.74375" y="371.890061" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_102">
+      <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: end;font-family: Avenir Next;" x="23.74375" y="374.913811" transform="rotate(-0 23.74375 374.913811)" font-family="Avenir Next">XSD</text>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_78">
+      <g>
+       <use ns4:href="#mc17b041352" x="30.74375" y="389.313386" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_103">
+      <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: end;font-family: Avenir Next;" x="23.74375" y="392.337136" transform="rotate(-0 23.74375 392.337136)" font-family="Avenir Next">S</text>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_79">
+      <g>
+       <use ns4:href="#mc17b041352" x="30.74375" y="406.736712" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_104">
+      <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: end;font-family: Avenir Next;" x="23.74375" y="409.760462" transform="rotate(-0 23.74375 409.760462)" font-family="Avenir Next">SD</text>
+     </g>
+    </g>
+    <g id="ytick_15">
+     <g id="line2d_80">
+      <g>
+       <use ns4:href="#mc17b041352" x="30.74375" y="424.160037" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_105">
+      <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: end;font-family: Avenir Next;" x="23.74375" y="427.183787" transform="rotate(-0 23.74375 427.183787)" font-family="Avenir Next">M</text>
+     </g>
+    </g>
+    <g id="ytick_16">
+     <g id="line2d_81">
+      <g>
+       <use ns4:href="#mc17b041352" x="30.74375" y="441.583362" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_106">
+      <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: end;font-family: Avenir Next;" x="23.74375" y="444.607112" transform="rotate(-0 23.74375 444.607112)" font-family="Avenir Next">MD</text>
+     </g>
+    </g>
+    <g id="ytick_17">
+     <g id="line2d_82">
+      <g>
+       <use ns4:href="#mc17b041352" x="30.74375" y="459.006688" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_107">
+      <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: end;font-family: Avenir Next;" x="23.74375" y="462.030438" transform="rotate(-0 23.74375 462.030438)" font-family="Avenir Next">L</text>
+     </g>
+    </g>
+    <g id="ytick_18">
+     <g id="line2d_83">
+      <g>
+       <use ns4:href="#mc17b041352" x="30.74375" y="476.430013" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_108">
+      <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: end;font-family: Avenir Next;" x="23.74375" y="479.453763" transform="rotate(-0 23.74375 479.453763)" font-family="Avenir Next">LD</text>
+     </g>
+    </g>
+    <g id="ytick_19">
+     <g id="line2d_84">
+      <g>
+       <use ns4:href="#mc17b041352" x="30.74375" y="493.853339" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_109">
+      <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: end;font-family: Avenir Next;" x="23.74375" y="496.877089" transform="rotate(-0 23.74375 496.877089)" font-family="Avenir Next">XL</text>
+     </g>
+    </g>
+    <g id="ytick_20">
+     <g id="line2d_85">
+      <g>
+       <use ns4:href="#mc17b041352" x="30.74375" y="511.276664" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_110">
+      <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: end;font-family: Avenir Next;" x="23.74375" y="514.300414" transform="rotate(-0 23.74375 514.300414)" font-family="Avenir Next">XLD</text>
+     </g>
+    </g>
+    <g id="ytick_21">
+     <g id="line2d_86">
+      <g>
+       <use ns4:href="#mc17b041352" x="30.74375" y="528.69999" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_111">
+      <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: end;font-family: Avenir Next;" x="23.74375" y="531.72374" transform="rotate(-0 23.74375 531.72374)" font-family="Avenir Next">H</text>
+     </g>
+    </g>
+    <g id="ytick_22">
+     <g id="line2d_87">
+      <g>
+       <use ns4:href="#mc17b041352" x="30.74375" y="546.123315" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_112">
+      <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: end;font-family: Avenir Next;" x="23.74375" y="549.147065" transform="rotate(-0 23.74375 549.147065)" font-family="Avenir Next">HD</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_88">
+    <path d="M 135.09687 554.834978  L 135.09687 345.755072  " clip-path="url(#pf86eda5a2b)" style="fill: none; stroke: #b7c8cf; stroke-width: 0.6; stroke-linecap: square" />
+   </g>
+   <g id="line2d_89">
+    <path d="M 239.44999 554.834978  L 239.44999 345.755072  " clip-path="url(#pf86eda5a2b)" style="fill: none; stroke: #b7c8cf; stroke-width: 0.6; stroke-linecap: square" />
+   </g>
+   <g id="line2d_90">
+    <path d="M 343.80311 554.834978  L 343.80311 345.755072  " clip-path="url(#pf86eda5a2b)" style="fill: none; stroke: #b7c8cf; stroke-width: 0.6; stroke-linecap: square" />
+   </g>
+   <g id="line2d_91">
+    <path d="M 448.15623 554.834978  L 448.15623 345.755072  " clip-path="url(#pf86eda5a2b)" style="fill: none; stroke: #b7c8cf; stroke-width: 0.6; stroke-linecap: square" />
+   </g>
+   <g id="line2d_92">
+    <path d="M 552.509351 554.834978  L 552.509351 345.755072  " clip-path="url(#pf86eda5a2b)" style="fill: none; stroke: #b7c8cf; stroke-width: 0.6; stroke-linecap: square" />
+   </g>
+   <g id="patch_6">
+    <path d="M 30.74375 554.834978  L 30.74375 345.755072  " style="fill: none; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="patch_7">
+    <path d="M 30.74375 554.834978  L 656.862471 554.834978  " style="fill: none; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="text_113">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="409.02381" y="373.953811" transform="rotate(-0 409.02381 373.953811)" font-family="Avenir Next">1</text>
+   </g>
+   <g id="text_114">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="200.31757" y="461.070438" transform="rotate(-0 200.31757 461.070438)" font-family="Avenir Next">6</text>
+   </g>
+   <g id="text_115">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="409.02381" y="461.070438" transform="rotate(-0 409.02381 461.070438)" font-family="Avenir Next">1</text>
+   </g>
+   <g id="text_116">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="435.11209" y="461.070438" transform="rotate(-0 435.11209 461.070438)" font-family="Avenir Next">4</text>
+   </g>
+   <g id="text_117">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle; fill: #ffffff;font-family: Avenir Next;" x="200.31757" y="478.493763" transform="rotate(-0 200.31757 478.493763)" font-family="Avenir Next">42</text>
+   </g>
+   <g id="text_118">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="226.40585" y="478.493763" transform="rotate(-0 226.40585 478.493763)" font-family="Avenir Next">6</text>
+   </g>
+   <g id="text_119">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="382.93553" y="478.493763" transform="rotate(-0 382.93553 478.493763)" font-family="Avenir Next">3</text>
+   </g>
+   <g id="text_120">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="409.02381" y="478.493763" transform="rotate(-0 409.02381 478.493763)" font-family="Avenir Next">4</text>
+   </g>
+   <g id="text_121">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="435.11209" y="478.493763" transform="rotate(-0 435.11209 478.493763)" font-family="Avenir Next">4</text>
+   </g>
+   <g id="text_122">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle; fill: #ffffff;font-family: Avenir Next;" x="95.96445" y="530.76374" transform="rotate(-0 95.96445 530.76374)" font-family="Avenir Next">121</text>
+   </g>
+   <g id="text_123">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle; fill: #ffffff;font-family: Avenir Next;" x="122.05273" y="530.76374" transform="rotate(-0 122.05273 530.76374)" font-family="Avenir Next">59</text>
+   </g>
+   <g id="text_124">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle; fill: #ffffff;font-family: Avenir Next;" x="200.31757" y="530.76374" transform="rotate(-0 200.31757 530.76374)" font-family="Avenir Next">71</text>
+   </g>
+   <g id="text_125">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle; fill: #ffffff;font-family: Avenir Next;" x="226.40585" y="530.76374" transform="rotate(-0 226.40585 530.76374)" font-family="Avenir Next">71</text>
+   </g>
+   <g id="text_126">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="304.67069" y="530.76374" transform="rotate(-0 304.67069 530.76374)" font-family="Avenir Next">1</text>
+   </g>
+   <g id="text_127">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="330.75897" y="530.76374" transform="rotate(-0 330.75897 530.76374)" font-family="Avenir Next">1</text>
+   </g>
+   <g id="text_128">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle; fill: #ffffff;font-family: Avenir Next;" x="409.02381" y="530.76374" transform="rotate(-0 409.02381 530.76374)" font-family="Avenir Next">256</text>
+   </g>
+   <g id="text_129">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle; fill: #ffffff;font-family: Avenir Next;" x="435.11209" y="530.76374" transform="rotate(-0 435.11209 530.76374)" font-family="Avenir Next">257</text>
+   </g>
+   <g id="text_130">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="513.376931" y="530.76374" transform="rotate(-0 513.376931 530.76374)" font-family="Avenir Next">7</text>
+   </g>
+   <g id="text_131">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle; fill: #ffffff;font-family: Avenir Next;" x="539.465211" y="530.76374" transform="rotate(-0 539.465211 530.76374)" font-family="Avenir Next">112</text>
+   </g>
+   <g id="text_132">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="617.730051" y="530.76374" transform="rotate(-0 617.730051 530.76374)" font-family="Avenir Next">30</text>
+   </g>
+   <g id="text_133">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle; fill: #ffffff;font-family: Avenir Next;" x="95.96445" y="548.187065" transform="rotate(-0 95.96445 548.187065)" font-family="Avenir Next">127</text>
+   </g>
+   <g id="text_134">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle; fill: #ffffff;font-family: Avenir Next;" x="122.05273" y="548.187065" transform="rotate(-0 122.05273 548.187065)" font-family="Avenir Next">59</text>
+   </g>
+   <g id="text_135">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle; fill: #ffffff;font-family: Avenir Next;" x="200.31757" y="548.187065" transform="rotate(-0 200.31757 548.187065)" font-family="Avenir Next">71</text>
+   </g>
+   <g id="text_136">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle; fill: #ffffff;font-family: Avenir Next;" x="226.40585" y="548.187065" transform="rotate(-0 226.40585 548.187065)" font-family="Avenir Next">71</text>
+   </g>
+   <g id="text_137">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="304.67069" y="548.187065" transform="rotate(-0 304.67069 548.187065)" font-family="Avenir Next">1</text>
+   </g>
+   <g id="text_138">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="330.75897" y="548.187065" transform="rotate(-0 330.75897 548.187065)" font-family="Avenir Next">1</text>
+   </g>
+   <g id="text_139">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="382.93553" y="548.187065" transform="rotate(-0 382.93553 548.187065)" font-family="Avenir Next">1</text>
+   </g>
+   <g id="text_140">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle; fill: #ffffff;font-family: Avenir Next;" x="409.02381" y="548.187065" transform="rotate(-0 409.02381 548.187065)" font-family="Avenir Next">257</text>
+   </g>
+   <g id="text_141">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle; fill: #ffffff;font-family: Avenir Next;" x="435.11209" y="548.187065" transform="rotate(-0 435.11209 548.187065)" font-family="Avenir Next">258</text>
+   </g>
+   <g id="text_142">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle; fill: #ffffff;font-family: Avenir Next;" x="513.376931" y="548.187065" transform="rotate(-0 513.376931 548.187065)" font-family="Avenir Next">111</text>
+   </g>
+   <g id="text_143">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle; fill: #ffffff;font-family: Avenir Next;" x="539.465211" y="548.187065" transform="rotate(-0 539.465211 548.187065)" font-family="Avenir Next">112</text>
+   </g>
+   <g id="text_144">
+    <text style="font-size: 8px; font-family: 'Avenir Next'; text-anchor: middle; fill: #ffffff;font-family: Avenir Next;" x="617.730051" y="548.187065" transform="rotate(-0 617.730051 548.187065)" font-family="Avenir Next">409</text>
+   </g>
+   <g id="text_145">
+    <text style="font-size: 11px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="343.80311" y="339.755072" transform="rotate(-0 343.80311 339.755072)" font-family="Avenir Next">16S</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_8">
+    <path d="M 669.384845 461.504036  L 686.717734 461.504036  L 686.717734 114.846254  L 669.384845 114.846254  z " style="fill: #ffffff" />
+   </g>
+   <image ns4:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABgAAAHhCAYAAAB0nX6dAAACe0lEQVR4nO2cwXEkQQgEEYH/7t5DEY1MqPuUtECmAaBpimqG2dDXv+/uMJJhprx/f0R1eDOkNXpElPkB4heKHF5yvEzTGz7oAw19IMGuD1hFjk9Q42tQ88eWXlADL2mOHytGxzYnaGv8QKYSZCrBri/YdY/3osCuBcj0wFSR1uix5Mr0kub4scCumz4QIFMJMpVg1xLsWoJdS7BrCXYtwa4l2LUEu5Zg1xLsWoJdS7BrCXZ9YClY7OwU7K4vjC3P3AhpjR4ratB8PxDU44gEyPTCZPfoAwF9cOHCefy+aL/ZNTIVUIMb7wc93q691PwjanOCNMePBTV45gRpjh8LatDjL/02J8jxS8Gaf0Q9vtGeOUGa48cCq3jjVdTUQMBS8AP+ncRjGSJAphLsWoKKToyOPTxBesPHhu37m1+D9iZIb/jYcOG88TXo8U/w7OuctsYPliEXrKLnq6i9CdIbPphNNajo799wasPuuq0J0ho9lth1WxOkNXqsqEFTg/V9UHzuVTBVSLAKCXYt4R3twC+kislOgVVcmK4f07WAPviAz709/mNpj7eKHm8VjxoI6AMJV+YFq2isQkANbvRBWxOkNXrQySdqUMhUgVVIuPQPWEV6wwdepMGuJchUgookqOjChfPMe820Rg/eD27ItFklCKjBBRUFnby/yM0TCGg0CSqS0Ml/f+EUZqdAphdUFEx2AvpAQh9cOKLmCQTUQMKFI0FFH/DPGHq82QWTnYBGk1Qs6IM3/gnamiDH16A4ov1FTmv0QEX/ATWQ0AcHvKi4cBRYxQmreMym280urdHjF9y0OCIFMpVw6R+wirRGD7zoRA0KmSrsRf4BDckcfog+lwcAAAAASUVORK5CYII=" id="imageb627ecff6a" transform="scale(1 -1) translate(0 -346.32)" x="669.6" y="-114.48" width="17.28" height="346.32" />
+   <g id="matplotlib.axis_5" />
+   <g id="matplotlib.axis_6">
+    <g id="ytick_23">
+     <g id="line2d_93">
+      <defs>
+       <path id="me728b6ea0d" d="M 0 0  L 3.5 0  " style="stroke: #000000; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use ns4:href="#me728b6ea0d" x="686.717734" y="461.504036" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_146">
+      
+      <g transform="translate(693.717734 464.527786)">
+       <text font-family="Avenir Next" style=";font-family: Avenir Next;">
+        <tspan x="0" y="-0.1875" style="font-weight: 700; font-size: 8px; font-family: 'Avenir Next';font-family: Avenir Next;" font-family="Avenir Next">0</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_24">
+     <g id="line2d_94">
+      <g>
+       <use ns4:href="#me728b6ea0d" x="686.717734" y="367.812744" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_147">
+      
+      <g transform="translate(693.717734 370.836494)">
+       <text font-family="Avenir Next" style=";font-family: Avenir Next;">
+        <tspan x="0" y="-0.142188" style="font-weight: 700; font-size: 8px; font-family: 'Avenir Next';font-family: Avenir Next;" font-family="Avenir Next">1</tspan>
+        <tspan x="5.167984" y="-0.142188" style="font-weight: 700; font-size: 8px; font-family: 'Avenir Next';font-family: Avenir Next;" font-family="Avenir Next">0</tspan>
+        <tspan x="10.405695" y="-2.93125" style="font-weight: 700; font-size: 5.6px; font-family: 'Avenir Next';font-family: Avenir Next;" font-family="Avenir Next">0</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_25">
+     <g id="line2d_95">
+      <g>
+       <use ns4:href="#me728b6ea0d" x="686.717734" y="283.490581" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_148">
+      
+      <g transform="translate(693.717734 286.514331)">
+       <text font-family="Avenir Next" style=";font-family: Avenir Next;">
+        <tspan x="0" y="-0.251563" style="font-weight: 700; font-size: 8px; font-family: 'Avenir Next';font-family: Avenir Next;" font-family="Avenir Next">1</tspan>
+        <tspan x="5.167984" y="-0.251563" style="font-weight: 700; font-size: 8px; font-family: 'Avenir Next';font-family: Avenir Next;" font-family="Avenir Next">0</tspan>
+        <tspan x="10.405695" y="-3.040625" style="font-weight: 700; font-size: 5.6px; font-family: 'Avenir Next';font-family: Avenir Next;" font-family="Avenir Next">1</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_26">
+     <g id="line2d_96">
+      <g>
+       <use ns4:href="#me728b6ea0d" x="686.717734" y="199.168417" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_149">
+      
+      <g transform="translate(693.717734 202.192167)">
+       <text font-family="Avenir Next" style=";font-family: Avenir Next;">
+        <tspan x="0" y="-0.142188" style="font-weight: 700; font-size: 8px; font-family: 'Avenir Next';font-family: Avenir Next;" font-family="Avenir Next">1</tspan>
+        <tspan x="5.167984" y="-0.142188" style="font-weight: 700; font-size: 8px; font-family: 'Avenir Next';font-family: Avenir Next;" font-family="Avenir Next">0</tspan>
+        <tspan x="10.405695" y="-2.93125" style="font-weight: 700; font-size: 5.6px; font-family: 'Avenir Next';font-family: Avenir Next;" font-family="Avenir Next">2</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_27">
+     <g id="line2d_97">
+      <g>
+       <use ns4:href="#me728b6ea0d" x="686.717734" y="114.846254" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_150">
+      
+      <g transform="translate(693.717734 117.870004)">
+       <text font-family="Avenir Next" style=";font-family: Avenir Next;">
+        <tspan x="0" y="-0.142188" style="font-weight: 700; font-size: 8px; font-family: 'Avenir Next';font-family: Avenir Next;" font-family="Avenir Next">1</tspan>
+        <tspan x="5.167984" y="-0.142188" style="font-weight: 700; font-size: 8px; font-family: 'Avenir Next';font-family: Avenir Next;" font-family="Avenir Next">0</tspan>
+        <tspan x="10.405695" y="-2.93125" style="font-weight: 700; font-size: 5.6px; font-family: 'Avenir Next';font-family: Avenir Next;" font-family="Avenir Next">3</tspan>
+       </text>
+      </g>
+     </g>
+    </g>
+    <g id="text_151">
+     <text style="font-size: 9px; font-family: 'Avenir Next'; text-anchor: middle;font-family: Avenir Next;" x="718.761172" y="288.175145" transform="rotate(-90 718.761172 288.175145)" font-family="Avenir Next">Background records (symlog scale)</text>
+    </g>
+   </g>
+   <g id="LineCollection_1" />
+   <g id="patch_9">
+    <path d="M 669.384845 461.504036  L 678.05129 461.504036  L 686.717734 461.504036  L 686.717734 114.846254  L 678.05129 114.846254  L 669.384845 114.846254  L 669.384845 461.504036  z " style="fill: none; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pdb77e4160e">
+   <rect x="30.74375" y="21.515312" width="626.118721" height="209.079905" />
+  </clipPath>
+  <clipPath id="pf86eda5a2b">
+   <rect x="30.74375" y="345.755072" width="626.118721" height="209.079905" />
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,369 @@
+gene,pair,edits,minimum_frequency,delta_Tm_limit,frequency_limit,passes,reasons
+12S,XSD,F1T>C,0.9782608695652174,4,0.8,False,lost_species;exact_gain_below_10pp
+12S,XSD,F1T>C,0.9782608695652174,4,0.85,False,lost_species;exact_gain_below_10pp
+12S,XSD,F1T>C,0.9782608695652174,4,0.9,False,lost_species;exact_gain_below_10pp
+12S,XSD,F1T>C,0.9782608695652174,4,0.95,False,lost_species;exact_gain_below_10pp
+12S,XSD,F1T>C,0.9782608695652174,5,0.8,False,lost_species;exact_gain_below_10pp
+12S,XSD,F1T>C,0.9782608695652174,5,0.85,False,lost_species;exact_gain_below_10pp
+12S,XSD,F1T>C,0.9782608695652174,5,0.9,False,lost_species;exact_gain_below_10pp
+12S,XSD,F1T>C,0.9782608695652174,5,0.95,False,lost_species;exact_gain_below_10pp
+12S,XSD,F1T>C,0.9782608695652174,6,0.8,False,lost_species;exact_gain_below_10pp
+12S,XSD,F1T>C,0.9782608695652174,6,0.85,False,lost_species;exact_gain_below_10pp
+12S,XSD,F1T>C,0.9782608695652174,6,0.9,False,lost_species;exact_gain_below_10pp
+12S,XSD,F1T>C,0.9782608695652174,6,0.95,False,lost_species;exact_gain_below_10pp
+12S,XSD,F1T>C,0.9782608695652174,7,0.8,False,lost_species;exact_gain_below_10pp
+12S,XSD,F1T>C,0.9782608695652174,7,0.85,False,lost_species;exact_gain_below_10pp
+12S,XSD,F1T>C,0.9782608695652174,7,0.9,False,lost_species;exact_gain_below_10pp
+12S,XSD,F1T>C,0.9782608695652174,7,0.95,False,lost_species;exact_gain_below_10pp
+12S,XSD,R1A>C,0.9754098360655737,4,0.8,False,Tm_difference;exact_gain_below_10pp
+12S,XSD,R1A>C,0.9754098360655737,4,0.85,False,Tm_difference;exact_gain_below_10pp
+12S,XSD,R1A>C,0.9754098360655737,4,0.9,False,Tm_difference;exact_gain_below_10pp
+12S,XSD,R1A>C,0.9754098360655737,4,0.95,False,Tm_difference;exact_gain_below_10pp
+12S,XSD,R1A>C,0.9754098360655737,5,0.8,False,Tm_difference;exact_gain_below_10pp
+12S,XSD,R1A>C,0.9754098360655737,5,0.85,False,Tm_difference;exact_gain_below_10pp
+12S,XSD,R1A>C,0.9754098360655737,5,0.9,False,Tm_difference;exact_gain_below_10pp
+12S,XSD,R1A>C,0.9754098360655737,5,0.95,False,Tm_difference;exact_gain_below_10pp
+12S,XSD,R1A>C,0.9754098360655737,6,0.8,False,exact_gain_below_10pp
+12S,XSD,R1A>C,0.9754098360655737,6,0.85,False,exact_gain_below_10pp
+12S,XSD,R1A>C,0.9754098360655737,6,0.9,False,exact_gain_below_10pp
+12S,XSD,R1A>C,0.9754098360655737,6,0.95,False,exact_gain_below_10pp
+12S,XSD,R1A>C,0.9754098360655737,7,0.8,False,exact_gain_below_10pp
+12S,XSD,R1A>C,0.9754098360655737,7,0.85,False,exact_gain_below_10pp
+12S,XSD,R1A>C,0.9754098360655737,7,0.9,False,exact_gain_below_10pp
+12S,XSD,R1A>C,0.9754098360655737,7,0.95,False,exact_gain_below_10pp
+12S,XSD,F1T>C R1A>C,0.9754098360655737,4,0.8,False,Tm_difference;lost_species;exact_gain_below_10pp
+12S,XSD,F1T>C R1A>C,0.9754098360655737,4,0.85,False,Tm_difference;lost_species;exact_gain_below_10pp
+12S,XSD,F1T>C R1A>C,0.9754098360655737,4,0.9,False,Tm_difference;lost_species;exact_gain_below_10pp
+12S,XSD,F1T>C R1A>C,0.9754098360655737,4,0.95,False,Tm_difference;lost_species;exact_gain_below_10pp
+12S,XSD,F1T>C R1A>C,0.9754098360655737,5,0.8,False,lost_species;exact_gain_below_10pp
+12S,XSD,F1T>C R1A>C,0.9754098360655737,5,0.85,False,lost_species;exact_gain_below_10pp
+12S,XSD,F1T>C R1A>C,0.9754098360655737,5,0.9,False,lost_species;exact_gain_below_10pp
+12S,XSD,F1T>C R1A>C,0.9754098360655737,5,0.95,False,lost_species;exact_gain_below_10pp
+12S,XSD,F1T>C R1A>C,0.9754098360655737,6,0.8,False,lost_species;exact_gain_below_10pp
+12S,XSD,F1T>C R1A>C,0.9754098360655737,6,0.85,False,lost_species;exact_gain_below_10pp
+12S,XSD,F1T>C R1A>C,0.9754098360655737,6,0.9,False,lost_species;exact_gain_below_10pp
+12S,XSD,F1T>C R1A>C,0.9754098360655737,6,0.95,False,lost_species;exact_gain_below_10pp
+12S,XSD,F1T>C R1A>C,0.9754098360655737,7,0.8,False,lost_species;exact_gain_below_10pp
+12S,XSD,F1T>C R1A>C,0.9754098360655737,7,0.85,False,lost_species;exact_gain_below_10pp
+12S,XSD,F1T>C R1A>C,0.9754098360655737,7,0.9,False,lost_species;exact_gain_below_10pp
+12S,XSD,F1T>C R1A>C,0.9754098360655737,7,0.95,False,lost_species;exact_gain_below_10pp
+12S,S,F9C>A,0.9653679653679653,4,0.8,False,Tm_difference;exact_gain_below_10pp
+12S,S,F9C>A,0.9653679653679653,4,0.85,False,Tm_difference;exact_gain_below_10pp
+12S,S,F9C>A,0.9653679653679653,4,0.9,False,Tm_difference;exact_gain_below_10pp
+12S,S,F9C>A,0.9653679653679653,4,0.95,False,Tm_difference;exact_gain_below_10pp
+12S,S,F9C>A,0.9653679653679653,5,0.8,False,Tm_difference;exact_gain_below_10pp
+12S,S,F9C>A,0.9653679653679653,5,0.85,False,Tm_difference;exact_gain_below_10pp
+12S,S,F9C>A,0.9653679653679653,5,0.9,False,Tm_difference;exact_gain_below_10pp
+12S,S,F9C>A,0.9653679653679653,5,0.95,False,Tm_difference;exact_gain_below_10pp
+12S,S,F9C>A,0.9653679653679653,6,0.8,False,exact_gain_below_10pp
+12S,S,F9C>A,0.9653679653679653,6,0.85,False,exact_gain_below_10pp
+12S,S,F9C>A,0.9653679653679653,6,0.9,False,exact_gain_below_10pp
+12S,S,F9C>A,0.9653679653679653,6,0.95,False,exact_gain_below_10pp
+12S,S,F9C>A,0.9653679653679653,7,0.8,False,exact_gain_below_10pp
+12S,S,F9C>A,0.9653679653679653,7,0.85,False,exact_gain_below_10pp
+12S,S,F9C>A,0.9653679653679653,7,0.9,False,exact_gain_below_10pp
+12S,S,F9C>A,0.9653679653679653,7,0.95,False,exact_gain_below_10pp
+12S,S,R16T>C,0.7948717948717948,4,0.8,False,Tm_difference;frequency;lost_species;exact_gain_below_10pp
+12S,S,R16T>C,0.7948717948717948,4,0.85,False,Tm_difference;frequency;lost_species;exact_gain_below_10pp
+12S,S,R16T>C,0.7948717948717948,4,0.9,False,Tm_difference;frequency;lost_species;exact_gain_below_10pp
+12S,S,R16T>C,0.7948717948717948,4,0.95,False,Tm_difference;frequency;lost_species;exact_gain_below_10pp
+12S,S,R16T>C,0.7948717948717948,5,0.8,False,frequency;lost_species;exact_gain_below_10pp
+12S,S,R16T>C,0.7948717948717948,5,0.85,False,frequency;lost_species;exact_gain_below_10pp
+12S,S,R16T>C,0.7948717948717948,5,0.9,False,frequency;lost_species;exact_gain_below_10pp
+12S,S,R16T>C,0.7948717948717948,5,0.95,False,frequency;lost_species;exact_gain_below_10pp
+12S,S,R16T>C,0.7948717948717948,6,0.8,False,frequency;lost_species;exact_gain_below_10pp
+12S,S,R16T>C,0.7948717948717948,6,0.85,False,frequency;lost_species;exact_gain_below_10pp
+12S,S,R16T>C,0.7948717948717948,6,0.9,False,frequency;lost_species;exact_gain_below_10pp
+12S,S,R16T>C,0.7948717948717948,6,0.95,False,frequency;lost_species;exact_gain_below_10pp
+12S,S,R16T>C,0.7948717948717948,7,0.8,False,frequency;lost_species;exact_gain_below_10pp
+12S,S,R16T>C,0.7948717948717948,7,0.85,False,frequency;lost_species;exact_gain_below_10pp
+12S,S,R16T>C,0.7948717948717948,7,0.9,False,frequency;lost_species;exact_gain_below_10pp
+12S,S,R16T>C,0.7948717948717948,7,0.95,False,frequency;lost_species;exact_gain_below_10pp
+12S,S,F9C>A R16T>C,0.7948717948717948,4,0.8,False,Tm_difference;frequency;lost_species
+12S,S,F9C>A R16T>C,0.7948717948717948,4,0.85,False,Tm_difference;frequency;lost_species
+12S,S,F9C>A R16T>C,0.7948717948717948,4,0.9,False,Tm_difference;frequency;lost_species
+12S,S,F9C>A R16T>C,0.7948717948717948,4,0.95,False,Tm_difference;frequency;lost_species
+12S,S,F9C>A R16T>C,0.7948717948717948,5,0.8,False,Tm_difference;frequency;lost_species
+12S,S,F9C>A R16T>C,0.7948717948717948,5,0.85,False,Tm_difference;frequency;lost_species
+12S,S,F9C>A R16T>C,0.7948717948717948,5,0.9,False,Tm_difference;frequency;lost_species
+12S,S,F9C>A R16T>C,0.7948717948717948,5,0.95,False,Tm_difference;frequency;lost_species
+12S,S,F9C>A R16T>C,0.7948717948717948,6,0.8,False,Tm_difference;frequency;lost_species
+12S,S,F9C>A R16T>C,0.7948717948717948,6,0.85,False,Tm_difference;frequency;lost_species
+12S,S,F9C>A R16T>C,0.7948717948717948,6,0.9,False,Tm_difference;frequency;lost_species
+12S,S,F9C>A R16T>C,0.7948717948717948,6,0.95,False,Tm_difference;frequency;lost_species
+12S,S,F9C>A R16T>C,0.7948717948717948,7,0.8,False,Tm_difference;frequency;lost_species
+12S,S,F9C>A R16T>C,0.7948717948717948,7,0.85,False,Tm_difference;frequency;lost_species
+12S,S,F9C>A R16T>C,0.7948717948717948,7,0.9,False,Tm_difference;frequency;lost_species
+12S,S,F9C>A R16T>C,0.7948717948717948,7,0.95,False,Tm_difference;frequency;lost_species
+12S,SD,R4A>G,0.7905982905982906,4,0.8,False,Tm_difference;frequency;lost_species
+12S,SD,R4A>G,0.7905982905982906,4,0.85,False,Tm_difference;frequency;lost_species
+12S,SD,R4A>G,0.7905982905982906,4,0.9,False,Tm_difference;frequency;lost_species
+12S,SD,R4A>G,0.7905982905982906,4,0.95,False,Tm_difference;frequency;lost_species
+12S,SD,R4A>G,0.7905982905982906,5,0.8,False,Tm_difference;frequency;lost_species
+12S,SD,R4A>G,0.7905982905982906,5,0.85,False,Tm_difference;frequency;lost_species
+12S,SD,R4A>G,0.7905982905982906,5,0.9,False,Tm_difference;frequency;lost_species
+12S,SD,R4A>G,0.7905982905982906,5,0.95,False,Tm_difference;frequency;lost_species
+12S,SD,R4A>G,0.7905982905982906,6,0.8,False,frequency;lost_species
+12S,SD,R4A>G,0.7905982905982906,6,0.85,False,frequency;lost_species
+12S,SD,R4A>G,0.7905982905982906,6,0.9,False,frequency;lost_species
+12S,SD,R4A>G,0.7905982905982906,6,0.95,False,frequency;lost_species
+12S,SD,R4A>G,0.7905982905982906,7,0.8,False,frequency;lost_species
+12S,SD,R4A>G,0.7905982905982906,7,0.85,False,frequency;lost_species
+12S,SD,R4A>G,0.7905982905982906,7,0.9,False,frequency;lost_species
+12S,SD,R4A>G,0.7905982905982906,7,0.95,False,frequency;lost_species
+12S,L,F1T>C,0.9783549783549783,4,0.8,False,Tm_difference;lost_species
+12S,L,F1T>C,0.9783549783549783,4,0.85,False,Tm_difference;lost_species
+12S,L,F1T>C,0.9783549783549783,4,0.9,False,Tm_difference;lost_species
+12S,L,F1T>C,0.9783549783549783,4,0.95,False,Tm_difference;lost_species
+12S,L,F1T>C,0.9783549783549783,5,0.8,False,lost_species
+12S,L,F1T>C,0.9783549783549783,5,0.85,False,lost_species
+12S,L,F1T>C,0.9783549783549783,5,0.9,False,lost_species
+12S,L,F1T>C,0.9783549783549783,5,0.95,False,lost_species
+12S,L,F1T>C,0.9783549783549783,6,0.8,False,lost_species
+12S,L,F1T>C,0.9783549783549783,6,0.85,False,lost_species
+12S,L,F1T>C,0.9783549783549783,6,0.9,False,lost_species
+12S,L,F1T>C,0.9783549783549783,6,0.95,False,lost_species
+12S,L,F1T>C,0.9783549783549783,7,0.8,False,lost_species
+12S,L,F1T>C,0.9783549783549783,7,0.85,False,lost_species
+12S,L,F1T>C,0.9783549783549783,7,0.9,False,lost_species
+12S,L,F1T>C,0.9783549783549783,7,0.95,False,lost_species
+12S,LD,F1T>C,0.9783549783549783,4,0.8,False,Tm_difference;lost_species
+12S,LD,F1T>C,0.9783549783549783,4,0.85,False,Tm_difference;lost_species
+12S,LD,F1T>C,0.9783549783549783,4,0.9,False,Tm_difference;lost_species
+12S,LD,F1T>C,0.9783549783549783,4,0.95,False,Tm_difference;lost_species
+12S,LD,F1T>C,0.9783549783549783,5,0.8,False,Tm_difference;lost_species
+12S,LD,F1T>C,0.9783549783549783,5,0.85,False,Tm_difference;lost_species
+12S,LD,F1T>C,0.9783549783549783,5,0.9,False,Tm_difference;lost_species
+12S,LD,F1T>C,0.9783549783549783,5,0.95,False,Tm_difference;lost_species
+12S,LD,F1T>C,0.9783549783549783,6,0.8,False,lost_species
+12S,LD,F1T>C,0.9783549783549783,6,0.85,False,lost_species
+12S,LD,F1T>C,0.9783549783549783,6,0.9,False,lost_species
+12S,LD,F1T>C,0.9783549783549783,6,0.95,False,lost_species
+12S,LD,F1T>C,0.9783549783549783,7,0.8,False,lost_species
+12S,LD,F1T>C,0.9783549783549783,7,0.85,False,lost_species
+12S,LD,F1T>C,0.9783549783549783,7,0.9,False,lost_species
+12S,LD,F1T>C,0.9783549783549783,7,0.95,False,lost_species
+12S,XL,R6C>T,0.5232067510548524,4,0.8,False,frequency;lost_species;new_background;exact_gain_below_10pp
+12S,XL,R6C>T,0.5232067510548524,4,0.85,False,frequency;lost_species;new_background;exact_gain_below_10pp
+12S,XL,R6C>T,0.5232067510548524,4,0.9,False,frequency;lost_species;new_background;exact_gain_below_10pp
+12S,XL,R6C>T,0.5232067510548524,4,0.95,False,frequency;lost_species;new_background;exact_gain_below_10pp
+12S,XL,R6C>T,0.5232067510548524,5,0.8,False,frequency;lost_species;new_background;exact_gain_below_10pp
+12S,XL,R6C>T,0.5232067510548524,5,0.85,False,frequency;lost_species;new_background;exact_gain_below_10pp
+12S,XL,R6C>T,0.5232067510548524,5,0.9,False,frequency;lost_species;new_background;exact_gain_below_10pp
+12S,XL,R6C>T,0.5232067510548524,5,0.95,False,frequency;lost_species;new_background;exact_gain_below_10pp
+12S,XL,R6C>T,0.5232067510548524,6,0.8,False,frequency;lost_species;new_background;exact_gain_below_10pp
+12S,XL,R6C>T,0.5232067510548524,6,0.85,False,frequency;lost_species;new_background;exact_gain_below_10pp
+12S,XL,R6C>T,0.5232067510548524,6,0.9,False,frequency;lost_species;new_background;exact_gain_below_10pp
+12S,XL,R6C>T,0.5232067510548524,6,0.95,False,frequency;lost_species;new_background;exact_gain_below_10pp
+12S,XL,R6C>T,0.5232067510548524,7,0.8,False,frequency;lost_species;new_background;exact_gain_below_10pp
+12S,XL,R6C>T,0.5232067510548524,7,0.85,False,frequency;lost_species;new_background;exact_gain_below_10pp
+12S,XL,R6C>T,0.5232067510548524,7,0.9,False,frequency;lost_species;new_background;exact_gain_below_10pp
+12S,XL,R6C>T,0.5232067510548524,7,0.95,False,frequency;lost_species;new_background;exact_gain_below_10pp
+12S,XL,R12G>A,0.5232067510548524,4,0.8,False,frequency;lost_species;new_background;exact_gain_below_10pp
+12S,XL,R12G>A,0.5232067510548524,4,0.85,False,frequency;lost_species;new_background;exact_gain_below_10pp
+12S,XL,R12G>A,0.5232067510548524,4,0.9,False,frequency;lost_species;new_background;exact_gain_below_10pp
+12S,XL,R12G>A,0.5232067510548524,4,0.95,False,frequency;lost_species;new_background;exact_gain_below_10pp
+12S,XL,R12G>A,0.5232067510548524,5,0.8,False,frequency;lost_species;new_background;exact_gain_below_10pp
+12S,XL,R12G>A,0.5232067510548524,5,0.85,False,frequency;lost_species;new_background;exact_gain_below_10pp
+12S,XL,R12G>A,0.5232067510548524,5,0.9,False,frequency;lost_species;new_background;exact_gain_below_10pp
+12S,XL,R12G>A,0.5232067510548524,5,0.95,False,frequency;lost_species;new_background;exact_gain_below_10pp
+12S,XL,R12G>A,0.5232067510548524,6,0.8,False,frequency;lost_species;new_background;exact_gain_below_10pp
+12S,XL,R12G>A,0.5232067510548524,6,0.85,False,frequency;lost_species;new_background;exact_gain_below_10pp
+12S,XL,R12G>A,0.5232067510548524,6,0.9,False,frequency;lost_species;new_background;exact_gain_below_10pp
+12S,XL,R12G>A,0.5232067510548524,6,0.95,False,frequency;lost_species;new_background;exact_gain_below_10pp
+12S,XL,R12G>A,0.5232067510548524,7,0.8,False,frequency;lost_species;new_background;exact_gain_below_10pp
+12S,XL,R12G>A,0.5232067510548524,7,0.85,False,frequency;lost_species;new_background;exact_gain_below_10pp
+12S,XL,R12G>A,0.5232067510548524,7,0.9,False,frequency;lost_species;new_background;exact_gain_below_10pp
+12S,XL,R12G>A,0.5232067510548524,7,0.95,False,frequency;lost_species;new_background;exact_gain_below_10pp
+12S,XL,R6C>T R12G>A,0.5232067510548524,4,0.8,False,frequency;lost_species;new_background
+12S,XL,R6C>T R12G>A,0.5232067510548524,4,0.85,False,frequency;lost_species;new_background
+12S,XL,R6C>T R12G>A,0.5232067510548524,4,0.9,False,frequency;lost_species;new_background
+12S,XL,R6C>T R12G>A,0.5232067510548524,4,0.95,False,frequency;lost_species;new_background
+12S,XL,R6C>T R12G>A,0.5232067510548524,5,0.8,False,frequency;lost_species;new_background
+12S,XL,R6C>T R12G>A,0.5232067510548524,5,0.85,False,frequency;lost_species;new_background
+12S,XL,R6C>T R12G>A,0.5232067510548524,5,0.9,False,frequency;lost_species;new_background
+12S,XL,R6C>T R12G>A,0.5232067510548524,5,0.95,False,frequency;lost_species;new_background
+12S,XL,R6C>T R12G>A,0.5232067510548524,6,0.8,False,frequency;lost_species;new_background
+12S,XL,R6C>T R12G>A,0.5232067510548524,6,0.85,False,frequency;lost_species;new_background
+12S,XL,R6C>T R12G>A,0.5232067510548524,6,0.9,False,frequency;lost_species;new_background
+12S,XL,R6C>T R12G>A,0.5232067510548524,6,0.95,False,frequency;lost_species;new_background
+12S,XL,R6C>T R12G>A,0.5232067510548524,7,0.8,False,frequency;lost_species;new_background
+12S,XL,R6C>T R12G>A,0.5232067510548524,7,0.85,False,frequency;lost_species;new_background
+12S,XL,R6C>T R12G>A,0.5232067510548524,7,0.9,False,frequency;lost_species;new_background
+12S,XL,R6C>T R12G>A,0.5232067510548524,7,0.95,False,frequency;lost_species;new_background
+12S,XLD,R6C>T,0.5232067510548524,4,0.8,False,frequency;lost_species;new_background
+12S,XLD,R6C>T,0.5232067510548524,4,0.85,False,frequency;lost_species;new_background
+12S,XLD,R6C>T,0.5232067510548524,4,0.9,False,frequency;lost_species;new_background
+12S,XLD,R6C>T,0.5232067510548524,4,0.95,False,frequency;lost_species;new_background
+12S,XLD,R6C>T,0.5232067510548524,5,0.8,False,frequency;lost_species;new_background
+12S,XLD,R6C>T,0.5232067510548524,5,0.85,False,frequency;lost_species;new_background
+12S,XLD,R6C>T,0.5232067510548524,5,0.9,False,frequency;lost_species;new_background
+12S,XLD,R6C>T,0.5232067510548524,5,0.95,False,frequency;lost_species;new_background
+12S,XLD,R6C>T,0.5232067510548524,6,0.8,False,frequency;lost_species;new_background
+12S,XLD,R6C>T,0.5232067510548524,6,0.85,False,frequency;lost_species;new_background
+12S,XLD,R6C>T,0.5232067510548524,6,0.9,False,frequency;lost_species;new_background
+12S,XLD,R6C>T,0.5232067510548524,6,0.95,False,frequency;lost_species;new_background
+12S,XLD,R6C>T,0.5232067510548524,7,0.8,False,frequency;lost_species;new_background
+12S,XLD,R6C>T,0.5232067510548524,7,0.85,False,frequency;lost_species;new_background
+12S,XLD,R6C>T,0.5232067510548524,7,0.9,False,frequency;lost_species;new_background
+12S,XLD,R6C>T,0.5232067510548524,7,0.95,False,frequency;lost_species;new_background
+16S,XSD,F17A>G,0.9274193548387096,4,0.8,False,exact_gain_below_10pp;terminal_filter
+16S,XSD,F17A>G,0.9274193548387096,4,0.85,False,exact_gain_below_10pp;terminal_filter
+16S,XSD,F17A>G,0.9274193548387096,4,0.9,False,exact_gain_below_10pp;terminal_filter
+16S,XSD,F17A>G,0.9274193548387096,4,0.95,False,frequency;exact_gain_below_10pp;terminal_filter
+16S,XSD,F17A>G,0.9274193548387096,5,0.8,False,exact_gain_below_10pp;terminal_filter
+16S,XSD,F17A>G,0.9274193548387096,5,0.85,False,exact_gain_below_10pp;terminal_filter
+16S,XSD,F17A>G,0.9274193548387096,5,0.9,False,exact_gain_below_10pp;terminal_filter
+16S,XSD,F17A>G,0.9274193548387096,5,0.95,False,frequency;exact_gain_below_10pp;terminal_filter
+16S,XSD,F17A>G,0.9274193548387096,6,0.8,False,exact_gain_below_10pp;terminal_filter
+16S,XSD,F17A>G,0.9274193548387096,6,0.85,False,exact_gain_below_10pp;terminal_filter
+16S,XSD,F17A>G,0.9274193548387096,6,0.9,False,exact_gain_below_10pp;terminal_filter
+16S,XSD,F17A>G,0.9274193548387096,6,0.95,False,frequency;exact_gain_below_10pp;terminal_filter
+16S,XSD,F17A>G,0.9274193548387096,7,0.8,False,exact_gain_below_10pp;terminal_filter
+16S,XSD,F17A>G,0.9274193548387096,7,0.85,False,exact_gain_below_10pp;terminal_filter
+16S,XSD,F17A>G,0.9274193548387096,7,0.9,False,exact_gain_below_10pp;terminal_filter
+16S,XSD,F17A>G,0.9274193548387096,7,0.95,False,frequency;exact_gain_below_10pp;terminal_filter
+16S,XSD,R4T>C,0.8674698795180723,4,0.8,False,Tm_difference;lost_species;exact_gain_below_10pp
+16S,XSD,R4T>C,0.8674698795180723,4,0.85,False,Tm_difference;lost_species;exact_gain_below_10pp
+16S,XSD,R4T>C,0.8674698795180723,4,0.9,False,Tm_difference;frequency;lost_species;exact_gain_below_10pp
+16S,XSD,R4T>C,0.8674698795180723,4,0.95,False,Tm_difference;frequency;lost_species;exact_gain_below_10pp
+16S,XSD,R4T>C,0.8674698795180723,5,0.8,False,Tm_difference;lost_species;exact_gain_below_10pp
+16S,XSD,R4T>C,0.8674698795180723,5,0.85,False,Tm_difference;lost_species;exact_gain_below_10pp
+16S,XSD,R4T>C,0.8674698795180723,5,0.9,False,Tm_difference;frequency;lost_species;exact_gain_below_10pp
+16S,XSD,R4T>C,0.8674698795180723,5,0.95,False,Tm_difference;frequency;lost_species;exact_gain_below_10pp
+16S,XSD,R4T>C,0.8674698795180723,6,0.8,False,Tm_difference;lost_species;exact_gain_below_10pp
+16S,XSD,R4T>C,0.8674698795180723,6,0.85,False,Tm_difference;lost_species;exact_gain_below_10pp
+16S,XSD,R4T>C,0.8674698795180723,6,0.9,False,Tm_difference;frequency;lost_species;exact_gain_below_10pp
+16S,XSD,R4T>C,0.8674698795180723,6,0.95,False,Tm_difference;frequency;lost_species;exact_gain_below_10pp
+16S,XSD,R4T>C,0.8674698795180723,7,0.8,False,lost_species;exact_gain_below_10pp
+16S,XSD,R4T>C,0.8674698795180723,7,0.85,False,lost_species;exact_gain_below_10pp
+16S,XSD,R4T>C,0.8674698795180723,7,0.9,False,frequency;lost_species;exact_gain_below_10pp
+16S,XSD,R4T>C,0.8674698795180723,7,0.95,False,frequency;lost_species;exact_gain_below_10pp
+16S,XSD,F17A>G R4T>C,0.8674698795180723,4,0.8,False,Tm_difference;lost_species;terminal_filter
+16S,XSD,F17A>G R4T>C,0.8674698795180723,4,0.85,False,Tm_difference;lost_species;terminal_filter
+16S,XSD,F17A>G R4T>C,0.8674698795180723,4,0.9,False,Tm_difference;frequency;lost_species;terminal_filter
+16S,XSD,F17A>G R4T>C,0.8674698795180723,4,0.95,False,Tm_difference;frequency;lost_species;terminal_filter
+16S,XSD,F17A>G R4T>C,0.8674698795180723,5,0.8,False,lost_species;terminal_filter
+16S,XSD,F17A>G R4T>C,0.8674698795180723,5,0.85,False,lost_species;terminal_filter
+16S,XSD,F17A>G R4T>C,0.8674698795180723,5,0.9,False,frequency;lost_species;terminal_filter
+16S,XSD,F17A>G R4T>C,0.8674698795180723,5,0.95,False,frequency;lost_species;terminal_filter
+16S,XSD,F17A>G R4T>C,0.8674698795180723,6,0.8,False,lost_species;terminal_filter
+16S,XSD,F17A>G R4T>C,0.8674698795180723,6,0.85,False,lost_species;terminal_filter
+16S,XSD,F17A>G R4T>C,0.8674698795180723,6,0.9,False,frequency;lost_species;terminal_filter
+16S,XSD,F17A>G R4T>C,0.8674698795180723,6,0.95,False,frequency;lost_species;terminal_filter
+16S,XSD,F17A>G R4T>C,0.8674698795180723,7,0.8,False,lost_species;terminal_filter
+16S,XSD,F17A>G R4T>C,0.8674698795180723,7,0.85,False,lost_species;terminal_filter
+16S,XSD,F17A>G R4T>C,0.8674698795180723,7,0.9,False,frequency;lost_species;terminal_filter
+16S,XSD,F17A>G R4T>C,0.8674698795180723,7,0.95,False,frequency;lost_species;terminal_filter
+16S,S,F14A>C,0.581081081081081,4,0.8,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C,0.581081081081081,4,0.85,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C,0.581081081081081,4,0.9,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C,0.581081081081081,4,0.95,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C,0.581081081081081,5,0.8,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C,0.581081081081081,5,0.85,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C,0.581081081081081,5,0.9,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C,0.581081081081081,5,0.95,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C,0.581081081081081,6,0.8,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C,0.581081081081081,6,0.85,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C,0.581081081081081,6,0.9,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C,0.581081081081081,6,0.95,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C,0.581081081081081,7,0.8,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C,0.581081081081081,7,0.85,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C,0.581081081081081,7,0.9,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C,0.581081081081081,7,0.95,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F15A>G,0.6216216216216216,4,0.8,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F15A>G,0.6216216216216216,4,0.85,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F15A>G,0.6216216216216216,4,0.9,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F15A>G,0.6216216216216216,4,0.95,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F15A>G,0.6216216216216216,5,0.8,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F15A>G,0.6216216216216216,5,0.85,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F15A>G,0.6216216216216216,5,0.9,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F15A>G,0.6216216216216216,5,0.95,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F15A>G,0.6216216216216216,6,0.8,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F15A>G,0.6216216216216216,6,0.85,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F15A>G,0.6216216216216216,6,0.9,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F15A>G,0.6216216216216216,6,0.95,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F15A>G,0.6216216216216216,7,0.8,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F15A>G,0.6216216216216216,7,0.85,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F15A>G,0.6216216216216216,7,0.9,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F15A>G,0.6216216216216216,7,0.95,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,R17T>C,0.9473684210526315,4,0.8,False,Tm_difference;exact_gain_below_10pp
+16S,S,R17T>C,0.9473684210526315,4,0.85,False,Tm_difference;exact_gain_below_10pp
+16S,S,R17T>C,0.9473684210526315,4,0.9,False,Tm_difference;exact_gain_below_10pp
+16S,S,R17T>C,0.9473684210526315,4,0.95,False,Tm_difference;frequency;exact_gain_below_10pp
+16S,S,R17T>C,0.9473684210526315,5,0.8,False,Tm_difference;exact_gain_below_10pp
+16S,S,R17T>C,0.9473684210526315,5,0.85,False,Tm_difference;exact_gain_below_10pp
+16S,S,R17T>C,0.9473684210526315,5,0.9,False,Tm_difference;exact_gain_below_10pp
+16S,S,R17T>C,0.9473684210526315,5,0.95,False,Tm_difference;frequency;exact_gain_below_10pp
+16S,S,R17T>C,0.9473684210526315,6,0.8,False,Tm_difference;exact_gain_below_10pp
+16S,S,R17T>C,0.9473684210526315,6,0.85,False,Tm_difference;exact_gain_below_10pp
+16S,S,R17T>C,0.9473684210526315,6,0.9,False,Tm_difference;exact_gain_below_10pp
+16S,S,R17T>C,0.9473684210526315,6,0.95,False,Tm_difference;frequency;exact_gain_below_10pp
+16S,S,R17T>C,0.9473684210526315,7,0.8,False,exact_gain_below_10pp
+16S,S,R17T>C,0.9473684210526315,7,0.85,False,exact_gain_below_10pp
+16S,S,R17T>C,0.9473684210526315,7,0.9,False,exact_gain_below_10pp
+16S,S,R17T>C,0.9473684210526315,7,0.95,False,frequency;exact_gain_below_10pp
+16S,S,F14A>C F15A>G,0.581081081081081,4,0.8,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C F15A>G,0.581081081081081,4,0.85,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C F15A>G,0.581081081081081,4,0.9,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C F15A>G,0.581081081081081,4,0.95,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C F15A>G,0.581081081081081,5,0.8,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C F15A>G,0.581081081081081,5,0.85,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C F15A>G,0.581081081081081,5,0.9,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C F15A>G,0.581081081081081,5,0.95,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C F15A>G,0.581081081081081,6,0.8,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C F15A>G,0.581081081081081,6,0.85,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C F15A>G,0.581081081081081,6,0.9,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C F15A>G,0.581081081081081,6,0.95,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C F15A>G,0.581081081081081,7,0.8,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C F15A>G,0.581081081081081,7,0.85,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C F15A>G,0.581081081081081,7,0.9,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C F15A>G,0.581081081081081,7,0.95,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C R17T>C,0.581081081081081,4,0.8,False,Tm_difference;frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C R17T>C,0.581081081081081,4,0.85,False,Tm_difference;frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C R17T>C,0.581081081081081,4,0.9,False,Tm_difference;frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C R17T>C,0.581081081081081,4,0.95,False,Tm_difference;frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C R17T>C,0.581081081081081,5,0.8,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C R17T>C,0.581081081081081,5,0.85,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C R17T>C,0.581081081081081,5,0.9,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C R17T>C,0.581081081081081,5,0.95,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C R17T>C,0.581081081081081,6,0.8,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C R17T>C,0.581081081081081,6,0.85,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C R17T>C,0.581081081081081,6,0.9,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C R17T>C,0.581081081081081,6,0.95,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C R17T>C,0.581081081081081,7,0.8,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C R17T>C,0.581081081081081,7,0.85,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C R17T>C,0.581081081081081,7,0.9,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C R17T>C,0.581081081081081,7,0.95,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F15A>G R17T>C,0.6216216216216216,4,0.8,False,Tm_difference;frequency;lost_species;exact_gain_below_10pp
+16S,S,F15A>G R17T>C,0.6216216216216216,4,0.85,False,Tm_difference;frequency;lost_species;exact_gain_below_10pp
+16S,S,F15A>G R17T>C,0.6216216216216216,4,0.9,False,Tm_difference;frequency;lost_species;exact_gain_below_10pp
+16S,S,F15A>G R17T>C,0.6216216216216216,4,0.95,False,Tm_difference;frequency;lost_species;exact_gain_below_10pp
+16S,S,F15A>G R17T>C,0.6216216216216216,5,0.8,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F15A>G R17T>C,0.6216216216216216,5,0.85,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F15A>G R17T>C,0.6216216216216216,5,0.9,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F15A>G R17T>C,0.6216216216216216,5,0.95,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F15A>G R17T>C,0.6216216216216216,6,0.8,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F15A>G R17T>C,0.6216216216216216,6,0.85,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F15A>G R17T>C,0.6216216216216216,6,0.9,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F15A>G R17T>C,0.6216216216216216,6,0.95,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F15A>G R17T>C,0.6216216216216216,7,0.8,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F15A>G R17T>C,0.6216216216216216,7,0.85,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F15A>G R17T>C,0.6216216216216216,7,0.9,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F15A>G R17T>C,0.6216216216216216,7,0.95,False,frequency;lost_species;exact_gain_below_10pp
+16S,S,F14A>C F15A>G R17T>C,0.581081081081081,4,0.8,False,frequency;lost_species
+16S,S,F14A>C F15A>G R17T>C,0.581081081081081,4,0.85,False,frequency;lost_species
+16S,S,F14A>C F15A>G R17T>C,0.581081081081081,4,0.9,False,frequency;lost_species
+16S,S,F14A>C F15A>G R17T>C,0.581081081081081,4,0.95,False,frequency;lost_species
+16S,S,F14A>C F15A>G R17T>C,0.581081081081081,5,0.8,False,frequency;lost_species
+16S,S,F14A>C F15A>G R17T>C,0.581081081081081,5,0.85,False,frequency;lost_species
+16S,S,F14A>C F15A>G R17T>C,0.581081081081081,5,0.9,False,frequency;lost_species
+16S,S,F14A>C F15A>G R17T>C,0.581081081081081,5,0.95,False,frequency;lost_species
+16S,S,F14A>C F15A>G R17T>C,0.581081081081081,6,0.8,False,frequency;lost_species
+16S,S,F14A>C F15A>G R17T>C,0.581081081081081,6,0.85,False,frequency;lost_species
+16S,S,F14A>C F15A>G R17T>C,0.581081081081081,6,0.9,False,frequency;lost_species
+16S,S,F14A>C F15A>G R17T>C,0.581081081081081,6,0.95,False,frequency;lost_species
+16S,S,F14A>C F15A>G R17T>C,0.581081081081081,7,0.8,False,frequency;lost_species
+16S,S,F14A>C F15A>G R17T>C,0.581081081081081,7,0.85,False,frequency;lost_species
+16S,S,F14A>C F15A>G R17T>C,0.581081081081081,7,0.9,False,frequency;lost_species
+16S,S,F14A>C F15A>G R17T>C,0.581081081081081,7,0.95,False,frequency;lost_species

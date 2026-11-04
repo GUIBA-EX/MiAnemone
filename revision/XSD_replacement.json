@@ -1,0 +1,45 @@
+{
+  "selected": {
+    "F_start": "574",
+    "F_end": "595",
+    "R_start": "715",
+    "R_end": "734",
+    "span": "161",
+    "group": "XS",
+    "id": "XS_nested",
+    "F": "CGAAAGGTAAAATCTTCCGCCT",
+    "R": "CGACGGCCATGCARTACCDG",
+    "deg_F": "1",
+    "deg_R": "6",
+    "evaluable": "245",
+    "covered": 227,
+    "exact": 212,
+    "WC": 9,
+    "GT": 9,
+    "WC3": 9,
+    "GT2": 9,
+    "pass_gate": "True",
+    "name": "XSD"
+  },
+  "thermal": [
+    true,
+    [
+      {
+        "scenario": "50_per_variant",
+        "F_tm_min": 58.99236538460809,
+        "F_tm_max": 58.99236538460809,
+        "R_tm_min": 61.775039171660126,
+        "R_tm_max": 65.88830812714122,
+        "structure_max": 49.741086048329066
+      },
+      {
+        "scenario": "200_per_direction",
+        "F_tm_min": 60.78110285004294,
+        "F_tm_max": 60.78110285004294,
+        "R_tm_min": 61.21429750812348,
+        "R_tm_max": 65.32559127854813,
+        "structure_max": 49.741086048329066
+      }
+    ]
+  ]
+}

@@ -1,9 +1,9 @@
 {
   "project": "MiAnemone",
-  "version": "1.2",
+  "version": "1.3",
   "date": "2026-11-04",
   "author": "Fei Xia",
-  "pages": 7,
+  "pages": 18,
   "oligos": 44,
   "status": "PASS",
   "checks": [
@@ -16,8 +16,8 @@
     "nonempty pages"
   ],
   "artifacts": {
-    "publications/MiAnemone_preprint.md": "5f6a36cbc20a2762b829d65830c308d708a56ea054deb8f2f3de793630b91d58",
-    "publications/MiAnemone_preprint.pdf": "1f91b1ee0c5473600a90ccd62f599fef4371f565afcb7554f7cac724abfd5914",
-    "primers.fasta": "d370205d7141ad8f5b4f1c4df8897c46dd1fdd94af2b1b740b40629527b9c601"
+    "publications/MiAnemone_preprint.md": "29d411a3528898dc0121826fe11df53f079761c83ba534b07978a5a593b3fc7a",
+    "publications/MiAnemone_preprint.pdf": "c20d113cc5e9eb105d2ad72fe479d8aa3ecf8745c719e049549c1dce0083cbcd",
+    "primers.fasta": "b036198679b02f47f13b95b69cd7bfbc28ea203e976a5ac7f8b0b1a796724e71"
   }
 }

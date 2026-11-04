@@ -26,7 +26,7 @@ for file,lang in c['readmes'].items():
  s=re.sub(r'<!-- publication:start -->.*?<!-- publication:end -->',f'<!-- publication:start -->\n{status}\n\n{links}\n<!-- publication:end -->',s,flags=re.S)
  s=re.sub(r'^Xia, F\..*$',citation,s,flags=re.M);p.write_text(s)
 p=root/f'publications/{name}_preprint.md';s=p.read_text();s=re.sub(r'^# .*', '# '+title,s,count=1)
-s=re.sub(r'(?:Computational preprint · |Preprint v[\d.]+ · )\d+ [A-Za-z]+ \d{4}(?: · Not peer reviewed)?',f'Preprint v{version} · {date} · Not peer reviewed',s)
+s=re.sub(r'(?:Computational preprint · |Preprint v[\d.]+ · )\d+ [A-Za-z]+ \d{4}(?: · Not peer reviewed)?(?: · Revision 2)?',f'Preprint v{version} · {date} · Not peer reviewed',s)
 s=re.sub(r'preprint-v1\.\d+',f'preprint-v{version}',s);p.write_text(s)
 (root/'CITATION.cff').write_text(f'''cff-version: 1.2.0
 message: "If you use this project's primers, data or analysis code, please cite the versioned preprint."

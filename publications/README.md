@@ -1,29 +1,26 @@
 # MiAnemone preprint
 
-**Fei Xia** · Computational preprint; not peer reviewed.
+The current version is recorded in [release.json](release.json). The manuscript, bilingual READMEs, sequences and six figures describe the same 22 pairs. The 12S XSD replacement is documented in Table 3; prior sequences are confined to the factorial audit.
 
-[PDF](MiAnemone_preprint.pdf) · [Manuscript](MiAnemone_preprint.md) · [Versioned releases](https://github.com/GUIBA-EX/MiAnemone/releases) · [Citation](../CITATION.cff)
+## Build
 
-## Build and validate
-
-Install Python 3, Pandoc, Poppler and Google Chrome or Chromium. Set `CHROME` to the browser executable when needed. Run from the repository root:
+From the repository root, install the Python dependencies and make Pandoc and Chrome available. Figure and PDF rendering require an installed Avenir Next font; the published PDF embeds it.
 
 ```sh
-python3 -m pip install -r publications/requirements-preprint.txt biopython
-python3 publications/build_preprint.py
-python3 scripts/verify.py
+python publications/plot_revision.py
+python publications/unify_figure_style.py
+python publications/assemble_revision.py
+python publications/sync_revision_readmes.py
+python scripts/stamp_preprint.py 1.3
+python publications/build_preprint.py
+python scripts/verify.py
+python scripts/check_figures.py
 pdftotext -layout publications/MiAnemone_preprint.pdf /tmp/paper.txt
-python3 scripts/check_preprint.py /tmp/paper.txt
-python3 scripts/check_publication.py
-python3 scripts/preprint_integrity.py
+python scripts/check_preprint.py /tmp/paper.txt
+python scripts/check_publication.py
+python scripts/preprint_integrity.py
 ```
 
-## Automatic updates
+Computational inputs, methods and rerun commands are indexed in [the reproduction guide](../revision/README.md). [Table S1](MiAnemone_supplement.md) reports the preceding candidate audit, with its relationship to the adopted XSD made explicit. Checksums cover the PDF and primer FASTA release assets. GitHub Actions validates the committed artifacts without substituting fonts or rebuilding the PDF. Release tags freeze the complete source and input snapshot.
 
-Pushes to `main` and manual workflow runs check the committed research results and publication files. Changes to README editions, citations, data, figures, publication sources or release scripts trigger a new minor preprint version. The workflow stamps all editions using Asia/Shanghai time, rebuilds the PDF, checks scientific tables and primer sequences, validates publication metadata and links, and verifies checksums before creating a tagged GitHub Release. A run with no relevant changes validates the existing version without creating a new one.
-
-The release contains the PDF, matching primer FASTA and SHA-256 checksums. Existing public releases remain unchanged. Relative links in the PDF point to the matching source tag. Scientific analyses and their interpretations are maintained in the source files; the workflow rebuilds the paper from those committed results.
-
-## Consistency checks
-
-`release.json` holds the title, version, date, README editions and primer FASTA path. `scripts/stamp_preprint.py` synchronizes the manuscript and citation formats. `scripts/check_publication.py` verifies metadata, local links, visible figure captions and every oligo in the PDF and manuscript. Project-specific checks separately verify scientific tables against their source CSV files. `publication_check.json` records the checked version, page and oligo counts, and output hashes.
+Author: Fei Xia. Copyright and permissions follow [COPYRIGHT.md](../COPYRIGHT.md).

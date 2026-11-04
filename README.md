@@ -1,141 +1,183 @@
-![MiAnemone 海葵目 12S 与 16S eDNA 引物概览，分类框架正在完善](figures/MiAnemone_overview.png)
+![MiAnemone 概览](figures/MiAnemone_overview.png)
 
-# MiAnemone, a set of universal PCR primers for metabarcoding environmental DNA from sea anemones
+# MiAnemone: in silico design and evaluation of mitochondrial 12S and 16S rRNA primers for sea anemone (Actiniaria) eDNA metabarcoding
 
 **Fei Xia**
 
-[简体中文](README.md) · [English](README.en.md)
-
 <!-- publication:start -->
-**预印本 v1.2 · 2026 年 11 月 4 日 · 未经同行评审。**
+**预印本 v1.3 · 2026 年 11 月 4 日 · 未经同行评审。**
 
-[PDF](publications/MiAnemone_preprint.pdf) · [论文 Markdown](publications/MiAnemone_preprint.md) · [固定版本](https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.2) · [CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib) · [构建与更新](publications/README.md)
+[PDF](publications/MiAnemone_preprint.pdf) · [论文 Markdown](publications/MiAnemone_preprint.md) · [固定版本](https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.3) · [CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib) · [构建与更新](publications/README.md)
 <!-- publication:end -->
+
+
+[English](README.en.md) · [修订论文 PDF](publications/MiAnemone_preprint.pdf) · [逐条回复](publications/response_to_review.md) · [复现说明](revision/README.md)
 
 ## 摘要
 
-本研究针对海葵目（Actiniaria）的线粒体 12S 和 16S rRNA 基因设计并计算评估了 22 对引物。在 250 种海葵的 12S 参考库中，MD 覆盖 224/242 个可评价物种，208 个物种的双端均完全匹配。在 265 种海葵的 16S 参考库中，LD 覆盖 231/258 个可评价物种，其中 180 个双端完全匹配。严格 Watson–Crick 模型下，两者在各自背景库中分别命中 9 条和 0 条记录。
+本研究对海葵目线粒体12S和16S rRNA的22对普通与简并引物进行计算评估。原设计面板分别包含250和265个具名物种。本轮补充公共物种面板、非嵌套普通/D的因子分解、错配位置、统一目标/背景模型、全部具名记录敏感性、固定窗口属级留出及条形码区分度。12S XS的G10A使完全匹配从2增至192/245，覆盖仍为205种，但该替换使用了事后放宽的温差门槛。原候选中三组D还改变了固定碱基。现已用嵌套候选替换12S XSD，覆盖227/245、完全匹配212/245，严格背景仍为9条。现有结果支持不同用途下的计算候选优先级，本研究建立了后续试剂评价的计算优先级。
 
 ## 引言
 
-环境 DNA 宏条形码设计需要同时考虑扩增子长度、目标物种间的结合位点变异以及近缘非目标类群的匹配。MiFish 的保守侧翼设计和 Anth-28S 的简并位点设计为本研究提供了两条途径（Miya 等，2015；McCartin 等，2024）。本研究在两个线粒体基因上分别设置 XS 至 XL 五档窗口，通过比较同一位置的普通与简并引物，考察覆盖增加时完全匹配和背景命中如何变化。
+海葵目的分类研究曾报告约1,200个描述种，并使用12S和16S等标记重建亲缘关系（Rodríguez等，2014）。本研究借鉴MiFish的保守侧翼思路和Anth-28S的简并策略，分别考察结合位点兼容性与内部条形码的信息量。珊瑚虫线粒体演化较慢（Shearer等，2002；Hellberg，2006），较高覆盖并不自动带来较高物种区分度。引物错配可影响扩增偏差（Piñol等，2015），但其作用还取决于位置与反应条件，因此完全匹配增加不能直接换算为检出率增加。
 
 ## 材料与方法
 
-每个基因按 GenBank 具名物种各保留一条目标参考序列。结合位置采用 *Metridium senile* NC_000933.1 对应基因的无缺口坐标，从 1 起算，包含两端。同一窗口的普通与 D 共享 F、R 的四个端点。普通方案依照 MiFish 的保守侧翼思路，从实际模板和共识序列选配；D 方案依照 Anth-28S 的思路补偿谱系变异，每条引物简并度至多为 8，简并位点限于 3′ 半段。
+### 参考库与比对
 
-可评价物种须有跨越两端的参考序列，且结合区中无模糊碱基。对原始序列双链搜索 100–500 bp 的成对产物，内部序列至少 50 bp。覆盖要求每端至多两个错配且各自 3′ 末三位兼容；完全匹配要求两端均为零错配。覆盖率和完全匹配率均以该窗口的可评价物种数为分母。两个基因使用各自的目标和背景面板。
+原始检索分别获得1,360条12S和2,527条16S记录，可用记录池为786和1,245条。采用GenBank物种名称与谱系，排除sp./cf.等非明确双名记录后，每种选择一个参考，形成250种12S和265种16S设计面板。12S实际排名按明确碱基数、rRNA注释、RefSeq和登录号；12S排序未使用基因组完整性。16S另使用基因组完整性与参考列覆盖排名。尚未完成WoRMS同物异名全面整理或标本误鉴定核验。
 
-背景搜索允许两引物之间相距 0–1000 bp。严格模型沿用每端至多两个错配和末三位兼容的规则，分别计算 Watson–Crick 配对（WC）及允许 G–T 配对（GT）的命中。宽松模型取消末端限制，分别允许 WC 每端三个错配和 GT 每端两个错配。候选通过条件为两个严格计数各 ≤10、两个宽松计数各 ≤50。下表每格按**普通 / D**排列，背景每组依次列出 **WC,GT** 的记录数。所有命中均为计算预测。
+MAFFT 7.526参数为`--adjustdirection --retree 2 --maxiterate 0 --thread 4`，不是结构感知比对。坐标为*Metridium senile* NC_000933.1相应基因的一起算闭区间；12S位于线粒体12,201–13,282，16S位于72–2,260。普通/D共享四个端点，但不保证D必然包含普通序列。
 
-同位点普通引物优先选用两种浓度情景下（每条普通引物分别为 50 和 200 nM）正反向预测 ΔTm 均 ≤5°C 的方案。对 3′ 末三位之外的共识替换，若最大 ΔTm 在 5–6°C，可按以下项目标准复核采纳：新碱基占完整结合位点的 ≥90%，双端完全匹配率提高 ≥10 个百分点，保留原来覆盖的每个物种，严格与宽松背景扫描均无新增记录。原有 3′ 端、二级结构及背景筛选条件仍须满足。
+### 候选生成、热力学与替换规则
+
+初始搜索每3个参考碱基取一个起点，尝试20/22 nt，要求至少10种或10%目标物种提供完整位点。普通候选来自观察模体与共识；简并位点限于3′半段，每端至多8个变体。按覆盖、完全匹配、较低简并度排序，并在坐标分箱内保留有限候选，再于所选窗口重新配对。该过程有候选截断，是启发式搜索而非全局最优证明。
+
+末端过滤排除可形成五连同碱基、末三位同碱基及不符合GC条件的候选。末位可简并，但兼容须由实际变体提供。primer3-py 2.4.0使用50 mM单价盐、1.5 mM二价盐、0.6 mM dNTP，分别评估50 nM/变体和200 nM/方向均分两种情景。初始最低Tm为45°C、结构Tm低于55°C、F/R温差≤5°C，没有额外全序列GC百分比门槛。
+
+G10A所用6°C例外是检查该候选后提出的事后规则。补充表列出了23个后续候选在ΔTm 4–7°C及新碱基频率80–95%网格下的全部判定。正式22对序列未因本轮解释性控制而自动替换。
+
+### 配对模型与评价指标
+
+可评价要求参考跨越两端且结合区没有模糊碱基，允许比对缺口；完整等长模体是更严格子集。原始双链扫描要求产物100–500 bp、内部≥50 bp；覆盖为每端≤2错配且末三位零错配，完全匹配为两端零错配。D允许任意一个F变体与任意一个R变体共同匹配。
+
+原背景为322个12S刺胞动物物种和1,775条16S刺胞动物记录，原扫描允许内部0–1,000 bp。严格WC/GT使用两错配及末三位规则；宽松WC为三错配无末端限制，宽松GT为两错配无末端限制。GT将指定的潜在摇摆配对计为兼容，包括末端。本轮额外统一目标和背景几何范围，比较WC/GT、每端0–4错配、末0/3/5位保护。位置连续罚分是自定义诊断，不是校准的PCR效率。
+
+公共覆盖面板取各窗口均可评价的物种；公共区分度进一步要求各窗口内部序列全部明确。计算物种唯一性、覆盖∩唯一性、最近邻编辑距离、属/科归属、多记录观察barcode gap和留一记录最近邻分类。Wilson区间以当前面板为条件，不代表海葵目随机抽样。
+
+全部具名记录池为694条12S和1,116条16S，报告任一/多数/全部记录匹配及种内位点变异。五折按属分块，在训练属内重建普通/D并经过热力学过滤，再扫描留出属。端点与比对仍来自全数据，背景未用于调节这些诊断候选，因此属于固定窗口条件测试，不是完全独立的窗口发现验证。
 
 ## 结果
 
-### 12S
+### 公共面板与非嵌套对照
 
-![12S 五档引物在参考基因上的结合位置](figures/12S_binding.svg)
+公共覆盖面板为12S的240种和16S的67种。16S SD、LD、MD和XLD分别覆盖62、59、58和58/67种；HD为65/67，但其宽松背景较高，不应仅按覆盖推荐。各窗口原始分母不同，不能直接将其百分比当成同一组物种排名。
 
-目标面板含 250 种海葵，背景含 322 种其他刺胞动物，各物种一条记录。
+![公共面板覆盖与完全匹配](publications/figures/review_common_panel.svg)
 
-普通 12S XS 正向第 10 位在 230 个完整正向结合区中有 228 个为 A。采用 G10A 后，双端完全匹配从 2/245 升至 192/245，原有 205 个覆盖物种全部保留，四种背景模型的命中集合均保持为原来的 9 条记录。两种浓度情景下预测 ΔTm 分别为 5.18°C 和 5.33°C。
+**图1.** 各标记共同可评价物种面板中的覆盖与完全匹配。柱上为物种数，误差线为条件Wilson 95%区间；H/HD作为历史位点对照置于最后。
 
-| 窗口 | 跨度（bp） | 可评价物种 | 覆盖物种 | 完全匹配物种 | 严格背景 | 宽松背景 | 碱基匹配图 |
-|---|---:|---:|---:|---:|---:|---:| --- |
-| XS | 161 | 245 | 205 / 230 | 192 / 0 | 9,9 / 9,9 | 9,9 / 9,9 | [XS](figures/template_matching/12S_XS.svg) / [XSD](figures/template_matching/12S_XSD.svg) |
-| S | 197 | 246 | 173 / 195 | 0 / 26 | 0,0 / 0,0 | 0,0 / 0,0 | [S](figures/template_matching/12S_S.svg) / [SD](figures/template_matching/12S_SD.svg) |
-| M | 230 | 242 | 220 / 224 | 198 / 208 | 9,9 / 9,9 | 9,9 / 9,9 | [M](figures/template_matching/12S_M.svg) / [MD](figures/template_matching/12S_MD.svg) |
-| L | 269 | 246 | 226 / 229 | 1 / 1 | 9,9 / 9,9 | 9,9 / 9,9 | [L](figures/template_matching/12S_L.svg) / [LD](figures/template_matching/12S_LD.svg) |
-| XL | 385 | 243 | 185 / 225 | 46 / 52 | 0,0 / 0,0 | 1,0 / 18,0 | [XL](figures/template_matching/12S_XL.svg) / [XLD](figures/template_matching/12S_XLD.svg) |
+![参考位点变异、有效物种数与引物位置](publications/figures/review_entropy.svg)
 
-[逐物种结果](12S/species_results.csv) · [非目标命中明细](12S/background_hits.csv) · [参考坐标](12S/coordinates.csv) · [内部条码唯一性](12S/barcode_identity.csv)
+**图2.** 每个标记依次展示位点Shannon熵、贡献明确A/C/G/T的物种数、分行排列的F/R结合区间，三层共享NC_000933.1对应基因的一起算坐标。缺口和模糊碱基不计入分母；少于两个有效物种的位置不绘制熵值。低样本量下的低熵不表示已证实保守。箭头覆盖实际结合区间并指向3′端，连接线表示中间区域。普通与D端点相同，共用一行；12S与16S使用各自的坐标尺度。
 
-图中逐行显示物种及其 GenBank 登录号。蓝色为 IUPAC 兼容，橙色为错配，灰色为缺口或未知碱基。F、R 均按引物 5′→3′ 方向显示，方框圈出末三位。图中投影到参考碱基，省略相对参考的插入列。「Raw hit」来自完整序列的成对搜索。下图从八个科各取一个物种作为示例，表中链接包含各引物的全部可评价物种。
+替换前的三组非嵌套对是12S XS/XSD、12S S/SD和16S XS/XSD。仅将简并位点加入普通12S XS，覆盖为227/245、完全匹配为212/245；仅改变固定碱基则为205覆盖、0完全匹配。两类变化同时存在才得到原XSD的230覆盖、0完全匹配。因此零完全匹配主要是固定碱基效应。16S XS嵌套控制为223覆盖、167完全匹配，但末端过滤不通过。12S XS嵌套对照两项过滤均通过，最大温差4.84°C，现正式替换为XSD并列为短片段优先候选，普通XS保持不变。
 
-![12S MD primer–template alignment](figures/template_matching/12S_MD_preview.svg)
+### 共识替换与位置效应
 
+12S XS的230个完整模体中，G10位点有228个A、2个G；另15个可评价物种存在缺口或结合段长度变化。G10A后的F/R温差为50 nM时5.18°C、200 nM时5.33°C。12S S的F9C→A保持173种覆盖，完全匹配0→4，最大温差5.95°C，未满足事后规则的10个百分点增益。L的F1T→C使完全匹配1→202，但两种Lebrunia不再符合两错配规则；原XSD另涉及Phyllodiscus，均属归档分类中的Aliciidae。这是阈值预测，不是必然不能PCR扩增。
 
+![错配距3′端的位置分布](publications/figures/review_mismatch_profiles.svg)
 
-#### 引物序列（5′–3′）
+**图3.** 明确同源碱基中的错配比例，横轴从3′末端的0位开始；竖线分隔末端三位。分母排除缺口及模糊碱基，白格表示超出引物长度或没有明确观测。
 
-| Assay | Forward (5′–3′) | Reverse (5′–3′) |
+### 统一背景模型、种内记录与留出
+
+统一长度后，16S H/HD的宽松WC背景从486/976变为452/939，仍然较高；LD由46降至45。原12S XS、XSD、M、MD、L和LD的严格WC命中是完全相同的9条黑珊瑚记录。两套扫描实现在统一严格WC/GT模型下完成57,584次记录—模型比较，零差异。原500/501计数没有截断。
+
+![统一模型下目标与背景变化](publications/figures/review_unified_models.svg)
+
+**图4.** 相同产物几何约束下的目标覆盖与背景命中数，末三位保持匹配，每条曲线连接每端允许0至4个错配的结果。横轴采用非负symlog尺度，0–1为线性区；实线为普通、虚线为D。
+
+![全部引物的分类群背景命中](publications/figures/review_background_all.svg)
+
+**图5.** 22对引物在原始背景面板中的命中数，按分类群分组。W/G为严格WC/GT，W+/G+为宽松模型；仅标注非零值，两幅面板共享同一计数色阶。各标记背景库大小不同，原始计数不能直接解释为标记间特异性差异。
+
+全部记录分析中，12S XS在247个可评价物种里，任一/多数/全部记录覆盖为208/206/203；16S LD为233/232/225，分母259。重新比对也影响可评价分母。属级重选中，12S M普通/D分别覆盖219/226与219/226、完全匹配197与205；16S L普通/D分别覆盖137/246与213/246、完全匹配106与186。候选在每折重新生成，不能解释为对固定正式引物的外部验证。
+
+### 区分度、结合位置与使用限制
+
+原12S唯一内部序列为XS 35/244、S 44/244、M 86/239、L 68/243、XL 100/239。L低于M，说明区分度不随长度单调增加。共同完整面板进一步将扩增兼容性与唯一性相交：
+
+![共同面板覆盖且唯一](publications/figures/review_joint_resolution.svg)
+
+**图6.** 共同完整插入序列面板中，同时满足覆盖与参考序列唯一性的物种比例，柱上为物种数。该指标描述已采样参考库，不等同于实验验证的物种鉴定成功率。
+
+多记录分析中，12S XS只有11/111个多记录物种具有正的观察barcode gap，XL为28/110；严格留一记录最近邻正确归属为52/658和179/646。这些结果仍受种内采样不足影响。
+
+12S XS-F与M/MD-R、SD-F与M/MD-R等共享区域的互补作用使跨配对异二聚体Tm超过55°C，不宜直接混为多重体系。实际产物的最小/中位/最大长度和名义双端20 bp重叠统计见论文Table2及`revision/length_summary.csv`。实际接头待定，尚未评估带接头结构。
+
+## 使用优先级与讨论
+
+| 用途 | 计算优先候选 | 主要取舍 |
 | --- | --- | --- |
-| XS | `CGAAAGGTAAAATCTTCCGCCT` | `CGACGGCCATGCAATACCGG` |
-| XSD | `TGAAAGGTAAAATCTTCCGCCT` | `AGACGGCCATGCARTACCDG` |
-| S | `CGAAAGGTCAAATCTTCCGC` | `CGGGTTGGGTCCCTTTTAGC` |
-| SD | `CGAAAGGTAAAATCTTCCGC` | `CGGATTGGGTCCCTTYTAGY` |
-| M | `AAGGCGTAAAGGATGTGTAG` | `GCGGAAGATTTTACCTTTCG` |
-| MD | `AAGGCGTAAAGGATGTGTVG` | `GCGGAAGATTTDACCTTTCR` |
-| L | `TGAAAGGTAAAATCTTCCGC` | `TATAAGAAAATGTAGCGCAT` |
-| LD | `TGAAAGGTAAAATCTTCCGC` | `TATAAGAAAATGTAGCGCAY` |
-| XL | `GCGTAAAGGATGTGTAGGCC` | `CTTAACACACGGACTTACGACG` |
-| XLD | `GCGTAAAGGATGTGTARGYY` | `CTTAACACACGRACTTACGACG` |
+| 短片段检测 | 12S XSD（采用Table3，0/1） | 末端及热力学过滤通过，覆盖227/245、完全匹配212/245；未评价鱼类、甲壳类共扩增 |
+| 覆盖与区分度兼顾 | 12S MD | 完全匹配较高；存在黑珊瑚背景 |
+| 较广16S目标兼容性 | 16S LD | 较L显著增加覆盖；宽松背景也增加 |
+| 黑珊瑚共存环境 | 对本地参考比较12S S/SD及16S候选 | 背景与目标完整性必须一起判断 |
+| 手工位点历史比较 | H/HD | 宽松背景过高，不优先推荐 |
+| 多重PCR | 不作现成混合推荐 | 共享位点二聚体及接头需独立评估 |
 
-### 16S
+同坐标隔离的是位置差异，只有嵌套序列才能进一步解释简并效应。覆盖、完全匹配和物种分辨率需要分别报告。当前模型不是环境样本检出率；没有新增湿实验。背景结果限定于原刺胞动物参考库。独立窗口发现、冻结后时间外推及分类名称全面核验尚未完成。
 
-![16S 五档引物及 H 和 HD 的结合位置](figures/16S_binding.svg)
+## 引物与逐碱基匹配图
 
-目标面板含 265 种海葵，背景含 1,775 条其他刺胞动物记录。S、M 和 XL 两端均可评价的物种只有 76–77 个，解释覆盖率时应同时考虑分母。
-
-| 窗口 | 跨度（bp） | 可评价物种 | 覆盖物种 | 完全匹配物种 | 严格背景 | 宽松背景 | 碱基匹配图 |
-|---|---:|---:|---:|---:|---:|---:| --- |
-| XS | 152 | 262 | 165 / 223 | 132 / 1 | 0,0 / 0,0 | 0,0 / 1,0 | [XS](figures/template_matching/16S_XS.svg) / [XSD](figures/template_matching/16S_XSD.svg) |
-| S | 186 | 77 | 63 / 70 | 0 / 56 | 0,0 / 0,0 | 0,0 / 0,0 | [S](figures/template_matching/16S_S.svg) / [SD](figures/template_matching/16S_SD.svg) |
-| M | 248 | 76 | 61 / 61 | 51 / 52 | 0,0 / 0,0 | 0,0 / 0,0 | [M](figures/template_matching/16S_M.svg) / [MD](figures/template_matching/16S_MD.svg) |
-| L | 334 | 258 | 138 / 231 | 106 / 180 | 0,0 / 0,3 | 7,4 / 46,10 | [L](figures/template_matching/16S_L.svg) / [LD](figures/template_matching/16S_LD.svg) |
-| XL | 404 | 76 | 41 / 61 | 36 / 52 | 0,0 / 0,0 | 0,0 / 0,0 | [XL](figures/template_matching/16S_XL.svg) / [XLD](figures/template_matching/16S_XLD.svg) |
-| H / HD | 334 | 165 | 146 / 154 | 122 / 136 | 0,0 / 0,1 | 486,500 / 976,501 | [H](figures/template_matching/16S_H.svg) / [HD](figures/template_matching/16S_HD.svg) |
-
-H 和 HD 共用原位点（F 1497–1518，R 1809–1830）。HD 比 H 多覆盖 8 个物种，多完全匹配 14 个；两者的宽松背景命中均超过筛选门槛。
-
-[逐物种结果](16S/species_results.csv) · [非目标命中明细](16S/background_hits.csv) · [参考坐标](16S/coordinate_check.csv) · [内部条码唯一性](16S/insert_resolution.csv) · [含 H 和 HD 的 16S 序列](16S/primers.fasta)
-
-图中逐行显示物种及其 GenBank 登录号。蓝色为 IUPAC 兼容，橙色为错配，灰色为缺口或未知碱基。F、R 均按引物 5′→3′ 方向显示，方框圈出末三位。图中投影到参考碱基，省略相对参考的插入列。「Raw hit」来自完整序列的成对搜索。下图从八个科各取一个物种作为示例，表中链接包含各引物的全部可评价物种。
-
-![16S LD primer–template alignment](figures/template_matching/16S_LD_preview.svg)
+正式序列见[FASTA](primers.fasta)；每条oligo的绝对Tm、GC、长度与简并度见[属性表](revision/oligo_properties.csv)。原有逐碱基匹配图仍保留，下列每一对均可单独查看。
 
 
+12S：[12S_base_matching](figures/12S_base_matching.svg)
 
-#### 引物序列（5′–3′）
+16S：[16S_base_matching](figures/16S_base_matching.svg)
 
-| Assay | Forward (5′–3′) | Reverse (5′–3′) |
-| --- | --- | --- |
-| H | `AAGACCCCATTGAGCTTTACTA` | `CCCCATGGTAGCTTTTATTCGT` |
-| HD | `AAGACCCCATTGAGCTTTACYW` | `CCCCATGGTAGCTTTTATYCRT` |
-| XS | `AGTTTAGATAATGTGGGATC` | `TAACTACGGACCTTAAGCTC` |
-| XSD | `AGTTTAGATAATGTGGARBC` | `TAATTACGGACCTTAAGCTC` |
-| S | `CGTAGTTAATAGCAAGTGGCCT` | `AGGTCGCAAACATCGTTGTCGA` |
-| SD | `CGTAGTTAATAGCHRGTGGCCT` | `AGGTCGCAAACATCGKYGTCRA` |
-| M | `AAGCTAAATGCTGAAGTATG` | `TTCGTCTTACAATATGGACG` |
-| MD | `AAGCTAAATGCTGAAGTATG` | `TTCGTCTTACAATWTGDACG` |
-| L | `GGCCGGTATGAATGGCGTCACG` | `CCCCTTGCAGTCAGGCCACCGG` |
-| LD | `GGCCGGTATGAATGGCRYYACG` | `CCCCTTGCAGTCAGGCCACYDG` |
-| XL | `AAGCTAAATGCTGAAGTATG` | `AACCAAACTATCCAACTTAC` |
-| XLD | `AAGCTAAATGCTGAAGTATG` | `AACCAAACTATCYAACTYRC` |
+[12S_L](figures/template_matching/12S_L.svg) · [12S_LD](figures/template_matching/12S_LD.svg) · [12S_M](figures/template_matching/12S_M.svg) · [12S_MD](figures/template_matching/12S_MD.svg) · [12S_S](figures/template_matching/12S_S.svg) · [12S_SD](figures/template_matching/12S_SD.svg) · [12S_XL](figures/template_matching/12S_XL.svg) · [12S_XLD](figures/template_matching/12S_XLD.svg) · [12S_XS](figures/template_matching/12S_XS.svg) · [12S_XSD](figures/template_matching/12S_XSD.svg) · [16S_H](figures/template_matching/16S_H.svg) · [16S_HD](figures/template_matching/16S_HD.svg) · [16S_L](figures/template_matching/16S_L.svg) · [16S_LD](figures/template_matching/16S_LD.svg) · [16S_M](figures/template_matching/16S_M.svg) · [16S_MD](figures/template_matching/16S_MD.svg) · [16S_S](figures/template_matching/16S_S.svg) · [16S_SD](figures/template_matching/16S_SD.svg) · [16S_XL](figures/template_matching/16S_XL.svg) · [16S_XLD](figures/template_matching/16S_XLD.svg) · [16S_XS](figures/template_matching/16S_XS.svg) · [16S_XSD](figures/template_matching/16S_XSD.svg)
 
-## 讨论
-
-12S MD 在双端完全匹配方面表现最好。与同位点普通 M 相比，它多覆盖 4 个物种，多完全匹配 10 个，严格背景命中数相同。若目标是更短的扩增子和更少的非目标命中，197 bp 的 SD 覆盖 195/246 个物种，在四个背景模型下均为零命中。16S LD 相比普通 L 多覆盖 93 个物种，但宽松 WC 背景命中从 7 条增加到 46 条。
-
-短窗口并不总能兼顾两项指标。12S XSD 覆盖 230/245 个物种，却没有双端完全匹配；16S XSD 相比 XS 多覆盖 58 个物种，完全匹配数却从 132 降至 1。普通与 D 在同一位置独立选序，选择时应同时看两项指标。跨窗口比较还应考虑参考序列是否跨越两端，尤其是 16S 中可评价物种较少的窗口。这些结果描述计算预测的模板兼容性，实际样本中的扩增效率仍待测定。
-
-[全套引物的逐位共识复核、替换结果与漏检物种](audit/README.md)
+| 基因 | 配对 | F（5′–3′） | R（5′–3′） |
+| --- | --- | --- | --- |
+| 12S | XS | CGAAAGGTAAAATCTTCCGCCT | CGACGGCCATGCAATACCGG |
+| 12S | XSD | CGAAAGGTAAAATCTTCCGCCT | CGACGGCCATGCARTACCDG |
+| 12S | S | CGAAAGGTCAAATCTTCCGC | CGGGTTGGGTCCCTTTTAGC |
+| 12S | SD | CGAAAGGTAAAATCTTCCGC | CGGATTGGGTCCCTTYTAGY |
+| 12S | M | AAGGCGTAAAGGATGTGTAG | GCGGAAGATTTTACCTTTCG |
+| 12S | MD | AAGGCGTAAAGGATGTGTVG | GCGGAAGATTTDACCTTTCR |
+| 12S | L | TGAAAGGTAAAATCTTCCGC | TATAAGAAAATGTAGCGCAT |
+| 12S | LD | TGAAAGGTAAAATCTTCCGC | TATAAGAAAATGTAGCGCAY |
+| 12S | XL | GCGTAAAGGATGTGTAGGCC | CTTAACACACGGACTTACGACG |
+| 12S | XLD | GCGTAAAGGATGTGTARGYY | CTTAACACACGRACTTACGACG |
+| 16S | H | AAGACCCCATTGAGCTTTACTA | CCCCATGGTAGCTTTTATTCGT |
+| 16S | HD | AAGACCCCATTGAGCTTTACYW | CCCCATGGTAGCTTTTATYCRT |
+| 16S | XS | AGTTTAGATAATGTGGGATC | TAACTACGGACCTTAAGCTC |
+| 16S | XSD | AGTTTAGATAATGTGGARBC | TAATTACGGACCTTAAGCTC |
+| 16S | S | CGTAGTTAATAGCAAGTGGCCT | AGGTCGCAAACATCGTTGTCGA |
+| 16S | SD | CGTAGTTAATAGCHRGTGGCCT | AGGTCGCAAACATCGKYGTCRA |
+| 16S | M | AAGCTAAATGCTGAAGTATG | TTCGTCTTACAATATGGACG |
+| 16S | MD | AAGCTAAATGCTGAAGTATG | TTCGTCTTACAATWTGDACG |
+| 16S | L | GGCCGGTATGAATGGCGTCACG | CCCCTTGCAGTCAGGCCACCGG |
+| 16S | LD | GGCCGGTATGAATGGCRYYACG | CCCCTTGCAGTCAGGCCACYDG |
+| 16S | XL | AAGCTAAATGCTGAAGTATG | AACCAAACTATCCAACTTAC |
+| 16S | XLD | AAGCTAAATGCTGAAGTATG | AACCAAACTATCYAACTYRC |
 
 ## 数据与复现
 
-引物序列按合成方向 5′→3′ 给出，名称含基因、引物对及方向，例如 `12S_MD_F`。逐对结果表含序列、参考坐标和背景计数。[引物 FASTA](primers.fasta) · [完整结果](all_results.csv)
-
-两个基因目录均包含目标与背景参考序列、物种名录及目标比对。安装 Biopython 后，在仓库根目录运行 `python3 scripts/verify.py` 可复核命中；运行 `python3 scripts/binding_positions.py` 可重绘位置图。独立复核中，12S 的 8,940 项与 16S 的 45,780 项检查均无差异。[12S 复核](12S/validation.json) · [16S 复核](16S/validation.json)
-
-[引用信息](CITATION.cff) · [著作权与使用声明](COPYRIGHT.md)
-
-## 引用与著作权
-
-Xia, F. (2026). *MiAnemone, a set of universal PCR primers for metabarcoding environmental DNA from sea anemones*. Computational preprint v1.2. [GitHub Release](https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.2).
-
-[CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib) · [Copyright](COPYRIGHT.md)
+[GitHub项目](https://github.com/GUIBA-EX/MiAnemone) · [分析索引与复现命令](revision/README.md) · [逐条审稿回复](publications/response_to_review.md)。本目录是独立工作稿，没有将其标记为已公开的新版本。作者单位、ORCID、资助及利益冲突声明均待定，未代填。著作权声明沿用[COPYRIGHT.md](COPYRIGHT.md)。
 
 ## 参考文献
 
-1. Miya M et al. (2015). MiFish, a set of universal PCR primers for metabarcoding environmental DNA from fishes: detection of more than 230 subtropical marine species. *Royal Society Open Science*, 2, 150088. [DOI](https://doi.org/10.1098/rsos.150088)
-2. McCartin L et al. (2024). Nuclear eDNA metabarcoding primers for anthozoan coral biodiversity assessment. *PeerJ*, 12, e18607. [DOI](https://doi.org/10.7717/peerj.18607)
+
+Bae S. 2025. Validation of improved cytochrome c oxidase I (COI) primers for comprehensive biodiversity assessment of ascidians. *PeerJ* 13:e19671. https://doi.org/10.7717/peerj.19671
+
+Hellberg ME. 2006. No variation and low synonymous substitution rates in coral mtDNA despite high nuclear variation. *BMC Evolutionary Biology* 6:24. https://doi.org/10.1186/1471-2148-6-24
+
+McCartin L et al. 2024. Nuclear eDNA metabarcoding primers for anthozoan coral biodiversity assessment. *PeerJ* 12:e18607. https://doi.org/10.7717/peerj.18607
+
+Miya M et al. 2015. MiFish, a set of universal PCR primers for metabarcoding environmental DNA from fishes: detection of more than 230 subtropical marine species. *Royal Society Open Science* 2:150088. https://doi.org/10.1098/rsos.150088
+
+Piñol J, Mir G, Gomez-Polo P, Agustí N. 2015. Universal and blocking primer mismatches limit the use of high-throughput DNA sequencing for the quantitative metabarcoding of arthropods. *Molecular Ecology Resources* 15:819–830. https://doi.org/10.1111/1755-0998.12355
+
+Rodríguez E et al. 2014. Hidden among sea anemones: the first comprehensive phylogenetic reconstruction of the order Actiniaria (Cnidaria, Anthozoa, Hexacorallia) reveals a novel group of hexacorals. *PLOS ONE* 9:e96998. https://doi.org/10.1371/journal.pone.0096998
+
+SantaLucia J Jr. 1998. A unified view of polymer, dumbbell, and oligonucleotide DNA nearest-neighbor thermodynamics. *Proceedings of the National Academy of Sciences USA* 95:1460–1465. https://doi.org/10.1073/pnas.95.4.1460
+
+Shearer TL, Van Oppen MJH, Romano SL, Wörheide G. 2002. Slow mitochondrial DNA sequence evolution in the Anthozoa (Cnidaria). *Molecular Ecology* 11:2475–2487. https://doi.org/10.1046/j.1365-294X.2002.01652.x
+
+Katoh K, Standley DM. 2013. MAFFT multiple sequence alignment software version 7: improvements in performance and usability. *Molecular Biology and Evolution* 30:772–780. https://doi.org/10.1093/molbev/mst010
+
+Untergasser A et al. 2012. Primer3—new capabilities and interfaces. *Nucleic Acids Research* 40:e115. https://doi.org/10.1093/nar/gks596
+
+Wilson EB. 1927. Probable inference, the law of succession, and statistical inference. *Journal of the American Statistical Association* 22:209–212. https://doi.org/10.2307/2276774
+
+
+## 引用 / Citation
+
+Xia, F. (2026). *MiAnemone: in silico design and evaluation of mitochondrial 12S and 16S rRNA primers for sea anemone (Actiniaria) eDNA metabarcoding*. Computational preprint v1.3. [GitHub Release](https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.3).
+
+[著作权声明](COPYRIGHT.md)

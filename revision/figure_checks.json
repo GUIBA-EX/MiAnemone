@@ -1,0 +1,22 @@
+{
+  "12S": {
+    "entropy_positions": 1082,
+    "called_species_min": 34,
+    "called_species_max": 249,
+    "common_coverage_species": 240,
+    "common_insert_species": 237,
+    "pairs": 10,
+    "background_hits_accounted": true
+  },
+  "16S": {
+    "entropy_positions": 2189,
+    "called_species_min": 1,
+    "called_species_max": 265,
+    "common_coverage_species": 67,
+    "common_insert_species": 66,
+    "pairs": 12,
+    "background_hits_accounted": true
+  },
+  "mismatch_records_checked": 176832,
+  "monotonic_model_curves": 88
+}

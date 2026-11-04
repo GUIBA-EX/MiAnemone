@@ -1,1 +1,5 @@
 pypdf==6.21.4
+biopython==1.85
+numpy
+matplotlib
+primer3-py

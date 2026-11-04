@@ -1,0 +1,12 @@
+[
+  {
+    "gene": "12S",
+    "record_model_checks": 11328,
+    "disagreements": 0
+  },
+  {
+    "gene": "16S",
+    "record_model_checks": 46256,
+    "disagreements": 0
+  }
+]

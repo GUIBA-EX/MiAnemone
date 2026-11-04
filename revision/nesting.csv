@@ -1,0 +1,12 @@
+gene,pair,nested,non_nested,ordinary_only,D_only
+12S,XSD,True,,0,22
+12S,SD,False,F9:C>A;R4:G>A,0,22
+12S,MD,True,,0,4
+12S,LD,True,,0,3
+12S,XLD,True,,0,40
+16S,HD,True,,0,8
+16S,XSD,False,F17:G>A;R4:C>T,5,63
+16S,SD,True,,0,7
+16S,MD,True,,0,0
+16S,LD,True,,0,93
+16S,XLD,True,,0,20

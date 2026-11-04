@@ -6,7 +6,7 @@ from pypdf import PdfReader
 root=Path(__file__).resolve().parents[1];p=root/'publications';c=json.loads((p/'release.json').read_text())
 name,title,version=c['project'],c['title'],c['version'];day=date.fromisoformat(c['date']);url=f'https://github.com/GUIBA-EX/{name}/releases/tag/preprint-v{version}'
 md=p/f'{name}_preprint.md';paper=md.read_text();status=f'Preprint v{version} · {day.day} {day:%B %Y} · Not peer reviewed'
-assert paper.startswith('# '+title+'\n') and '\nFei Xia\n' in paper and status in paper
+assert paper.startswith('# '+title+'\n') and '\nFei Xia\n' in paper.replace('**','') and status in paper
 files=[root/f for f in c['readmes']]+[md,p/'README.md']
 for f in files:
  s=f.read_text()
@@ -32,10 +32,10 @@ for line in (root/c['fasta']).read_text().splitlines():
   key=line[1:];assert key not in seqs;seqs[key]=''
  elif line.strip():
   assert key is not None;seqs[key]+=line.strip()
-for key,seq in seqs.items():assert seq and seq in flat and seq in paper,(key,'primer missing')
+for key,seq in seqs.items():assert seq and seq in flat and seq in paper.replace('**',''),(key,'primer missing')
 for file in c['readmes']:
  s=(root/file).read_text()
- for key,seq in seqs.items():assert seq in s,(file,key,'primer missing')
+ for key,seq in seqs.items():assert seq in s.replace('**',''),(file,key,'primer missing')
 for i,page in enumerate(reader.pages):assert len((page.extract_text() or '').strip())>150 or len(page.images)>0,('near-empty page',i+1)
 # Figure captions must be visible as text, rather than only image alt attributes.
 for num in re.findall(r'\*\*Figure ([\d]+[a-z]?)\.',paper):assert f'Figure{num}.' in flat,num
