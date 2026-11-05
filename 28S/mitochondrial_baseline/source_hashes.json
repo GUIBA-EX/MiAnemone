@@ -1,0 +1,10 @@
+{
+  "12S/aligned.fasta": "ecc582bad8bcfd4157e94ac2fbed325211d1880d5096ca76e830981331646b41",
+  "12S/target_panel.csv": "f45c7e4df2012862b38ffedd50e02d95ccb8010fa049f638599c1bb5366cc5e8",
+  "12S/candidate_results.csv": "3838f504dd7868ffc17a741b1ecdc522573276d6638b92a818b05fae37f6468d",
+  "12S/species_results.csv": "f5c5c0d9cab5948e26eed1015670b97d443a8f6704863b8bf60a187d1b1a9d6c",
+  "16S/aligned.fasta": "cdedf561275856bdb79c919fee81a3b27ac38df47cb4d147808c6dc337fb67dd",
+  "16S/target_panel.csv": "8936c61deee64ada36cf754fe9fbc2ac1d03b3c3490b83b5fe60d0a2bd75f934",
+  "16S/candidate_results.csv": "1b841a905182a338b839bef9c4997757010be344df0059f291266b98cee6068f",
+  "16S/species_results.csv": "97ab5c09b82aec3c04ff485c13b07beaa8936773b112074b450718feae4a8397"
+}

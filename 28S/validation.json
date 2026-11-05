@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "names": [
+    "XS",
+    "XSD",
+    "S",
+    "SD",
+    "M",
+    "MD",
+    "L",
+    "LD"
+  ],
+  "checks": 90984,
+  "disagreements": 0,
+  "same_coordinates": true,
+  "max_degeneracy": 8
+}

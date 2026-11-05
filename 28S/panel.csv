@@ -1,0 +1,670 @@
+accession,species,group,family,length,concrete,extraction,taxonomy
+XR_016118956.1,Actinia tenebrosa,Actiniaria,Actiniidae,3615,3615,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Actinia
+KJ483073.1,Cylista troglodytes,Actiniaria,Sagartiidae,3271,3266,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Sagartiidae; Cylista
+JF832997.1,Cylista ornata,Actiniaria,Sagartiidae,3353,3311,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Sagartiidae; Cylista
+KY789398.1,Anthopleura xanthogrammica,Actiniaria,Actiniidae,730,730,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Anthopleura
+LC895264.1,Tempuractis rinkai,Actiniaria,Edwardsiidae,1437,1437,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Edwardsiidae; Tempuractis
+LC895276.1,Edwardsianthus gilbertensis,Actiniaria,Edwardsiidae,1413,1413,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Edwardsiidae; Edwardsianthus
+LC895275.1,Edwardsianthus carbunculus,Actiniaria,Edwardsiidae,1402,1402,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Edwardsiidae; Edwardsianthus
+LC895273.1,Metedwardsia akkeshi,Actiniaria,Edwardsiidae,1175,1175,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Edwardsiidae; Metedwardsia
+LC895272.1,Edwardsia alternobomen,Actiniaria,Edwardsiidae,1461,1461,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Edwardsiidae; Edwardsia
+LC895271.1,Scolanthus kopepe,Actiniaria,Edwardsiidae,1448,1448,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Edwardsiidae; Scolanthus
+LC895270.1,Scolanthus isei,Actiniaria,Edwardsiidae,1447,1447,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Edwardsiidae; Scolanthus
+LC895269.1,Scolanthus ena,Actiniaria,Edwardsiidae,1430,1430,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Edwardsiidae; Scolanthus
+LC895268.1,Edwardsia tuberculata,Actiniaria,Edwardsiidae,1435,1435,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Edwardsiidae; Edwardsia
+PZ162601.1,Urticina timuri,Actiniaria,Actiniidae,813,813,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Urticina
+MW491984.1,Urticina grebelnyi,Actiniaria,Actiniidae,906,906,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Urticina
+PZ162599.1,Halcampa arctica,Actiniaria,Halcampidae,860,860,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Halcampidae; Halcampa
+MH380004.1,Cribrinopsis olegi,Actiniaria,Actiniidae,821,821,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Cribrinopsis
+PZ162594.1,Aulactinia vladimiri,Actiniaria,Actiniidae,865,865,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Aulactinia
+KY789386.1,Gyractis sesere,Actiniaria,Actiniidae,935,935,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Gyractis
+PZ058554.1,Anemonia manjano,Actiniaria,Actiniidae,446,446,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Anemonia
+PZ058555.1,Cladactella manni,Actiniaria,Actiniidae,438,438,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Cladactella
+KJ483068.1,Bartholomea annulata,Actiniaria,Aiptasiidae,3271,3271,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Aiptasiidae; Bartholomea
+PX586145.1,Oulactis coliumensis,Actiniaria,Actiniidae,3510,3510,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Oulactis
+PQ664977.1,Anthopleura cascaia,Actiniaria,Actiniidae,2886,2886,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Anthopleura
+LC643564.1,Paracalliactis tsukisome,Actiniaria,Hormathiidae,1466,1466,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Hormathiidae; Paracalliactis
+PX056193.1,Edwardsianthus pudicus,Actiniaria,Edwardsiidae,852,852,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Edwardsiidae; Edwardsianthus
+LC875478.1,Exocoelactis actinostoloides,Actiniaria,Exocoelactinidae,1382,1382,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Exocoelactinidae; Exocoelactis
+LC875477.1,Discoactis tritentaculata,Actiniaria,Discoactiniidae,1237,1237,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Discoactiniidae; Discoactis
+LC850612.1,Neotenactis amateras,Actiniaria,Gonactiniidae,1419,1419,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Protantheae; Gonactiniidae; Neotenactis
+PV595791.1,Actinostella flosculifera,Actiniaria,Actiniidae,3417,3417,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Actinostella
+PV595772.1,Actinostella californica,Actiniaria,Actiniidae,3418,3418,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Actinostella
+PV595770.1,Actinostella bradleyi,Actiniaria,Actiniidae,3419,3419,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Actinostella
+EU190803.1,Exaiptasia diaphana,Actiniaria,Aiptasiidae,994,994,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Aiptasiidae; Exaiptasia
+LC768618.1,Isohalcurias carlgreni,Actiniaria,Halcuriidae,1498,1498,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Endocoelantheae; Halcuriidae; Isohalcurias
+OR882866.1,Anthopleura variata,Actiniaria,Actiniidae,699,699,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Anthopleura
+KY789369.1,Anthopleura fuscoviridis,Actiniaria,Actiniidae,924,924,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Anthopleura
+PP946965.1,Aulactinia vancouverensis,Actiniaria,Actiniidae,792,792,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Aulactinia
+OR001827.1,Antholoba fabiani,Actiniaria,Actinostolidae,1648,1648,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Actinostolidae; Antholoba
+MW491992.1,Cribrinopsis albopunctata,Actiniaria,Actiniidae,915,915,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Cribrinopsis
+KY789381.1,Anthopleura buddemeieri,Actiniaria,Actiniidae,864,864,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Anthopleura
+OQ357309.1,Macrodactyla aspera,Actiniaria,Actiniidae,251,251,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Macrodactyla
+KY789375.1,Anthopleura nigrescens,Actiniaria,Actiniidae,936,936,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Anthopleura
+KY789387.1,Anthopleura handi,Actiniaria,Actiniidae,794,793,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Anthopleura
+OQ357316.1,Bunodosoma goanense,Actiniaria,Actiniidae,257,257,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Bunodosoma
+OQ357315.1,Synpeachia temasek,Actiniaria,Haloclavidae,250,250,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Haloclavidae; Synpeachia
+EU190808.1,Actinostephanus haeckeli,Actiniaria,Actinodendridae,913,913,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Actinodendridae; Actinostephanus
+MK519643.1,Entacmaea quadricolor,Actiniaria,Actiniidae,1443,1437,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Entacmaea
+OQ357307.1,Paracondylactis hertwigi,Actiniaria,Actiniidae,246,246,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Paracondylactis
+OP766363.1,Sagartiogeton californicus,Actiniaria,Sagartiidae,856,856,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Sagartiidae; Sagartiogeton
+OP766358.1,Sagartiogeton rufus,Actiniaria,Sagartiidae,856,856,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Sagartiidae; Sagartiogeton
+LC768623.1,Isohalcurias malum,Actiniaria,Halcuriidae,1479,1479,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Endocoelantheae; Halcuriidae; Isohalcurias
+LC768620.1,Isohalcurias citreum,Actiniaria,Halcuriidae,1481,1481,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Endocoelantheae; Halcuriidae; Isohalcurias
+LC768614.1,Halcurias fragum,Actiniaria,Halcuriidae,1475,1475,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Endocoelantheae; Halcuriidae; Halcurias
+LC768611.1,Halcurias hiroomii,Actiniaria,Halcuriidae,1478,1478,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Endocoelantheae; Halcuriidae; Halcurias
+LC768607.1,Synactinernus churaumi,Actiniaria,Actinernidae,1475,1475,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Endocoelantheae; Actinernidae; Synactinernus
+LC768605.1,Synactinernus flavus,Actiniaria,Actinernidae,1475,1475,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Endocoelantheae; Actinernidae; Synactinernus
+LC768601.1,Synhalcurias kahakui,Actiniaria,Actinernidae,1475,1475,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Endocoelantheae; Actinernidae; Synhalcurias
+KJ483120.1,Synhalcurias elegans,Actiniaria,Actinernidae,2328,2327,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Endocoelantheae; Actinernidae; Synhalcurias
+KJ483105.1,Isactinernus quadrilobatus,Actiniaria,Actinernidae,3169,3168,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Endocoelantheae; Actinernidae; Isactinernus
+LC768597.1,Actinernus robustus,Actiniaria,Actinernidae,1460,1460,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Endocoelantheae; Actinernidae; Actinernus
+KJ483095.1,Anemonia viridis,Actiniaria,Actiniidae,3299,3298,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Anemonia
+MW506796.1,Actinia equina,Actiniaria,Actiniidae,1012,1012,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Actinia
+MT893047.1,Metridium dianthus,Actiniaria,Metridiidae,2887,2841,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Metridiidae; Metridium
+OQ780406.1,Actinernus elongatus,Actiniaria,Actinernidae,3393,3393,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Endocoelantheae; Actinernidae; Actinernus
+OP683573.1,Diadumene lineata,Actiniaria,Diadumenidae,3382,3382,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Diadumenidae; Diadumene
+XR_007306929.1,Nematostella vectensis,Actiniaria,Edwardsiidae,3741,3741,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Edwardsiidae; Nematostella
+LC642146.1,Stylobates calcifer,Actiniaria,Actiniidae,1517,1517,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Stylobates
+MG030409.1,Actinia mediterranea,Actiniaria,Actiniidae,1027,1027,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Actinia
+KJ483085.1,Actinia fragacea,Actiniaria,Actiniidae,3276,3276,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Actinia
+LC602148.1,Capnea japonica,Actiniaria,Capneidae,1206,1206,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Capneidae; Capnea
+MT676790.1,Halcampoides purpureus,Actiniaria,Halcampoididae,4456,4454,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Halcampoididae; Halcampoides
+MT676788.1,Scytophorus striatus,Actiniaria,Halcampidae,3052,3052,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Halcampidae; Scytophorus
+MZ569982.1,Tealidium konoplinorum,Actiniaria,Actinostolidae,827,827,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Actinostolidae; Tealidium
+MZ569978.1,Ophiodiscus bukini,Actiniaria,Actinostolidae,830,830,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Actinostolidae; Ophiodiscus
+MZ569977.1,Sicyonis kuznetsovi,Actiniaria,Actinostolidae,823,823,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Actinostolidae; Sicyonis
+MZ569976.1,Sicyonis denisovi,Actiniaria,Actinostolidae,823,823,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Actinostolidae; Sicyonis
+MZ569969.1,Stomphia coccinea,Actiniaria,Actinostolidae,867,867,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Actinostolidae; Stomphia
+MZ569967.1,Actinostola faeculenta,Actiniaria,Actinostolidae,835,835,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Actinostolidae; Actinostola
+MT676789.1,Chitinactis marmara,Actiniaria,Actinostolidae,2992,2991,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Actinostolidae; Chitinactis
+KJ483076.1,Metridium senile,Actiniaria,Metridiidae,3271,3270,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Metridiidae; Metridium
+MT893038.1,Metridium farcimen,Actiniaria,Metridiidae,3113,3109,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Metridiidae; Metridium
+MW763144.1,Metapeachia tropica,Actiniaria,Haloclavidae,251,251,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Haloclavidae; Metapeachia
+MW737673.1,Peachia quinquecapitata,Actiniaria,Haloclavidae,517,517,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Haloclavidae; Peachia
+KJ483056.1,Allantactis parasitica,Actiniaria,Hormathiidae,3288,3288,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Hormathiidae; Allantactis
+MW492000.1,Oulactis orientalis,Actiniaria,Actiniidae,902,902,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Oulactis
+MW491997.1,Aulactinia stella,Actiniaria,Actiniidae,909,909,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Aulactinia
+MW491995.1,Cribrinopsis similis,Actiniaria,Actiniidae,920,920,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Cribrinopsis
+MW491989.1,Urticina crassicornis,Actiniaria,Actiniidae,909,909,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Urticina
+KJ483093.1,Heteractis magnifica,Actiniaria,Stichodactylidae,3284,3284,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Stichodactylidae; Heteractis
+MW158886.1,Phymanthus loligo,Actiniaria,Phymanthidae,257,257,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Phymanthidae; Phymanthus
+MW158883.1,Heteranthus verruculatus,Actiniaria,Phymanthidae,261,261,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Phymanthidae; Heteranthus
+KJ483049.1,Heteractis doreensis,Actiniaria,Stichodactylidae,1645,1644,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Stichodactylidae; Heteractis
+MN266882.1,Stylobates loisetteae,Actiniaria,Actiniidae,3277,3274,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Stylobates
+MN258766.1,Verrillactis paguri,Actiniaria,Sagartiidae,3303,3302,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Sagartiidae; Verrillactis
+MN200241.1,Scolanthus shrimp,Actiniaria,Edwardsiidae,2699,2698,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Edwardsiidae; Scolanthus
+MN200243.1,Scolanthus celticus,Actiniaria,Edwardsiidae,3274,3274,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Edwardsiidae; Scolanthus
+MK801516.1,Calliactis tigris,Actiniaria,Hormathiidae,3353,3348,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Hormathiidae; Calliactis
+MK279365.1,Halcampulactis solimar,Actiniaria,Halcampulactidae,3299,3299,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Halcampulactidae; Halcampulactis
+MK519665.1,Stichodactyla mertensii,Actiniaria,Stichodactylidae,2270,2269,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Stichodactylidae; Stichodactyla
+MK519662.1,Stichodactyla haddoni,Actiniaria,Stichodactylidae,1879,1879,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Stichodactylidae; Stichodactyla
+MK519654.1,Radianthus crispa,Actiniaria,Stichodactylidae,401,401,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Stichodactylidae; Radianthus
+EU190818.1,Heteractis aurora,Actiniaria,Stichodactylidae,781,781,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Stichodactylidae; Heteractis
+KC812216.1,Cryptodendrum adhaesivum,Actiniaria,Thalassianthidae,2517,2517,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Thalassianthidae; Cryptodendrum
+MK307742.1,Urticina fecunda,Actiniaria,Actiniidae,823,823,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Urticina
+MK307737.1,Urticina felina,Actiniaria,Actiniidae,826,826,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Urticina
+MH670935.1,Phymanthus crucifer,Actiniaria,Phymanthidae,2491,2486,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Phymanthidae; Phymanthus
+MH380010.1,Cribrinopsis fernaldi,Actiniaria,Actiniidae,828,828,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Cribrinopsis
+MH380008.1,Cribrinopsis rubens,Actiniaria,Actiniidae,828,828,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Cribrinopsis
+KX946219.1,Edwardsiella loveni,Actiniaria,Edwardsiidae,830,830,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Edwardsiidae; Edwardsiella
+KY789397.1,Anthopleura thallia,Actiniaria,Actiniidae,937,937,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Anthopleura
+KY789396.1,Bunodosoma capense,Actiniaria,Actiniidae,934,934,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Bunodosoma
+KY789395.1,Anthopleura insignis,Actiniaria,Actiniidae,934,934,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Anthopleura
+KY789392.1,Anthopleura anneae,Actiniaria,Actiniidae,934,934,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Anthopleura
+KY789391.1,Oulactis muscosa,Actiniaria,Actiniidae,928,928,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Oulactis
+KY789389.1,Anthopleura artemisia,Actiniaria,Actiniidae,831,831,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Anthopleura
+KY789388.1,Anthopleura anjunae,Actiniaria,Actiniidae,852,852,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Anthopleura
+KY789385.1,Anthopleura kurogane,Actiniaria,Actiniidae,847,847,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Anthopleura
+KT852246.1,Epiactis prolifera,Actiniaria,Actiniidae,3195,3193,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Epiactis
+KY789383.1,Anthopleura dowii,Actiniaria,Actiniidae,862,862,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Anthopleura
+KY789382.1,Epiactis japonica,Actiniaria,Actiniidae,941,941,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Epiactis
+KY789380.1,Bunodosoma biscayense,Actiniaria,Actiniidae,694,694,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Bunodosoma
+KY789379.1,Bunodosoma granuliferum,Actiniaria,Actiniidae,934,934,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Bunodosoma
+KY789378.1,Bunodosoma cavernatum,Actiniaria,Actiniidae,931,931,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Bunodosoma
+KY789377.1,Bunodosoma californicum,Actiniaria,Actiniidae,933,933,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Bunodosoma
+KY789376.1,Anthopleura ballii,Actiniaria,Actiniidae,959,959,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Anthopleura
+EU190804.1,Anthopleura krebsi,Actiniaria,Actiniidae,958,957,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Anthopleura
+KY789368.1,Anthopleura waridi,Actiniaria,Actiniidae,911,911,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Anthopleura
+KC812220.1,Thalassianthus aster,Actiniaria,Thalassianthidae,2492,2492,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Thalassianthidae; Thalassianthus
+KC812217.1,Heterodactyla hemprichii,Actiniaria,Thalassianthidae,2475,2475,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Thalassianthidae; Heterodactyla
+KJ483103.1,Boloceroides mcmurrichi,Actiniaria,Boloceroididae,3308,3307,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Boloceroididae; Boloceroides
+KJ483125.1,Triactis producta,Actiniaria,Aliciidae,2871,2870,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Aliciidae; Triactis
+KC812204.1,Phyllodiscus semoni,Actiniaria,Aliciidae,2292,2286,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Aliciidae; Phyllodiscus
+KC812202.1,Lebrunia neglecta,Actiniaria,Aliciidae,804,804,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Aliciidae; Lebrunia
+KC812201.1,Lebrunia coralligens,Actiniaria,Aliciidae,2469,2469,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Aliciidae; Lebrunia
+KP761328.1,Alicia sansibarensis,Actiniaria,Aliciidae,2444,2425,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Aliciidae; Alicia
+KP761329.1,Alicia mirabilis,Actiniaria,Aliciidae,3221,3221,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Aliciidae; Alicia
+KC812198.1,Alicia beebei,Actiniaria,Aliciidae,1917,1915,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Aliciidae; Alicia
+KT852245.1,Epiactis handi,Actiniaria,Actiniidae,3205,3205,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Epiactis
+KJ483094.1,Urticina coriacea,Actiniaria,Actiniidae,3237,3235,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Urticina
+KJ483088.1,Edwardsia timida,Actiniaria,Edwardsiidae,3266,3263,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Edwardsiidae; Edwardsia
+KT852260.1,Bunodactis reynaudi,Actiniaria,Actiniidae,3190,3166,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Bunodactis
+KT852259.1,Epiactis lisbethae,Actiniaria,Actiniidae,3230,3189,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Epiactis
+KT852256.1,Aulactinia incubans,Actiniaria,Actiniidae,3196,3185,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Aulactinia
+KT852254.1,Epiactis georgiana,Actiniaria,Actiniidae,3225,3189,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Epiactis
+KJ483084.1,Aulactinia verrucosa,Actiniaria,Actiniidae,3263,3263,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Aulactinia
+KT852249.1,Aulactinia marplatensis,Actiniaria,Actiniidae,540,538,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Aulactinia
+KJ483104.1,Anthopleura elegantissima,Actiniaria,Actiniidae,3315,3315,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Anthopleura
+KT852247.1,Anthopleura atodai,Actiniaria,Actiniidae,3253,3219,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Anthopleura
+KJ483139.1,Liponema brevicorne,Actiniaria,Liponematidae,968,968,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Liponematidae; Liponema
+KJ483137.1,Isosicyonis striata,Actiniaria,Actiniidae,3230,3230,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Isosicyonis
+KJ483136.1,Glyphoperidium bursa,Actiniaria,Actiniidae,2310,2309,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Glyphoperidium
+KJ483134.1,Isosicyonis alba,Actiniaria,Actiniidae,2530,2526,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Isosicyonis
+KJ483133.1,Bolocera kerguelensis,Actiniaria,Actiniidae,2250,2246,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Bolocera
+KJ483132.1,Anthostella stephensoni,Actiniaria,Actiniidae,2338,2338,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Anthostella
+KJ483128.1,Antholoba achates,Actiniaria,Actinostolidae,3310,3300,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Actinostolidae; Antholoba
+KJ483127.1,Stomphia didemon,Actiniaria,Actinostolidae,3320,3314,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Actinostolidae; Stomphia
+KJ483124.1,Isoparactis fabiani,Actiniaria,Actinostolidae,2101,2101,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Actinostolidae; Isoparactis
+KJ483123.1,Diadumene leucolena,Actiniaria,Diadumenidae,2126,2126,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Diadumenidae; Diadumene
+KJ483122.1,Bunodeopsis globulifera,Actiniaria,Boloceroididae,2558,2558,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Boloceroididae; Bunodeopsis
+KJ483121.1,Phellia exlex,Actiniaria,Sagartiidae,2537,2537,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Sagartiidae; Phellia
+KJ483119.1,Galatheanthemum profundale,Actiniaria,Galatheanthemidae,1176,1176,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Galatheanthemidae; Galatheanthemum
+KJ483118.1,Preactis millardae,Actiniaria,Preactiidae,2530,2530,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Preactiidae; Preactis
+KJ483115.1,Aiptasia mutabilis,Actiniaria,Aiptasiidae,2544,2544,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Aiptasiidae; Aiptasia
+KJ483077.1,Gonactinia prolifera,Actiniaria,Gonactiniidae,3275,3272,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Protantheae; Gonactiniidae; Gonactinia
+KJ483111.1,Actinothoe sphyrodeta,Actiniaria,Sagartiidae,1989,1989,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Sagartiidae; Actinothoe
+KJ483110.1,Actinostola chilensis,Actiniaria,Actinostolidae,1157,1157,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Actinostolidae; Actinostola
+KJ483109.1,Halcurias pilatus,Actiniaria,Halcuriidae,2861,2861,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Endocoelantheae; Halcuriidae; Halcurias
+KJ483106.1,Diadumene cincta,Actiniaria,Diadumenidae,3312,3306,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Diadumenidae; Diadumene
+KJ483102.1,Calliactis parasitica,Actiniaria,Hormathiidae,3377,3377,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Hormathiidae; Calliactis
+KJ483101.1,Adamsia palliata,Actiniaria,Hormathiidae,3380,3380,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Hormathiidae; Adamsia
+KJ483099.1,Actinostola georgiana,Actiniaria,Actinostolidae,3262,3261,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Actinostolidae; Actinostola
+KJ483098.1,Actinostola crassicornis,Actiniaria,Actinostolidae,3342,3338,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Actinostolidae; Actinostola
+KJ483097.1,Haloclava producta,Actiniaria,Haloclavidae,3302,3301,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Haloclavidae; Haloclava
+KJ483096.1,Isanthus capensis,Actiniaria,Isanthidae,3315,3314,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Isanthidae; Isanthus
+KJ483092.1,Stephanthus antarcticus,Actiniaria,Hormathiidae,3270,3269,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Hormathiidae; Stephanthus
+KJ483091.1,Anthosactis janmayeni,Actiniaria,Actinostolidae,3270,3268,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Actinostolidae; Anthosactis
+KJ483090.1,Hormosoma scotti,Actiniaria,Actinostolidae,3265,3265,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Actinostolidae; Hormosoma
+KJ483087.1,Edwardsia elegans,Actiniaria,Edwardsiidae,3264,3264,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Edwardsiidae; Edwardsia
+KJ483086.1,Dactylanthus antarcticus,Actiniaria,Ptychodactiidae,3315,3315,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Ptychodactiidae; Dactylanthus
+KJ483083.1,Bunodosoma grande,Actiniaria,Actiniidae,3263,3263,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Bunodosoma
+KJ483082.1,Ostiactis pearseae,Actiniaria,Ostiactinidae,3268,3268,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Ostiactinidae; Ostiactis
+KJ483081.1,Cyananthea hourdezi,Actiniaria,Actinostolidae,3275,3271,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Actinostolidae; Cyananthea
+KJ483080.1,Kadosactis antarctica,Actiniaria,Kadosactidae,3272,3259,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Kadosactidae; Kadosactis
+KJ483079.1,Jasonactis erythraios,Actiniaria,Sagartiidae,3229,3193,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Sagartiidae; Jasonactis
+KJ483078.1,Protanthea simplex,Actiniaria,Gonactiniidae,3256,3254,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Protantheae; Gonactiniidae; Protanthea
+KJ483075.1,Neoaiptasia morbilla,Actiniaria,Aiptasiidae,3271,3271,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Aiptasiidae; Neoaiptasia
+KJ483074.1,Sagartiogeton awii,Actiniaria,Sagartiidae,3271,3270,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Sagartiidae; Sagartiogeton
+KJ483072.1,Paranthus niveus,Actiniaria,Actinostolidae,3271,3270,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Actinostolidae; Paranthus
+KJ483071.1,Sagartiogeton laceratus,Actiniaria,Sagartiidae,3250,3250,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Sagartiidae; Sagartiogeton
+KJ483070.1,Sagartia undata,Actiniaria,Sagartiidae,3270,3268,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Sagartiidae; Sagartia
+KJ483067.1,Actinoscyphia plebeia,Actiniaria,Actinoscyphiidae,3283,3283,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actinoscyphiidae; Actinoscyphia
+KJ483064.1,Nemanthus nitidus,Actiniaria,Nemathidae,3291,3290,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Nemathidae; Nemanthus
+KJ483063.1,Hormathia lacunifera,Actiniaria,Hormathiidae,3324,3323,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Hormathiidae; Hormathia
+KJ483062.1,Hormathia armata,Actiniaria,Hormathiidae,3319,3319,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Hormathiidae; Hormathia
+KJ483061.1,Calliactis japonica,Actiniaria,Hormathiidae,3304,3303,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Hormathiidae; Calliactis
+KJ483060.1,Chondrophellia orangina,Actiniaria,Hormathiidae,3312,3311,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Hormathiidae; Chondrophellia
+KJ483059.1,Calliactis tricolor,Actiniaria,Hormathiidae,3288,3287,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Hormathiidae; Calliactis
+KJ483058.1,Calliactis polypus,Actiniaria,Hormathiidae,3287,3287,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Hormathiidae; Calliactis
+KJ483055.1,Actinauge richardi,Actiniaria,Hormathiidae,3288,3288,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Hormathiidae; Actinauge
+KJ483054.1,Phellia gausapata,Actiniaria,Sagartiidae,3315,3313,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Sagartiidae; Phellia
+KJ483053.1,Andvakia boninensis,Actiniaria,Andvakiidae,3292,3290,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Andvakiidae; Andvakia
+KJ483052.1,Alvinactis chessi,Actiniaria,Actinoscyphiidae,2079,2079,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actinoscyphiidae; Alvinactis
+KJ483051.1,Andvakia discipulorum,Actiniaria,Andvakiidae,1691,1689,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Andvakiidae; Andvakia
+KJ483050.1,Capnea georgiana,Actiniaria,Capneidae,1638,1638,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Capneidae; Capnea
+KJ483048.1,Edwardsia japonica,Actiniaria,Edwardsiidae,1574,1574,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Edwardsiidae; Edwardsia
+KJ483047.1,Harenactis argentina,Actiniaria,Haloclavidae,821,821,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Haloclavidae; Harenactis
+JQ810725.1,Isotealia antarctica,Actiniaria,Actiniidae,831,831,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Isotealia
+KC700006.1,Isoparactis ferax,Actiniaria,Actinostolidae,822,813,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Actinostolidae; Isoparactis
+JF832994.1,Cylista elegans,Actiniaria,Sagartiidae,925,925,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Sagartiidae; Cylista
+JF832992.1,Cereus herpetodes,Actiniaria,Sagartiidae,823,823,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Sagartiidae; Cereus
+FJ489465.1,Hormathia pectinata,Actiniaria,Hormathiidae,990,990,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Hormathiidae; Hormathia
+FJ489453.1,Anthothoe chilensis,Actiniaria,Sagartiidae,962,962,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Sagartiidae; Anthothoe
+GU473331.1,Stomphia selaginella,Actiniaria,Actinostolidae,924,923,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Nynantheae; Actinostolidae; Stomphia
+EU190835.1,Stichodactyla gigantea,Actiniaria,Stichodactylidae,908,906,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Stichodactylidae; Stichodactyla
+EU190832.1,Peachia cylindrica,Actiniaria,Haloclavidae,984,984,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Haloclavidae; Peachia
+EU190820.1,Halcampa duodecimcirrata,Actiniaria,Halcampidae,725,724,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Halcampidae; Halcampa
+EU190813.1,Cereus pedunculatus,Actiniaria,Sagartiidae,942,942,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Sagartiidae; Cereus
+EF589086.1,Bathyphellia australis,Actiniaria,Bathyphelliidae,327,327,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Bathyphelliidae; Bathyphellia
+AF549250.1,Anemonia sulcata,Actiniaria,Actiniidae,640,640,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Anemonia
+U69687.1,Stichodactyla tapetum,Actiniaria,Stichodactylidae,218,218,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Stichodactylidae; Stichodactyla
+U69686.1,Anthopleura dixoniana,Actiniaria,Actiniidae,210,210,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Actiniaria; Actiniidae; Anthopleura
+FJ626238.1,Acanthopathes thyoides,Antipatharia,Aphanipathidae,3504,3486,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Aphanipathidae; Acanthopathes
+PP410791.1,Bathypathes pseudoalternata,Antipatharia,Schizopathidae,1854,1854,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Schizopathidae; Bathypathes
+PP410782.1,Distichopathes hickersonae,Antipatharia,Aphanipathidae,1853,1853,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Aphanipathidae; Distichopathes
+PP410798.1,Heteropathes americana,Antipatharia,Cladopathidae,1856,1853,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Cladopathidae; Heteropathes
+FJ429305.1,Trissopathes pseudotristicha,Antipatharia,Cladopathidae,3504,3504,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Cladopathidae; Trissopathes
+PX403702.1,Ameripathes pseudomyriophylla,Antipatharia,Ameripathidae,399,399,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Ameripathidae; Ameripathes
+PP410802.1,Antipathes furcata,Antipatharia,Antipathidae,1854,1854,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Antipathidae; Antipathes
+PX403752.1,Tanacetipathes hirta,Antipatharia,Myriopathidae,398,398,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Myriopathidae; Tanacetipathes
+FJ626239.1,Antipathes atlantica,Antipatharia,Antipathidae,3508,3492,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Antipathidae; Antipathes
+PP410789.1,Plumapathes pennacea,Antipatharia,Myriopathidae,1854,1845,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Myriopathidae; Plumapathes
+PX403745.1,Tanacetipathes tanacetum,Antipatharia,Myriopathidae,398,398,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Myriopathidae; Tanacetipathes
+PP410784.1,Stylopathes americana,Antipatharia,Stylopathidae,1853,1848,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Stylopathidae; Stylopathes
+FJ626233.1,Elatopathes abietina,Antipatharia,Aphanipathidae,3505,3478,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Aphanipathidae; Elatopathes
+PP410781.1,Aphanipathes pedata,Antipatharia,Aphanipathidae,1853,1853,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Aphanipathidae; Aphanipathes
+PP410778.1,Aphanostichopathes dissimilis,Antipatharia,Aphanipathidae,1854,1854,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Aphanipathidae; Aphanostichopathes
+PX403683.1,Stauropathes monopinnata,Antipatharia,Schizopathidae,399,399,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Schizopathidae; Stauropathes
+PP410795.1,Parantipathes tetrasticha,Antipatharia,Schizopathidae,1855,1855,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Schizopathidae; Parantipathes
+PP410806.1,Leiopathes glaberrima,Antipatharia,Antipathidae,1853,1853,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Antipathidae; Leiopathes
+PP410804.1,Leiopathes montana,Antipatharia,Antipathidae,1853,1853,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Antipathidae; Leiopathes
+PP073669.1,Telopathes magnus,Antipatharia,Schizopathidae,463,463,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Schizopathidae; Telopathes
+PP073630.1,Myriopathes ulex,Antipatharia,Antipathidae,462,462,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Antipathidae; Myriopathes
+MT318879.1,Stauropathes arctica,Antipatharia,Schizopathidae,1518,1518,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Schizopathidae; Stauropathes
+PP073627.1,Antipathes grandis,Antipatharia,Antipathidae,462,462,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Antipathidae; Antipathes
+ON572273.1,Diplopathes multipinnata,Antipatharia,Schizopathidae,255,255,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Schizopathidae; Diplopathes
+ON572272.1,Diplopathes antarctica,Antipatharia,Schizopathidae,266,266,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Schizopathidae; Diplopathes
+AY026365.1,Antipathes galapagensis,Antipatharia,Antipathidae,3282,3282,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Antipathidae; Antipathes
+MT318880.1,Stichopathes abyssicola,Antipatharia,Antipathidae,979,979,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Antipathidae; Stichopathes
+MT318875.1,Parantipathes hirondelle,Antipatharia,Schizopathidae,1319,1319,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Schizopathidae; Parantipathes
+MT318871.1,Leiopathes expansa,Antipatharia,Antipathidae,879,879,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Antipathidae; Leiopathes
+FJ429304.1,Antipathes griggi,Antipatharia,Antipathidae,3507,3472,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Antipathidae; Antipathes
+KF054362.1,Bathypathes patula,Antipatharia,Schizopathidae,2491,2480,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Schizopathidae; Bathypathes
+FJ626243.1,Cirrhipathes anguina,Antipatharia,Antipathidae,3501,3492,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Antipathidae; Cirrhipathes
+FJ626242.1,Phanopathes expansa,Antipatharia,Aphanipathidae,3504,3492,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Aphanipathidae; Phanopathes
+FJ626240.1,Tanacetipathes barbadensis,Antipatharia,Myriopathidae,3497,3484,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Myriopathidae; Tanacetipathes
+FJ626236.1,Dendrobathypathes boutillieri,Antipatharia,Schizopathidae,3503,3496,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Schizopathidae; Dendrobathypathes
+GU296486.1,Antipathes caribbeana,Antipatharia,Antipathidae,256,256,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Antipathidae; Antipathes
+GU296485.1,Antipathes curvata,Antipatharia,Antipathidae,256,256,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Antipatharia; Antipathidae; Antipathes
+MN543740.1,Pachycerianthus torreyi,Ceriantharia,Cerianthidae,2584,2584,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Ceriantharia; Spirularia; Cerianthidae; Pachycerianthus
+MN543733.1,Pachycerianthus multiplicatus,Ceriantharia,Cerianthidae,2577,2577,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Ceriantharia; Spirularia; Cerianthidae; Pachycerianthus
+MN543730.1,Pachycerianthus fimbriatus,Ceriantharia,Cerianthidae,2577,2577,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Ceriantharia; Spirularia; Cerianthidae; Pachycerianthus
+MN543727.1,Pachycerianthus dohrni,Ceriantharia,Cerianthidae,2580,2580,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Ceriantharia; Spirularia; Cerianthidae; Pachycerianthus
+MN543718.1,Isarachnanthus maderensis,Ceriantharia,Arachnactidae,2611,2611,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Ceriantharia; Penicillaria (in: tube anenomes); Arachnactidae; Isarachnanthus
+MN543715.1,Cerianthus membranaceus,Ceriantharia,Cerianthidae,2583,2583,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Ceriantharia; Spirularia; Cerianthidae; Cerianthus
+MN543704.1,Botruanthus benedeni,Ceriantharia,Botrucnidiferidae,2574,2574,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Ceriantharia; Spirularia; Botrucnidiferidae; Botruanthus
+AB859832.1,Isarachnanthus nocturnus,Ceriantharia,Arachnactidae,2805,2779,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Ceriantharia; Penicillaria (in: tube anenomes); Arachnactidae; Isarachnanthus
+PZ058540.1,Discosoma nummiforme,Corallimorpharia,Discosomidae,304,304,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Corallimorpharia; Discosomidae; Discosoma
+PZ058539.1,Rhodactis indosinensis,Corallimorpharia,Discosomidae,298,298,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Corallimorpharia; Discosomidae; Rhodactis
+KJ483129.1,Corallimorphus profundus,Corallimorpharia,Corallimorphidae,3491,3491,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Corallimorpharia; Corallimorphidae; Corallimorphus
+KJ483045.1,Ricordea florida,Corallimorpharia,Ricordeidae,3293,3289,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Corallimorpharia; Ricordeidae; Ricordea
+KJ483041.1,Corynactis viridis,Corallimorpharia,Corallimorphidae,3330,3329,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Corallimorpharia; Corallimorphidae; Corynactis
+EF589084.1,Corallimorphus pilatus,Corallimorpharia,Corallimorphidae,252,252,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Corallimorpharia; Corallimorphidae; Corallimorphus
+EF589083.1,Corynactis californica,Corallimorpharia,Corallimorphidae,224,224,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Corallimorpharia; Corallimorphidae; Corynactis
+EF589080.1,Rhodactis rhodostoma,Corallimorpharia,Discosomidae,221,221,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Corallimorpharia; Discosomidae; Rhodactis
+EF589077.1,Discosoma neglecta,Corallimorpharia,Discosomidae,305,305,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Corallimorpharia; Discosomidae; Discosoma
+EF589076.1,Amplexidiscus fenestrafer,Corallimorpharia,Discosomidae,299,299,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Corallimorpharia; Discosomidae; Amplexidiscus
+EF589075.1,Rhodactis osculifera,Corallimorpharia,Discosomidae,299,299,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Corallimorpharia; Discosomidae; Rhodactis
+U69693.1,Ricordea yuma,Corallimorpharia,Ricordeidae,218,218,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Corallimorpharia; Ricordeidae; Ricordea
+U69690.1,Corynactis australis,Corallimorpharia,Corallimorphidae,220,220,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Corallimorpharia; Corallimorphidae; Corynactis
+U65512.1,Rhodactis howesii,Corallimorpharia,Discosomidae,211,211,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Corallimorpharia; Discosomidae; Rhodactis
+XR_016182060.1,Pocillopora damicornis,Scleractinia,Pocilloporidae,3652,3652,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Pocilloporidae; Pocillopora
+XR_015995023.1,Stylophora pistillata,Scleractinia,Pocilloporidae,3634,3634,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Pocilloporidae; Stylophora
+XR_014859304.1,Pavona decussata,Scleractinia,Agariciidae,3669,3669,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Agariciidae; Pavona
+EU262790.1,Polycyathus muellerae,Scleractinia,Caryophylliidae,878,878,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Polycyathus
+PX754118.1,Madracis auretenra,Scleractinia,Pocilloporidae,863,863,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Pocilloporidae; Madracis
+XR_014051280.1,Orbicella franksi,Scleractinia,Merulinidae,3645,3645,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Orbicella
+XR_011122090.1,Montipora foliosa,Scleractinia,Acroporidae,3767,3767,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Acroporidae; Montipora
+HQ439680.1,Madrepora oculata,Scleractinia,Oculinidae,726,726,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Oculinidae; Madrepora
+EU262873.1,Madracis decactis,Scleractinia,Pocilloporidae,880,880,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Pocilloporidae; Madracis
+HQ439654.1,Enallopsammia rostrata,Scleractinia,Dendrophylliidae,704,704,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Dendrophylliidae; Enallopsammia
+JQ611438.1,Javania cailleti,Scleractinia,Flabellidae,674,674,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Flabellidae; Javania
+PX403648.1,Pseudomadrepora carolina,Scleractinia,Agariciidae,409,409,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Agariciidae; Pseudomadrepora
+PX403645.1,Madrepora piresae,Scleractinia,Oculinidae,399,399,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Oculinidae; Madrepora
+GQ868676.1,Desmophyllum dianthus,Scleractinia,Caryophylliidae,793,793,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Desmophyllum
+EU262830.1,Porites astreoides,Scleractinia,Poritidae,883,883,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Poritidae; Porites
+EU262859.1,Agaricia agaricites,Scleractinia,Agariciidae,906,906,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Agariciidae; Agaricia
+EU262789.1,Agaricia undata,Scleractinia,Agariciidae,912,912,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Agariciidae; Agaricia
+XR_012606872.1,Acropora palmata,Scleractinia,Acroporidae,3372,3372,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Acroporidae; Acropora
+XR_012167456.1,Porites lutea,Scleractinia,Poritidae,3642,3642,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Poritidae; Porites
+AB126742.1,Alveopora daedalea,Scleractinia,Poritidae,305,305,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Poritidae; Alveopora
+AB126720.1,Mussismilia leptophylla,Scleractinia,Faviidae,305,305,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Faviidae; Mussismilia
+AB126714.1,Lobophyllia sinuosa,Scleractinia,Lobophylliidae,305,305,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Lobophylliidae; Lobophyllia
+AB906988.1,Goniopora tantillus,Scleractinia,Poritidae,231,229,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Poritidae; Goniopora
+LC750603.1,Cyphastrea zhongjianensis,Scleractinia,Merulinidae,641,641,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Cyphastrea
+KY630465.1,Cyphastrea serailia,Scleractinia,Merulinidae,775,775,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Cyphastrea
+KY630455.1,Cyphastrea salae,Scleractinia,Merulinidae,787,787,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Cyphastrea
+LC750540.1,Cyphastrea ocellina,Scleractinia,Merulinidae,642,642,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Cyphastrea
+KY630445.1,Cyphastrea microphthalma,Scleractinia,Merulinidae,776,776,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Cyphastrea
+LC750516.1,Cyphastrea magna,Scleractinia,Merulinidae,641,641,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Cyphastrea
+LC750509.1,Cyphastrea decadia,Scleractinia,Merulinidae,642,642,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Cyphastrea
+OK586183.1,Cyphastrea chalcidicum,Scleractinia,Merulinidae,790,790,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Cyphastrea
+LC750495.1,Cyphastrea agassizi,Scleractinia,Merulinidae,641,641,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Cyphastrea
+XR_011131410.1,Montipora capricornis,Scleractinia,Acroporidae,6703,6703,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Acroporidae; Montipora
+MT280769.1,Flabellum alabastrum,Scleractinia,Flabellidae,772,770,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Flabellidae; Flabellum
+PP073685.1,Enallopsammia profunda,Scleractinia,Dendrophylliidae,474,474,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Dendrophylliidae; Enallopsammia
+MT280776.1,Paraconotrochus antarcticus,Scleractinia,Caryophylliidae,770,770,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Paraconotrochus
+PP073681.1,Porites australiensis,Scleractinia,Poritidae,464,464,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Poritidae; Porites
+PP073678.1,Porites evermanni,Scleractinia,Poritidae,464,464,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Poritidae; Porites
+MT280766.1,Desmophyllum pertusum,Scleractinia,Caryophylliidae,757,757,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Desmophyllum
+PP073674.1,Porites lobata,Scleractinia,Poritidae,464,464,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Poritidae; Porites
+EU262878.1,Porites porites,Scleractinia,Poritidae,887,887,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Poritidae; Porites
+PP073671.1,Porites colonensis,Scleractinia,Poritidae,464,464,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Poritidae; Porites
+PP073663.1,Porites sverdrupi,Scleractinia,Poritidae,464,464,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Poritidae; Porites
+PP073662.1,Oculina robusta,Scleractinia,Oculinidae,463,463,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Oculinidae; Oculina
+EU262877.1,Porites divaricata,Scleractinia,Poritidae,887,887,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Poritidae; Porites
+PP073660.1,Oculina varicosa,Scleractinia,Oculinidae,463,463,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Oculinidae; Oculina
+EU262842.1,Oculina patagonica,Scleractinia,Oculinidae,878,878,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Oculinidae; Oculina
+PP073653.1,Porites panamensis,Scleractinia,Poritidae,467,467,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Poritidae; Porites
+PP073652.1,Balanophyllia elegans,Scleractinia,Dendrophylliidae,472,472,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Dendrophylliidae; Balanophyllia
+EU262872.1,Eusmilia fastigiata,Scleractinia,Meandrinidae,879,879,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Meandrinidae; Eusmilia
+EU262819.1,Dendrogyra cylindrus,Scleractinia,Meandrinidae,879,879,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Meandrinidae; Dendrogyra
+HQ203479.1,Orbicella annularis,Scleractinia,Merulinidae,773,772,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Orbicella
+EU262779.1,Agaricia lamarcki,Scleractinia,Agariciidae,911,911,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Agariciidae; Agaricia
+EU262815.1,Meandrina meandrites,Scleractinia,Meandrinidae,879,879,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Meandrinidae; Meandrina
+EU262856.1,Favia fragum,Scleractinia,Faviidae,915,915,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Faviidae; Favia
+PP073632.1,Phyllangia americana,Scleractinia,Rhizangiidae,463,463,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Rhizangiidae; Phyllangia
+PP073625.1,Mussismilia hispida,Scleractinia,Faviidae,490,490,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Faviidae; Mussismilia
+EU262864.1,Tubastraea coccinea,Scleractinia,Dendrophylliidae,891,891,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Dendrophylliidae; Tubastraea
+XR_010872273.1,Acropora muricata,Scleractinia,Acroporidae,3368,3368,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Acroporidae; Acropora
+XR_010716807.1,Pocillopora verrucosa,Scleractinia,Pocilloporidae,3650,3650,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Pocilloporidae; Pocillopora
+MN100974.1,Astroides calycularis,Scleractinia,Dendrophylliidae,759,757,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Dendrophylliidae; Astroides
+LC685961.1,Deltocyathoides orientalis,Scleractinia,Turbinoliidae,983,983,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Turbinoliidae; Deltocyathoides
+OK586261.1,Favites magnistellata,Scleractinia,Merulinidae,803,801,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Favites
+OK586260.1,Platygyra verweyi,Scleractinia,Merulinidae,790,790,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Platygyra
+OK586257.1,Platygyra sinensis,Scleractinia,Merulinidae,790,790,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Platygyra
+OK586256.1,Platygyra ryukyuensis,Scleractinia,Merulinidae,793,790,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Platygyra
+OK586251.1,Platygyra pini,Scleractinia,Merulinidae,793,793,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Platygyra
+OK586248.1,Platygyra lamellina,Scleractinia,Merulinidae,803,802,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Platygyra
+OK586246.1,Platygyra daedalea,Scleractinia,Merulinidae,793,790,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Platygyra
+OK586245.1,Pectinia paeonia,Scleractinia,Merulinidae,795,795,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Pectinia
+OK586244.1,Mycedium elephantotus,Scleractinia,Merulinidae,792,791,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Mycedium
+OK586243.1,Mycedium robokaki,Scleractinia,Merulinidae,797,789,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Mycedium
+OK586241.1,Paragoniastrea deformis,Scleractinia,Merulinidae,788,788,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Paragoniastrea
+OK586235.1,Paragoniastrea australensis,Scleractinia,Merulinidae,793,793,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Paragoniastrea
+OK586229.1,Coelastrea palauensis,Scleractinia,Merulinidae,790,790,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Coelastrea
+OK586228.1,Coelastrea aspera,Scleractinia,Merulinidae,789,789,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Coelastrea
+OK586226.1,Favites valenciennesi,Scleractinia,Merulinidae,803,803,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Favites
+OK586224.1,Favites stylifera,Scleractinia,Merulinidae,790,790,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Favites
+OK586222.1,Paragoniastrea russelli,Scleractinia,Merulinidae,788,787,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Paragoniastrea
+OK586207.1,Favites pentagona,Scleractinia,Merulinidae,795,794,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Favites
+OK586192.1,Favites flexuosa,Scleractinia,Merulinidae,800,800,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Favites
+HQ203445.1,Dipsastraea speciosa,Scleractinia,Merulinidae,768,768,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Dipsastraea
+OK586190.1,Dipsastraea rotumana,Scleractinia,Merulinidae,790,790,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Dipsastraea
+OK586189.1,Dipsastraea matthaii,Scleractinia,Merulinidae,790,788,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Dipsastraea
+OK586188.1,Dipsastraea lizardensis,Scleractinia,Merulinidae,790,790,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Dipsastraea
+OK586187.1,Dipsastraea favus,Scleractinia,Merulinidae,790,790,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Dipsastraea
+OK586178.1,Astrea curta,Scleractinia,Merulinidae,795,795,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Astrea
+XR_006393644.1,Acropora millepora,Scleractinia,Acroporidae,3352,3352,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Acroporidae; Acropora
+AB906956.1,Goniopora djiboutiensis,Scleractinia,Poritidae,269,269,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Poritidae; Goniopora
+AB748744.1,Goniopora lobata,Scleractinia,Poritidae,269,269,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Poritidae; Goniopora
+MT127562.1,Coenocyathus sebroecki,Scleractinia,Caryophylliidae,767,766,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Coenocyathus
+HQ203437.1,Dipsastraea pallida,Scleractinia,Merulinidae,767,767,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Dipsastraea
+AB906966.1,Goniopora pedunculata,Scleractinia,Poritidae,257,257,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Poritidae; Goniopora
+HQ203446.1,Goniastrea stelligera,Scleractinia,Merulinidae,727,727,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Goniastrea
+JQ966133.1,Bernardpora stutchburyi,Scleractinia,Poritidae,660,660,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Poritidae; Bernardpora
+MT280785.1,Trochocyathus aithoseptatus,Scleractinia,Caryophylliidae,757,757,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Trochocyathus
+MT280784.1,Thecopsammia socialis,Scleractinia,Dendrophylliidae,773,773,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Dendrophylliidae; Thecopsammia
+MT280783.1,Tethocyathus endesa,Scleractinia,Caryophylliidae,769,769,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Tethocyathus
+MT280782.1,Stephanocyathus regius,Scleractinia,Caryophylliidae,765,765,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Stephanocyathus
+MT280781.1,Stephanocyathus moseleyanus,Scleractinia,Caryophylliidae,772,772,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Stephanocyathus
+MT280780.1,Stephanocyathus diadema,Scleractinia,Caryophylliidae,757,757,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Stephanocyathus
+MT280779.1,Rhizopsammia wettsteini,Scleractinia,Dendrophylliidae,766,766,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Dendrophylliidae; Rhizopsammia
+MT280778.1,Polymyces wellsi,Scleractinia,Flabellidae,766,766,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Flabellidae; Polymyces
+MT280775.1,Labyrinthocyathus facetus,Scleractinia,Caryophylliidae,768,768,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Labyrinthocyathus
+MT280774.1,Javania borealis,Scleractinia,Flabellidae,767,767,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Flabellidae; Javania
+MT280773.1,Javania antarctica,Scleractinia,Flabellidae,773,773,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Flabellidae; Javania
+MT280772.1,Flabellum thouarsii,Scleractinia,Flabellidae,773,773,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Flabellidae; Flabellum
+MT280771.1,Flabellum flexuosum,Scleractinia,Flabellidae,787,786,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Flabellidae; Flabellum
+MT280770.1,Flabellum chunii,Scleractinia,Flabellidae,776,776,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Flabellidae; Flabellum
+MT280765.1,Dendrophyllia laboreli,Scleractinia,Dendrophylliidae,766,766,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Dendrophylliidae; Dendrophyllia
+MT280764.1,Caryophyllia smithii,Scleractinia,Caryophylliidae,757,757,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Caryophyllia
+MT280763.1,Caryophyllia sarsiae,Scleractinia,Caryophylliidae,757,757,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Caryophyllia
+MT280762.1,Caryophyllia huinayensis,Scleractinia,Caryophylliidae,757,757,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Caryophyllia
+MT280761.1,Bathelia candida,Scleractinia,Oculinidae,758,758,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Oculinidae; Bathelia
+HQ203448.1,Favites abdita,Scleractinia,Merulinidae,775,775,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Favites
+LT575716.1,Cyphastrea kausti,Scleractinia,Merulinidae,773,773,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Cyphastrea
+LT575705.1,Cyphastrea hexasepta,Scleractinia,Merulinidae,772,771,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Cyphastrea
+EU262802.1,Cladocora caespitosa,Scleractinia,Cladocoridae,878,878,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Cladocoridae; Cladocora
+JQ611431.1,Caryophyllia calveri,Scleractinia,Caryophylliidae,659,659,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Caryophyllia
+JQ611429.1,Pourtalosmilia anthophyllites,Scleractinia,Caryophylliidae,659,659,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Pourtalosmilia
+KF492679.1,Montipora digitata,Scleractinia,Acroporidae,267,267,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Acroporidae; Montipora
+EU262772.1,Diploria labyrinthiformis,Scleractinia,Faviidae,917,917,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Faviidae; Diploria
+KF492677.1,Turbinaria reniformis,Scleractinia,Dendrophylliidae,252,252,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Dendrophylliidae; Turbinaria
+EU262861.1,Siderastrea radians,Scleractinia,Rhizangiidae,888,888,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Rhizangiidae; Siderastrea
+KJ946355.1,Meandrina jacksoni,Scleractinia,Meandrinidae,657,657,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Meandrinidae; Meandrina
+KJ946354.1,Pseudodiploria strigosa,Scleractinia,Faviidae,672,672,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Faviidae; Pseudodiploria
+AB907023.1,Stylaraea punctata,Scleractinia,Poritidae,257,257,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Poritidae; Stylaraea
+AB906994.1,Goniopora tenuidens,Scleractinia,Poritidae,267,267,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Poritidae; Goniopora
+AB748674.1,Goniopora stokesi,Scleractinia,Poritidae,269,269,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Poritidae; Goniopora
+AB906978.1,Goniopora somaliensis,Scleractinia,Poritidae,257,257,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Poritidae; Goniopora
+AB906969.1,Goniopora norfolkensis,Scleractinia,Poritidae,265,265,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Poritidae; Goniopora
+AB748661.1,Goniopora columna,Scleractinia,Poritidae,257,257,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Poritidae; Goniopora
+AB906953.1,Goniopora ciliatus,Scleractinia,Poritidae,232,232,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Poritidae; Goniopora
+AB906946.1,Goniopora burgosi,Scleractinia,Poritidae,265,265,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Poritidae; Goniopora
+AB906944.1,Goniopora albiconus,Scleractinia,Poritidae,257,257,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Poritidae; Goniopora
+AB906973.1,Goniopora paliformis,Scleractinia,Poritidae,256,256,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Poritidae; Goniopora
+AB748680.1,Goniopora pendulus,Scleractinia,Poritidae,269,269,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Poritidae; Goniopora
+AB126713.1,Mycetophyllia danaana,Scleractinia,Faviidae,305,305,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Faviidae; Mussinae; Mycetophyllia
+EU374349.1,Pocillopora ligulata,Scleractinia,Pocilloporidae,270,270,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Pocilloporidae; Pocillopora
+EU374355.1,Pocillopora grandis,Scleractinia,Pocilloporidae,270,270,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Pocilloporidae; Pocillopora
+EU262803.1,Pocillopora meandrina,Scleractinia,Pocilloporidae,890,890,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Pocilloporidae; Pocillopora
+EU374364.1,Pocillopora molokensis,Scleractinia,Pocilloporidae,270,270,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Pocilloporidae; Pocillopora
+KF248007.1,Siderastrea stellata,Scleractinia,Rhizangiidae,393,393,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Rhizangiidae; Siderastrea
+AB126748.1,Lobophyllia vitiensis,Scleractinia,Lobophylliidae,305,305,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Lobophylliidae; Lobophyllia
+HQ203397.1,Plesiastrea versipora,Scleractinia,Plesiastreidae,770,770,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Plesiastreidae; Plesiastrea
+JQ966151.1,Platygyra crosslandi,Scleractinia,Merulinidae,670,670,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Platygyra
+EU262814.1,Porites compressa,Scleractinia,Poritidae,881,881,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Poritidae; Porites
+HQ203472.1,Hydnophora exesa,Scleractinia,Merulinidae,752,752,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Hydnophora
+JQ966145.1,Porites pukoensis,Scleractinia,Poritidae,669,669,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Poritidae; Porites
+JQ966143.1,Galaxea astreata,Scleractinia,Euphylliidae,669,669,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Euphylliidae; Galaxea
+JQ966138.1,Leptastrea purpurea,Scleractinia,Leptastreidae,669,669,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Leptastreidae; Leptastrea
+JQ966136.1,Turbinaria irregularis,Scleractinia,Dendrophylliidae,678,678,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Dendrophylliidae; Turbinaria
+JQ966135.1,Leptastrea bottae,Scleractinia,Leptastreidae,669,669,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Leptastreidae; Leptastrea
+JQ966134.1,Oulastrea crispata,Scleractinia,Oulastreidae,668,668,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Oulastreidae; Oulastrea
+EU262799.1,Duncanopsammia peltata,Scleractinia,Dendrophylliidae,889,889,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Dendrophylliidae; Duncanopsammia
+JQ966130.1,Goniopora gracilis,Scleractinia,Poritidae,660,660,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Poritidae; Goniopora
+AF263360.1,Galaxea fascicularis,Scleractinia,Euphylliidae,772,772,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Euphylliidae; Galaxea
+HQ439683.1,Tropidocyathus lessonii,Scleractinia,Turbinoliidae,715,715,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Turbinoliidae; Tropidocyathus
+HQ439682.1,Cyathotrochus pileus,Scleractinia,Turbinoliidae,727,727,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Turbinoliidae; Cyathotrochus
+HQ439681.1,Stenocyathus vermiformis,Scleractinia,Guyniidae,725,724,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Scleractinia incertae sedis; Guyniidae; Stenocyathus
+HQ439679.1,Fungiacyathus turbinolioides,Scleractinia,Fungiacyathidae,706,706,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Fungiacyathidae; Fungiacyathus
+HQ439678.1,Fungiacyathus stephanus,Scleractinia,Fungiacyathidae,717,717,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Fungiacyathidae; Fungiacyathus
+HQ439675.1,Fungiacyathus fragilis,Scleractinia,Fungiacyathidae,690,690,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Fungiacyathidae; Fungiacyathus
+HQ439674.1,Truncatoflabellum formosum,Scleractinia,Flabellidae,728,728,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Flabellidae; Truncatoflabellum
+HQ439672.1,Truncatoflabellum candeanum,Scleractinia,Flabellidae,735,735,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Flabellidae; Truncatoflabellum
+HQ439671.1,Truncatoflabellum australiensis,Scleractinia,Flabellidae,714,714,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Flabellidae; Truncatoflabellum
+HQ439670.1,Placotrochides scaphula,Scleractinia,Flabellidae,728,728,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Flabellidae; Placotrochides
+HQ439669.1,Phyllangia papuensis,Scleractinia,Rhizangiidae,676,676,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Rhizangiidae; Phyllangia
+HQ439667.1,Javania lamprotichum,Scleractinia,Flabellidae,728,728,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Flabellidae; Javania
+HQ439666.1,Javania fusca,Scleractinia,Flabellidae,728,728,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Flabellidae; Javania
+HQ439665.1,Flabellum vaughani,Scleractinia,Flabellidae,728,728,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Flabellidae; Flabellum
+HQ439664.1,Flabellum tuthilli,Scleractinia,Flabellidae,727,727,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Flabellidae; Flabellum
+AB510179.1,Flabellum magnificum,Scleractinia,Flabellidae,703,703,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Flabellidae; Flabellum
+HQ439662.1,Flabellum lowekeyesi,Scleractinia,Flabellidae,728,728,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Flabellidae; Flabellum
+HQ439661.1,Flabellum lamellulosum,Scleractinia,Flabellidae,701,701,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Flabellidae; Flabellum
+HQ439660.1,Flabellum folkesoni,Scleractinia,Flabellidae,725,725,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Flabellidae; Flabellum
+HQ439659.1,Flabellum deludens,Scleractinia,Flabellidae,728,728,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Flabellidae; Flabellum
+HQ439657.1,Flabellum arcuatile,Scleractinia,Flabellidae,693,693,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Flabellidae; Flabellum
+HQ439656.1,Flabellum apertum,Scleractinia,Flabellidae,719,719,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Flabellidae; Flabellum
+HQ439655.1,Endopachys grayi,Scleractinia,Dendrophylliidae,729,729,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Dendrophylliidae; Endopachys
+HQ439649.1,Balanophyllia gigas,Scleractinia,Dendrophylliidae,727,724,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Dendrophylliidae; Balanophyllia
+HQ439648.1,Balanophyllia desmophyllioides,Scleractinia,Dendrophylliidae,726,726,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Dendrophylliidae; Balanophyllia
+HQ439647.1,Balanophyllia cornu,Scleractinia,Dendrophylliidae,728,726,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Dendrophylliidae; Balanophyllia
+HQ439644.1,Vaughanella concinna,Scleractinia,Caryophylliidae,716,716,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Vaughanella
+HQ439641.1,Trochocyathus rhombocolumna,Scleractinia,Caryophylliidae,729,729,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Trochocyathus
+HQ439640.1,Trochocyathus efateensis,Scleractinia,Caryophylliidae,726,726,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Trochocyathus
+HQ439639.1,Tethocyathus virgatus,Scleractinia,Caryophylliidae,726,726,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Tethocyathus
+HQ439638.1,Stephanocyathus spiniger,Scleractinia,Caryophylliidae,728,728,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Stephanocyathus
+HQ439637.1,Stephanocyathus coronatus,Scleractinia,Caryophylliidae,729,728,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Stephanocyathus
+HQ439636.1,Rhizosmilia sagamiensis,Scleractinia,Caryophylliidae,726,726,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Rhizosmilia
+HQ439635.1,Rhizosmilia robusta,Scleractinia,Caryophylliidae,728,727,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Rhizosmilia
+HQ439634.1,Dennantotrochus magnificus,Scleractinia,Turbinoliidae,725,725,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Turbinoliidae; Dennantotrochus
+HQ439633.1,Dasmosmilia lymani,Scleractinia,Caryophylliidae,725,725,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Dasmosmilia
+HQ439630.1,Dactylotrochus cervicornis,Scleractinia,Caryophylliidae,736,736,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Dactylotrochus
+HQ439629.1,Conotrochus funicolumna,Scleractinia,Caryophylliidae,725,725,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Conotrochus
+HQ439624.1,Caryophyllia versicolorata,Scleractinia,Caryophylliidae,725,725,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Caryophyllia
+HQ439623.1,Caryophyllia unicristata,Scleractinia,Caryophylliidae,696,696,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Caryophyllia
+HQ439622.1,Caryophyllia transversalis,Scleractinia,Caryophylliidae,725,725,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Caryophyllia
+HQ439621.1,Caryophyllia scobinosa,Scleractinia,Caryophylliidae,681,681,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Caryophyllia
+HQ439620.1,Caryophyllia rugosa,Scleractinia,Caryophylliidae,725,725,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Caryophyllia
+HQ439619.1,Caryophyllia ralphae,Scleractinia,Caryophylliidae,728,728,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Caryophyllia
+HQ439618.1,Caryophyllia quadragenaria,Scleractinia,Caryophylliidae,724,722,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Caryophyllia
+HQ439617.1,Caryophyllia planilamellata,Scleractinia,Caryophylliidae,725,725,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Caryophyllia
+HQ439616.1,Caryophyllia lamellifera,Scleractinia,Caryophylliidae,725,725,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Caryophyllia
+HQ439615.1,Caryophyllia grayi,Scleractinia,Caryophylliidae,725,725,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Caryophyllia
+HQ439614.1,Caryophyllia grandis,Scleractinia,Caryophylliidae,725,725,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Caryophyllia
+HQ439613.1,Caryophyllia diomedeae,Scleractinia,Caryophylliidae,725,725,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Caryophyllia
+HQ439612.1,Caryophyllia atlantica,Scleractinia,Caryophylliidae,725,725,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Caryophyllia
+HQ439611.1,Anthemiphyllia dentata,Scleractinia,Anthemiphylliidae,731,731,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Anthemiphylliidae; Anthemiphyllia
+EU262852.1,Anthemiphyllia spinifera,Scleractinia,Anthemiphylliidae,860,860,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Anthemiphylliidae; Anthemiphyllia
+HQ439608.1,Stephanophyllia complicata,Scleractinia,Micrabaciidae,711,711,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Micrabaciidae; Stephanophyllia
+HQ203517.1,Trachyphyllia geoffroyi,Scleractinia,Merulinidae,774,774,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Trachyphyllia
+HQ203516.1,Merulina cylindrica,Scleractinia,Merulinidae,767,767,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Merulina
+HQ203505.1,Platygyra contorta,Scleractinia,Merulinidae,772,772,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Platygyra
+HQ203504.1,Platygyra acuta,Scleractinia,Merulinidae,780,779,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Platygyra
+HQ203502.1,Pectinia lactuca,Scleractinia,Merulinidae,774,774,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Pectinia
+HQ203501.1,Physophyllia ayleni,Scleractinia,Merulinidae,781,780,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Physophyllia
+HQ203500.1,Pectinia alcicornis,Scleractinia,Merulinidae,750,750,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Pectinia
+HQ203499.1,Oulophyllia crispa,Scleractinia,Merulinidae,743,743,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Oulophyllia
+HQ203496.1,Oulophyllia bennettae,Scleractinia,Merulinidae,770,770,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Oulophyllia
+HQ203493.1,Moseleya latistellata,Scleractinia,Lobophylliidae,767,767,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Lobophylliidae; Moseleya
+HQ203488.1,Paramontastraea salebrosa,Scleractinia,Merulinidae,762,762,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Paramontastraea
+HQ203487.1,Micromussa multipunctata,Scleractinia,Lobophylliidae,801,801,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Lobophylliidae; Micromussa
+HQ203482.1,Favites colemani,Scleractinia,Merulinidae,755,755,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Favites
+EU262810.1,Montastraea cavernosa,Scleractinia,Montastraeidae,882,882,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Montastraeidae; Montastraea
+HQ203478.1,Merulina scabricula,Scleractinia,Merulinidae,769,769,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Merulina
+HQ203477.1,Merulina ampliata,Scleractinia,Merulinidae,770,770,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Merulina
+HQ203476.1,Leptoria phrygia,Scleractinia,Merulinidae,738,738,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Leptoria
+HQ203475.1,Leptoria irregularis,Scleractinia,Merulinidae,761,761,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Leptoria
+HQ203474.1,Hydnophora pilosa,Scleractinia,Merulinidae,767,767,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Hydnophora
+HQ203473.1,Hydnophora microconos,Scleractinia,Merulinidae,778,778,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Hydnophora
+EU262839.1,Goniastrea retiformis,Scleractinia,Merulinidae,889,889,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Goniastrea
+HQ203469.1,Goniastrea pectinata,Scleractinia,Merulinidae,768,768,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Goniastrea
+HQ203464.1,Goniastrea favulus,Scleractinia,Merulinidae,768,768,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Goniastrea
+HQ203463.1,Goniastrea edwardsi,Scleractinia,Merulinidae,766,766,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Goniastrea
+HQ203453.1,Favites paraflexuosus,Scleractinia,Merulinidae,656,655,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Favites
+HQ203452.1,Favites halicora,Scleractinia,Merulinidae,722,722,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Favites
+HQ203450.1,Favites complanata,Scleractinia,Merulinidae,671,671,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Favites
+HQ203449.1,Favites chinensis,Scleractinia,Merulinidae,779,779,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Favites
+HQ203447.1,Dipsastraea truncata,Scleractinia,Merulinidae,766,766,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Dipsastraea
+HQ203441.1,Favites rotundata,Scleractinia,Merulinidae,780,780,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Favites
+HQ203439.1,Dipsastraea rosaria,Scleractinia,Merulinidae,767,767,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Dipsastraea
+HQ203435.1,Astraeosmilia maxima,Scleractinia,Merulinidae,770,770,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Astraeosmilia
+HQ203417.1,Dipsastraea danai,Scleractinia,Merulinidae,767,767,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Dipsastraea
+HQ203415.1,Echinopora pacifica,Scleractinia,Merulinidae,762,761,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Echinopora
+HQ203414.1,Echinopora mammiformis,Scleractinia,Merulinidae,770,770,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Echinopora
+EU262773.1,Echinopora lamellosa,Scleractinia,Merulinidae,889,889,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Echinopora
+HQ203412.1,Echinopora horrida,Scleractinia,Merulinidae,767,767,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Echinopora
+HQ203411.1,Echinopora gemmacea,Scleractinia,Merulinidae,768,768,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Echinopora
+HQ203410.1,Diploastrea heliopora,Scleractinia,Diploastraeidae,761,761,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Diploastraeidae; Diploastrea
+HQ203403.1,Astraeosmilia tumida,Scleractinia,Merulinidae,744,743,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Astraeosmilia
+HQ203402.1,Caulastraea furcata,Scleractinia,Merulinidae,704,704,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Caulastraea
+HQ203401.1,Caulastraea echinulata,Scleractinia,Merulinidae,730,730,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Caulastraea
+HQ203400.1,Dipsastraea amicorum,Scleractinia,Merulinidae,767,767,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Dipsastraea
+HQ203399.1,Acanthastrea echinata,Scleractinia,Lobophylliidae,760,760,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Lobophylliidae; Acanthastrea
+GQ868674.1,Rhombopsammia niphada,Scleractinia,Micrabaciidae,795,795,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Micrabaciidae; Rhombopsammia
+GQ868673.1,Gardineria hawaiiensis,Scleractinia,Caryophylliidae,820,820,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Gardineria
+GQ868672.1,Letepsammia formosissima,Scleractinia,Micrabaciidae,794,794,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Micrabaciidae; Letepsammia
+GQ868671.1,Gardineria paradoxa,Scleractinia,Caryophylliidae,797,797,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Gardineria
+U82731.1,Acropora formosa,Scleractinia,Acroporidae,409,409,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Acroporidae; Acropora
+AB510188.1,Rhizotrochus typus,Scleractinia,Flabellidae,702,702,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Flabellidae; Rhizotrochus
+AB510187.1,Javania insignis,Scleractinia,Flabellidae,705,705,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Flabellidae; Javania
+AB510185.1,Truncatoflabellum spheniscus,Scleractinia,Flabellidae,702,702,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Flabellidae; Truncatoflabellum
+AB510182.1,Flabellum japonicum,Scleractinia,Flabellidae,702,702,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Flabellidae; Flabellum
+AB510180.1,Flabellum pavoninum,Scleractinia,Flabellidae,706,706,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Flabellidae; Flabellum
+EU262881.1,Lobactis scutaria,Scleractinia,Fungiidae,879,879,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Fungiidae; Lobactis
+EU262879.1,Ceratotrochus magnaghii,Scleractinia,Caryophylliidae,905,905,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Ceratotrochus
+EU262875.1,Dichocoenia stokesii,Scleractinia,Meandrinidae,879,879,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Meandrinidae; Dichocoenia
+EU262874.1,Catalaphyllia jardinei,Scleractinia,Caryophylliidae,909,909,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Catalaphyllia
+EU262870.1,Zoopilus echinatus,Scleractinia,Fungiidae,879,879,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Fungiidae; Zoopilus
+EU262869.1,Mussa angulosa,Scleractinia,Faviidae,887,887,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Faviidae; Mussinae; Mussa
+EU262868.1,Thalamophyllia riisei,Scleractinia,Caryophylliidae,894,894,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Thalamophyllia
+EU262865.1,Stephanocoenia michelinii,Scleractinia,Astrocoeniidae,890,890,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Astrocoeniidae; Stephanocoenia
+EU262862.1,Fungiacyathus marenzelleri,Scleractinia,Fungiacyathidae,891,891,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Fungiacyathidae; Fungiacyathus
+EU262860.1,Crispatotrochus rugosus,Scleractinia,Caryophylliidae,882,882,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Crispatotrochus
+EU262858.1,Hydnophora rigida,Scleractinia,Merulinidae,879,879,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Hydnophora
+EU262853.1,Colpophyllia natans,Scleractinia,Faviidae,901,901,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Faviidae; Colpophyllia
+EU262851.1,Leptopsammia pruvoti,Scleractinia,Dendrophylliidae,895,895,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Dendrophylliidae; Leptopsammia
+EU262847.1,Pavona varians,Scleractinia,Agariciidae,892,892,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Agariciidae; Pavona
+EU262846.1,Flabellum impensum,Scleractinia,Flabellidae,879,879,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Flabellidae; Flabellum
+EU262845.1,Madracis myriaster,Scleractinia,Pocilloporidae,880,880,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Pocilloporidae; Madracis
+EU262844.1,Madracis carmabi,Scleractinia,Pocilloporidae,880,880,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Pocilloporidae; Madracis
+EU262840.1,Madracis pharensis,Scleractinia,Pocilloporidae,880,880,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Pocilloporidae; Madracis
+EU262837.1,Madracis senaria,Scleractinia,Pocilloporidae,880,880,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Pocilloporidae; Madracis
+EU262833.1,Lobophyllia hemprichii,Scleractinia,Lobophylliidae,879,879,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Lobophylliidae; Lobophyllia
+EU262827.1,Agaricia tenuifolia,Scleractinia,Agariciidae,906,906,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Agariciidae; Agaricia
+EU262825.1,Cynarina lacrymalis,Scleractinia,Lobophylliidae,876,876,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Lobophylliidae; Cynarina
+EU262824.1,Hoplangia durotrix,Scleractinia,Caryophylliidae,900,900,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Hoplangia
+EU262823.1,Agaricia grahamae,Scleractinia,Agariciidae,912,912,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Agariciidae; Agaricia
+EU262820.1,Paracyathus pulchellus,Scleractinia,Caryophylliidae,879,879,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Paracyathus
+EU262813.1,Balanophyllia regia,Scleractinia,Dendrophylliidae,898,898,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Dendrophylliidae; Balanophyllia
+EU262812.1,Rhizotrochus flabelliformis,Scleractinia,Flabellidae,894,894,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Flabellidae; Rhizotrochus
+EU262809.1,Mycetophyllia aliciae,Scleractinia,Faviidae,887,887,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Faviidae; Mussinae; Mycetophyllia
+EU262804.1,Pseudodiploria clivosa,Scleractinia,Faviidae,901,901,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Faviidae; Pseudodiploria
+EU262801.1,Porites branneri,Scleractinia,Poritidae,887,887,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Poritidae; Porites
+EU262796.1,Rhizosmilia maculata,Scleractinia,Caryophylliidae,860,860,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Rhizosmilia
+EU262795.1,Stephanocyathus weberianus,Scleractinia,Caryophylliidae,889,889,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Stephanocyathus
+EU262792.1,Madracis formosa,Scleractinia,Pocilloporidae,880,880,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Pocilloporidae; Madracis
+EU262788.1,Thalamophyllia gasti,Scleractinia,Caryophylliidae,896,896,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Thalamophyllia
+EU262785.1,Agaricia humilis,Scleractinia,Agariciidae,903,903,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Agariciidae; Agaricia
+EU262783.1,Flabellum curvatum,Scleractinia,Flabellidae,878,878,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Flabellidae; Flabellum
+EU262781.1,Orbicella faveolata,Scleractinia,Merulinidae,876,876,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Merulinidae; Orbicella
+EU262780.1,Mycetophyllia lamarckiana,Scleractinia,Faviidae,888,888,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Faviidae; Mussinae; Mycetophyllia
+EU262777.1,Caryophyllia inornata,Scleractinia,Caryophylliidae,882,882,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Caryophylliidae; Caryophyllia
+EU262776.1,Gardineroseris planulata,Scleractinia,Agariciidae,892,892,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Agariciidae; Gardineroseris
+EU262775.1,Heliofungia actiniformis,Scleractinia,Fungiidae,879,879,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Fungiidae; Heliofungia
+EU262774.1,Cladopsammia gracilis,Scleractinia,Dendrophylliidae,891,891,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Dendrophylliidae; Cladopsammia
+AF263351.1,Tubastraea aurea,Scleractinia,Dendrophylliidae,247,247,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Dendrophylliidae; Tubastraea
+AF549255.1,Manicina areolata,Scleractinia,Faviidae,663,661,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Faviidae; Manicina
+AF549241.1,Echinophyllia aspera,Scleractinia,Lobophylliidae,641,641,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Lobophylliidae; Echinophyllia
+AF549240.1,Oculina diffusa,Scleractinia,Oculinidae,638,638,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Oculinidae; Oculina
+AF549239.1,Blastomussa merleti,Scleractinia,Plerogyridae,640,640,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Plerogyridae; Blastomussa
+AF549237.1,Lobophyllia corymbosa,Scleractinia,Lobophylliidae,625,622,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Lobophylliidae; Lobophyllia
+AF549233.1,Guynia annulata,Scleractinia,Guyniidae,644,643,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Scleractinia incertae sedis; Guyniidae; Guynia
+AF549226.1,Cladocora arbuscula,Scleractinia,Cladocoridae,638,638,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Cladocoridae; Cladocora
+AF549220.1,Balanophyllia europaea,Scleractinia,Dendrophylliidae,649,647,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Dendrophylliidae; Balanophyllia
+AF549219.1,Tubastraea micranthus,Scleractinia,Dendrophylliidae,644,643,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Dendrophylliidae; Tubastraea
+AY139660.1,Acropora digitifera,Scleractinia,Acroporidae,823,823,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Acroporidae; Acropora
+AY139680.1,Acropora gemmifera,Scleractinia,Acroporidae,836,836,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Acroporidae; Acropora
+AY139678.1,Acropora humilis,Scleractinia,Acroporidae,839,839,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Acroporidae; Acropora
+AY139671.1,Acropora monticulosa,Scleractinia,Acroporidae,827,827,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Acroporidae; Acropora
+AY139651.1,Isopora palifera,Scleractinia,Acroporidae,851,851,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Acroporidae; Isopora
+AF265651.1,Monomyces pygmaea,Scleractinia,Flabellidae,304,304,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Flabellidae; Monomyces
+AF265650.1,Placotrochus laevis,Scleractinia,Flabellidae,304,304,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Flabellidae; Placotrochus
+AF265634.1,Siderastrea siderea,Scleractinia,Rhizangiidae,304,304,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Rhizangiidae; Siderastrea
+AF263352.1,Porites cylindrica,Scleractinia,Poritidae,244,244,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Poritidae; Porites
+AB126724.1,Echinophyllia orpheensis,Scleractinia,Lobophylliidae,305,305,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Lobophylliidae; Echinophyllia
+AF263359.1,Acropora cytherea,Scleractinia,Acroporidae,616,616,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Acroporidae; Acropora
+AF263350.1,Pavona cactus,Scleractinia,Agariciidae,247,247,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Agariciidae; Pavona
+AB126721.1,Lobophyllia recta,Scleractinia,Lobophylliidae,305,305,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Lobophylliidae; Lobophyllia
+AB126718.1,Mussismilia harttii,Scleractinia,Faviidae,307,307,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Faviidae; Mussismilia
+AB126717.1,Mussismilia braziliensis,Scleractinia,Faviidae,307,307,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Faviidae; Mussismilia
+AB126716.1,Scolymia cubensis,Scleractinia,Faviidae,305,305,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Faviidae; Mussinae; Scolymia
+U65513.1,Turbinaria mesenterina,Scleractinia,Dendrophylliidae,222,222,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Dendrophylliidae; Turbinaria
+U65522.1,Sandalolitha robusta,Scleractinia,Fungiidae,222,222,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Fungiidae; Sandalolitha
+U65520.1,Seriatopora hystrix,Scleractinia,Pocilloporidae,222,222,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Pocilloporidae; Seriatopora
+U65518.1,Pseudosiderastrea tayamai,Scleractinia,Rhizangiidae,222,222,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Refertina; Rhizangiidae; Pseudosiderastrea
+U65523.1,Fungia fungites,Scleractinia,Fungiidae,222,222,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Scleractinia; Vacatina; Fungiidae; Fungia
+GQ464914.1,Umimayanthus parasiticus,Zoantharia,Parazoanthidae,960,960,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Parazoanthidae; Umimayanthus
+MZ329735.1,Vitrumanthus schrieri,Zoantharia,Parazoanthidae,974,974,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Parazoanthidae; Vitrumanthus
+MZ329744.1,Churabana kuroshioae,Zoantharia,Parazoanthidae,976,976,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Parazoanthidae; Churabana
+OP699386.1,Umimayanthus nakama,Zoantharia,Parazoanthidae,909,909,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Parazoanthidae; Umimayanthus
+OP699385.1,Umimayanthus miyabi,Zoantharia,Parazoanthidae,871,870,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Parazoanthidae; Umimayanthus
+OP699382.1,Neozoanthus uchina,Zoantharia,Neozoanthidae,884,884,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Neozoanthidae; Neozoanthus
+OP699381.1,Terrazoanthus sinnigeri,Zoantharia,Hydrozoanthidae,700,699,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Hydrozoanthidae; Terrazoanthus
+OP699380.1,Aenigmanthus segoi,Zoantharia,Hydrozoanthidae,886,886,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Hydrozoanthidae; Aenigmanthus
+KJ483038.1,Hydrozoanthus gracilis,Zoantharia,Hydrozoanthidae,1610,1610,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Hydrozoanthidae; Hydrozoanthus
+GQ464921.1,Hydrozoanthus antumbrosus,Zoantharia,Hydrozoanthidae,947,947,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Hydrozoanthidae; Hydrozoanthus
+OP699376.1,Hydrozoanthus sils,Zoantharia,Hydrozoanthidae,905,905,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Hydrozoanthidae; Hydrozoanthus
+ON074334.1,Epizoanthus ramosus,Zoantharia,Epizoanthidae,907,907,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Epizoanthidae; Epizoanthus
+ON074339.1,Parazoanthus darwini,Zoantharia,Parazoanthidae,898,897,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Parazoanthidae; Parazoanthus
+ON074338.1,Epizoanthus gorgonus,Zoantharia,Epizoanthidae,895,895,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Epizoanthidae; Epizoanthus
+ON074337.1,Epizoanthus australis,Zoantharia,Epizoanthidae,885,884,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Epizoanthidae; Epizoanthus
+ON074336.1,Umimayanthus chanpuru,Zoantharia,Parazoanthidae,908,908,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Parazoanthidae; Umimayanthus
+KJ483043.1,Epizoanthus scotinus,Zoantharia,Epizoanthidae,3257,3257,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Epizoanthidae; Epizoanthus
+ON074333.1,Epizoanthus inazuma,Zoantharia,Epizoanthidae,910,910,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Epizoanthidae; Epizoanthus
+ON074332.1,Epizoanthus beriber,Zoantharia,Epizoanthidae,909,909,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Epizoanthidae; Epizoanthus
+ON074331.1,Epizoanthus arenaceus,Zoantharia,Epizoanthidae,908,908,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Epizoanthidae; Epizoanthus
+ON074330.1,Epizoanthus xenomorphoideus,Zoantharia,Epizoanthidae,895,895,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Epizoanthidae; Epizoanthus
+ON074327.1,Epizoanthus planus,Zoantharia,Epizoanthidae,908,908,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Epizoanthidae; Epizoanthus
+ON074322.1,Epizoanthus protoporos,Zoantharia,Epizoanthidae,907,907,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Epizoanthidae; Epizoanthus
+ON074326.1,Epizoanthus rinbou,Zoantharia,Epizoanthidae,907,907,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Epizoanthidae; Epizoanthus
+MW652768.1,Antipathozoanthus tubus,Zoantharia,Parazoanthidae,895,894,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Parazoanthidae; Antipathozoanthus
+MW652767.1,Antipathozoanthus remengesaui,Zoantharia,Parazoanthidae,855,855,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Parazoanthidae; Antipathozoanthus
+MW652766.1,Antipathozoanthus cavernus,Zoantharia,Parazoanthidae,895,894,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Parazoanthidae; Antipathozoanthus
+MZ329742.1,Epizoanthus fatuus,Zoantharia,Epizoanthidae,955,954,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Epizoanthidae; Epizoanthus
+MZ329738.1,Epizoanthus stellaris,Zoantharia,Epizoanthidae,928,928,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Epizoanthidae; Epizoanthus
+MZ329734.1,Vitrumanthus vanderlandi,Zoantharia,Parazoanthidae,936,936,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Parazoanthidae; Vitrumanthus
+MZ329733.1,Vitrumanthus oligomyarius,Zoantharia,Parazoanthidae,911,911,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Parazoanthidae; Vitrumanthus
+MT150634.1,Palythoa tuberculosa,Zoantharia,Sphenopidae,863,862,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Sphenopidae; Palythoa
+MH029334.1,Antipathozoanthus hickmani,Zoantharia,Parazoanthidae,163,163,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Parazoanthidae; Antipathozoanthus
+GQ464923.1,Terrazoanthus patagonichus,Zoantharia,Hydrozoanthidae,944,944,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Hydrozoanthidae; Terrazoanthus
+KJ483044.1,Parazoanthus axinellae,Zoantharia,Parazoanthidae,3269,3268,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Parazoanthidae; Parazoanthus
+KJ483042.1,Epizoanthus paguricola,Zoantharia,Epizoanthidae,2650,2650,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Epizoanthidae; Epizoanthus
+KJ483040.1,Parazoanthus swiftii,Zoantharia,Parazoanthidae,1455,1454,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Parazoanthidae; Parazoanthus
+KJ483039.1,Hydrozoanthus tunicans,Zoantharia,Hydrozoanthidae,1592,1592,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Hydrozoanthidae; Hydrozoanthus
+KJ483037.1,Bergia puertoricense,Zoantharia,Parazoanthidae,1609,1609,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Parazoanthidae; Bergia
+KJ483036.1,Epizoanthus illoricatus,Zoantharia,Epizoanthidae,1609,1608,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Epizoanthidae; Epizoanthus
+GQ464931.1,Isozoanthus giganteus,Zoantharia,Parazoanthidae,952,952,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Parazoanthidae; Isozoanthus
+GQ464929.1,Epizoanthus papillosus,Zoantharia,Epizoanthidae,946,943,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Epizoanthidae; Epizoanthus
+GQ464925.1,Terrazoanthus minutus,Zoantharia,Hydrozoanthidae,957,957,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Hydrozoanthidae; Terrazoanthus
+GQ464924.1,Terrazoanthus californicus,Zoantharia,Hydrozoanthidae,947,947,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Hydrozoanthidae; Terrazoanthus
+GQ464917.1,Bergia cutressi,Zoantharia,Parazoanthidae,944,940,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Parazoanthidae; Bergia
+GQ464916.1,Parazoanthus catenularis,Zoantharia,Parazoanthidae,957,957,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Parazoanthidae; Parazoanthus
+GQ464909.1,Parazoanthus capensis,Zoantharia,Parazoanthidae,945,945,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Parazoanthidae; Parazoanthus
+GQ464908.1,Parazoanthus anguicomus,Zoantharia,Parazoanthidae,943,943,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Parazoanthidae; Parazoanthus
+GQ464906.1,Parazoanthus juan-fernandezii,Zoantharia,Parazoanthidae,941,941,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Parazoanthidae; Parazoanthus
+HM044298.1,Savalia savaglia,Zoantharia,Parazoanthidae,2835,2817,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Parazoanthidae; Savalia
+AB214153.1,Zoanthus sansibaricus,Zoantharia,Zoanthidae,162,161,annotated_rRNA,Eukaryota; Metazoa; Cnidaria; Anthozoa; Hexacorallia; Zoantharia; Zoanthidae; Zoanthus

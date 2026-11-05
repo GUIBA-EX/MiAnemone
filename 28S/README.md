@@ -1,0 +1,16 @@
+# Nuclear 28S candidates
+
+The nuclear 28S panel adds 221 sea-anemone species and 448 other hexacorallian species. Eight ordinary/D pairs share coordinates within XS, S, M and L; degeneracy is at most eight per oligo. The 95% position-wise consensus guided a finite search, not a claim of 95% paired coverage. Strict background hits are zero, but relaxed hits remain high. Of 112 species pairs sharing all comparable 12S and 16S inserts, 67 have evaluable 28S L inserts; 64 differ, and LD covers both species in 63 pairs. Names link reference species across markers, not individual specimens.
+
+### Nuclear 28S reference curation and fixed-window refinement
+
+NCBI title queries retrieved 11,964 records across Actiniaria and five background groups. Annotated 28S features were extracted in strand orientation; unambiguous single-locus rRNA titles were also accepted. Non-binomial labels, sequences shorter than 150 nt and sequences with more than 2% ambiguous bases were excluded. Representatives maximized concrete length, then total length and accession ordering within each source binomial. The resulting target contained 221 species; backgrounds comprised 338 Scleractinia, 51 Zoantharia, 37 Antipatharia, 14 Corallimorpharia and eight Ceriantharia. Source names were not subjected to a new synonym audit.
+
+MAFFT aligned target representatives with direction correction; backgrounds were added with the 6-mer distance option and fixed alignment length. Coordinates refer to the extracted Halcampoides purpureus MT676790.1 28S. An initial 3-nt-grid search evaluated 18–24 nt oligos and short to long windows. Following the consensus-design principle of Anth-28S (McCartin et al., 2024), fixed-window refinement used per-position 95% consensus and observed motifs, with at most eight variants per oligo. Ambiguity was not restricted to the 3′ half. Ordinary alternatives included frequent observed sequences and concrete D variants. Every retained combination passed terminal and expanded-variant thermal screening at 50 nM per variant and 200 nM per direction: structure Tm below 55°C, minimum duplex Tm at least 45°C and F/R midpoint difference at most 5°C. Candidate branching was bounded; optimality was not established.
+
+Both target and background raw scans used 100–500 bp products and at least 50 internal bases. Strict compatibility allowed at most two mismatches per end and required compatible terminal three bases; relaxed WC3/GT2 omitted the terminal rule. C++ and independent Python implementations agreed on 90,984 strict coverage/exact checks across 34 refined/control pairs. Homologous-window availability required concrete, length-compatible binding segments. Internal insert identity was evaluated separately from primer matching. Cross-marker conflict rescue linked source binomials in frozen 12S/16S panels; it did not phase markers from the same individual or establish a barcode gap.
+
+
+## Reproduction
+
+Run `python refine.py`, compile `scan.cpp` and run `./scan .`, then `python summarize.py`, `python verify.py`, and `python finalize.py`. `selected.csv` and `primers.fasta` contain the released names. `prior_candidates.csv` contains frozen search controls. Source NCBI queries, extraction audit and provenance are included under `retrieval/`.

@@ -1,0 +1,9 @@
+name,coverage_before,coverage_after,exact_before,exact_after,bg_WC_before,bg_WC_after,bg_GT_before,bg_GT_after
+XS,179,179,7,7,0,0,0,0
+XSD,179,179,177,177,0,0,0,0
+S,163,163,134,134,0,0,0,0
+SD,172,172,148,148,0,0,0,0
+M,169,169,139,139,0,0,0,0
+MD,169,169,154,154,0,0,0,0
+L,94,94,0,0,0,0,0,0
+LD,166,166,158,158,0,0,0,0

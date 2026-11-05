@@ -44,7 +44,8 @@ def render(gene,pair,records,alignment,cols,preview=False):
         bases(q,97,True)
         for i,r in enumerate(records):
             y=125+21*i
-            template=''.join(alignment[r['accession']][c] for c in cols[a-1:b])
+            template=(alignment[r['accession']][cols[a-1]:cols[b-1]+1].replace('-', '') if gene=='28S' else ''.join(alignment[r['accession']][c] for c in cols[a-1:b]))
+            if len(template)!=len(q):template='?'*len(q)
             if side=='R':template=str(Seq(template).reverse_complement())
             bases(template,y)
             if side=='F':

@@ -1,0 +1,26 @@
+{
+  "Actiniaria": {
+    "query_count": 1723,
+    "downloaded_ids": 1723
+  },
+  "Corallimorpharia": {
+    "query_count": 198,
+    "downloaded_ids": 198
+  },
+  "Scleractinia": {
+    "query_count": 8787,
+    "downloaded_ids": 8787
+  },
+  "Ceriantharia": {
+    "query_count": 46,
+    "downloaded_ids": 46
+  },
+  "Antipatharia": {
+    "query_count": 368,
+    "downloaded_ids": 368
+  },
+  "Zoantharia": {
+    "query_count": 842,
+    "downloaded_ids": 842
+  }
+}

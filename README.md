@@ -1,13 +1,13 @@
 ![MiAnemone 概览](figures/MiAnemone_overview.png)
 
-# MiAnemone: in silico design and evaluation of mitochondrial 12S and 16S rRNA primers for sea anemone (Actiniaria) eDNA metabarcoding
+# MiAnemone: in silico design and evaluation of mitochondrial and nuclear rRNA primers for sea anemone (Actiniaria) eDNA metabarcoding
 
 **Fei Xia**
 
 <!-- publication:start -->
-**预印本 v1.4 · 2026 年 11 月 4 日 · 未经同行评审。**
+**预印本 v1.5 · 2026 年 11 月 5 日 · 未经同行评审。**
 
-[PDF](publications/MiAnemone_preprint.pdf) · [论文 Markdown](publications/MiAnemone_preprint.md) · [固定版本](https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.4) · [CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib) · [构建与更新](publications/README.md)
+[PDF](publications/MiAnemone_preprint.pdf) · [论文 Markdown](publications/MiAnemone_preprint.md) · [固定版本](https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.5) · [CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib) · [构建与更新](publications/README.md)
 <!-- publication:end -->
 
 
@@ -188,6 +188,71 @@ Wilson EB. 1927. Probable inference, the law of succession, and statistical infe
 
 ## 引用 / Citation
 
-Xia, F. (2026). *MiAnemone: in silico design and evaluation of mitochondrial 12S and 16S rRNA primers for sea anemone (Actiniaria) eDNA metabarcoding*. Computational preprint v1.4. [GitHub Release](https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.4).
+Xia, F. (2026). *MiAnemone: in silico design and evaluation of mitochondrial and nuclear rRNA primers for sea anemone (Actiniaria) eDNA metabarcoding*. Computational preprint v1.5. [GitHub Release](https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.5).
 
 [著作权声明](COPYRIGHT.md)
+
+## Nuclear 28S / 核28S
+
+核28S新增221个海葵物种与448个其他六放珊瑚背景物种。XS、S、M、L各保留普通及D引物，同窗端点一致，每条简并度≤8。逐位点95%共识用于有限候选搜索，不代表整对95%覆盖。严格背景均为0，但宽松命中仍较高。所有可比较12S、16S窗口均共享条形码的112个物种对中，67对有可评价28S L序列；64对可区分，LD覆盖其中63对的两个物种。跨标记按物种名称关联，不代表相同个体。
+
+| Pair | Span bp | F (5′–3′) | R (5′–3′) | Deg F/R | Covered | Exact | Strict WC/GT | Relaxed WC3/GT2 |
+|---|---:|---|---|---|---|---|---|---|
+| XS | 125 | GGGTTGTTTGGGAATGCA | TTGACTCTCTTTTCAAAGTG | 1/1 | 179/182 | 7/182 | 0/0 | 354/355 |
+| XSD | 125 | GGGTTGTTYKGGAATGCA | TKRACTCTCTTTTCAAAGTG | 4/4 | 179/182 | 177/182 | 0/0 | 354/355 |
+| S | 191 | CGTCATAGAGGGTGACAA | TTAACTCTCTTTTCAAAGTG | 1/1 | 163/182 | 134/182 | 0/0 | 354/344 |
+| SD | 191 | CGTCRTAGAGGGTGASAA | TTRACTCTCTTTTCAAAGTG | 4/2 | 172/182 | 148/182 | 0/0 | 354/354 |
+| M | 211 | AAGTTGCTTGGAACAGCA | TTTTAACTCTCTTTTCAAAGTG | 1/1 | 169/180 | 139/180 | 0/0 | 342/342 |
+| MD | 211 | AAGTTGCTTGGAACAGCA | KTTTAACTCTCTTTTCAAAGTG | 1/2 | 169/180 | 154/180 | 0/0 | 342/342 |
+| L | 378 | TGAGGGAAAGGTGAAAAGCA | ACTGCAAGCAGTCCACCG | 1/1 | 94/172 | 0/172 | 0/0 | 340/339 |
+| LD | 378 | TGAGGGAAAGRTGAAAAGCA | ACTGCAHGCAGTCCACCR | 2/6 | 166/172 | 158/172 | 0/0 | 340/339 |
+
+### 28S XS
+
+![28S XS](figures/template_matching/28S_XS_preview.svg)
+
+[Full species base matching / 全部物种碱基匹配图](figures/template_matching/28S_XS.svg)
+
+### 28S XSD
+
+![28S XSD](figures/template_matching/28S_XSD_preview.svg)
+
+[Full species base matching / 全部物种碱基匹配图](figures/template_matching/28S_XSD.svg)
+
+### 28S S
+
+![28S S](figures/template_matching/28S_S_preview.svg)
+
+[Full species base matching / 全部物种碱基匹配图](figures/template_matching/28S_S.svg)
+
+### 28S SD
+
+![28S SD](figures/template_matching/28S_SD_preview.svg)
+
+[Full species base matching / 全部物种碱基匹配图](figures/template_matching/28S_SD.svg)
+
+### 28S M
+
+![28S M](figures/template_matching/28S_M_preview.svg)
+
+[Full species base matching / 全部物种碱基匹配图](figures/template_matching/28S_M.svg)
+
+### 28S MD
+
+![28S MD](figures/template_matching/28S_MD_preview.svg)
+
+[Full species base matching / 全部物种碱基匹配图](figures/template_matching/28S_MD.svg)
+
+### 28S L
+
+![28S L](figures/template_matching/28S_L_preview.svg)
+
+[Full species base matching / 全部物种碱基匹配图](figures/template_matching/28S_L.svg)
+
+### 28S LD
+
+![28S LD](figures/template_matching/28S_LD_preview.svg)
+
+[Full species base matching / 全部物种碱基匹配图](figures/template_matching/28S_LD.svg)
+
+[28S methods and evidence](28S/README.md) · [FASTA](28S/primers.fasta)

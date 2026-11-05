@@ -1,13 +1,13 @@
 ![MiAnemone overview](figures/MiAnemone_overview.png)
 
-# MiAnemone: in silico design and evaluation of mitochondrial 12S and 16S rRNA primers for sea anemone (Actiniaria) eDNA metabarcoding
+# MiAnemone: in silico design and evaluation of mitochondrial and nuclear rRNA primers for sea anemone (Actiniaria) eDNA metabarcoding
 
 **Fei Xia**
 
 <!-- publication:start -->
-**Preprint v1.4 · 4 November 2026 · Not peer reviewed.**
+**Preprint v1.5 · 5 November 2026 · Not peer reviewed.**
 
-[PDF](publications/MiAnemone_preprint.pdf) · [Manuscript](publications/MiAnemone_preprint.md) · [Versioned release](https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.4) · [CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib) · [Build and updates](publications/README.md)
+[PDF](publications/MiAnemone_preprint.pdf) · [Manuscript](publications/MiAnemone_preprint.md) · [Versioned release](https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.5) · [CITATION.cff](CITATION.cff) · [BibTeX](CITATION.bib) · [Build and updates](publications/README.md)
 <!-- publication:end -->
 
 
@@ -202,6 +202,71 @@ MiAnemone provides a reproducible computational comparison of 22 candidate prime
 
 The project is hosted at [https://github.com/GUIBA-EX/MiAnemone](https://github.com/GUIBA-EX/MiAnemone). The revision directory contains accession-level diagnostics, frozen input archives, calculation scripts and a reproduction guide. The revision data and scripts are archived with GitHub preprint v1.3.
 
+## Nuclear 28S / 核28S
+
+The nuclear 28S panel adds 221 sea-anemone species and 448 other hexacorallian species. Eight ordinary/D pairs share coordinates within XS, S, M and L; degeneracy is at most eight per oligo. The 95% position-wise consensus guided a finite search, not a claim of 95% paired coverage. Strict background hits are zero, but relaxed hits remain high. Of 112 species pairs sharing all comparable 12S and 16S inserts, 67 have evaluable 28S L inserts; 64 differ, and LD covers both species in 63 pairs. Names link reference species across markers, not individual specimens.
+
+| Pair | Span bp | F (5′–3′) | R (5′–3′) | Deg F/R | Covered | Exact | Strict WC/GT | Relaxed WC3/GT2 |
+|---|---:|---|---|---|---|---|---|---|
+| XS | 125 | GGGTTGTTTGGGAATGCA | TTGACTCTCTTTTCAAAGTG | 1/1 | 179/182 | 7/182 | 0/0 | 354/355 |
+| XSD | 125 | GGGTTGTTYKGGAATGCA | TKRACTCTCTTTTCAAAGTG | 4/4 | 179/182 | 177/182 | 0/0 | 354/355 |
+| S | 191 | CGTCATAGAGGGTGACAA | TTAACTCTCTTTTCAAAGTG | 1/1 | 163/182 | 134/182 | 0/0 | 354/344 |
+| SD | 191 | CGTCRTAGAGGGTGASAA | TTRACTCTCTTTTCAAAGTG | 4/2 | 172/182 | 148/182 | 0/0 | 354/354 |
+| M | 211 | AAGTTGCTTGGAACAGCA | TTTTAACTCTCTTTTCAAAGTG | 1/1 | 169/180 | 139/180 | 0/0 | 342/342 |
+| MD | 211 | AAGTTGCTTGGAACAGCA | KTTTAACTCTCTTTTCAAAGTG | 1/2 | 169/180 | 154/180 | 0/0 | 342/342 |
+| L | 378 | TGAGGGAAAGGTGAAAAGCA | ACTGCAAGCAGTCCACCG | 1/1 | 94/172 | 0/172 | 0/0 | 340/339 |
+| LD | 378 | TGAGGGAAAGRTGAAAAGCA | ACTGCAHGCAGTCCACCR | 2/6 | 166/172 | 158/172 | 0/0 | 340/339 |
+
+### 28S XS
+
+![28S XS](figures/template_matching/28S_XS_preview.svg)
+
+[Full species base matching / 全部物种碱基匹配图](figures/template_matching/28S_XS.svg)
+
+### 28S XSD
+
+![28S XSD](figures/template_matching/28S_XSD_preview.svg)
+
+[Full species base matching / 全部物种碱基匹配图](figures/template_matching/28S_XSD.svg)
+
+### 28S S
+
+![28S S](figures/template_matching/28S_S_preview.svg)
+
+[Full species base matching / 全部物种碱基匹配图](figures/template_matching/28S_S.svg)
+
+### 28S SD
+
+![28S SD](figures/template_matching/28S_SD_preview.svg)
+
+[Full species base matching / 全部物种碱基匹配图](figures/template_matching/28S_SD.svg)
+
+### 28S M
+
+![28S M](figures/template_matching/28S_M_preview.svg)
+
+[Full species base matching / 全部物种碱基匹配图](figures/template_matching/28S_M.svg)
+
+### 28S MD
+
+![28S MD](figures/template_matching/28S_MD_preview.svg)
+
+[Full species base matching / 全部物种碱基匹配图](figures/template_matching/28S_MD.svg)
+
+### 28S L
+
+![28S L](figures/template_matching/28S_L_preview.svg)
+
+[Full species base matching / 全部物种碱基匹配图](figures/template_matching/28S_L.svg)
+
+### 28S LD
+
+![28S LD](figures/template_matching/28S_LD_preview.svg)
+
+[Full species base matching / 全部物种碱基匹配图](figures/template_matching/28S_LD.svg)
+
+[28S methods and evidence](28S/README.md) · [FASTA](28S/primers.fasta)
+
 ## References
 
 Bae S. 2025. Validation of improved cytochrome c oxidase I (COI) primers for comprehensive biodiversity assessment of ascidians. *PeerJ* 13:e19671. https://doi.org/10.7717/peerj.19671
@@ -330,6 +395,6 @@ Fixed changes and degeneracy changes are applied separately (1 = applied, 0 = ab
 
 ## Citation
 
-Xia, F. (2026). *MiAnemone: in silico design and evaluation of mitochondrial 12S and 16S rRNA primers for sea anemone (Actiniaria) eDNA metabarcoding*. Computational preprint v1.4. [GitHub Release](https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.4).
+Xia, F. (2026). *MiAnemone: in silico design and evaluation of mitochondrial and nuclear rRNA primers for sea anemone (Actiniaria) eDNA metabarcoding*. Computational preprint v1.5. [GitHub Release](https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.5).
 
 [Copyright and permissions](COPYRIGHT.md)

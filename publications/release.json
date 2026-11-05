@@ -1,8 +1,8 @@
 {
   "project": "MiAnemone",
-  "title": "MiAnemone: in silico design and evaluation of mitochondrial 12S and 16S rRNA primers for sea anemone (Actiniaria) eDNA metabarcoding",
-  "version": "1.4",
-  "date": "2026-11-04",
+  "title": "MiAnemone: in silico design and evaluation of mitochondrial and nuclear rRNA primers for sea anemone (Actiniaria) eDNA metabarcoding",
+  "version": "1.5",
+  "date": "2026-11-05",
   "readmes": {
     "README.md": "zh",
     "README.en.md": "en"

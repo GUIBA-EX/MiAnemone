@@ -1,14 +1,16 @@
-# MiAnemone: in silico design and evaluation of mitochondrial 12S and 16S rRNA primers for sea anemone (Actiniaria) eDNA metabarcoding
+# MiAnemone: in silico design and evaluation of mitochondrial and nuclear rRNA primers for sea anemone (Actiniaria) eDNA metabarcoding
 
 **Fei Xia**
 
-Preprint v1.4 · 4 November 2026 · Not peer reviewed
+Preprint v1.5 · 5 November 2026 · Not peer reviewed
 
 ## Abstract
 
-Sea-anemone environmental DNA surveys require primers that accommodate target variation while retaining informative barcode regions. We evaluated 22 ordinary and degenerate primer pairs across five mitochondrial 12S and 16S rRNA windows and an additional manually designed 16S site. Reference panels contained 250 and 265 named species, respectively. Paired matching, common-species comparisons, multi-record analyses and genus-blocked reselection at fixed windows assessed compatibility and reference discrimination. The adopted 12S XSD covered 227 of 245 evaluable species and exactly matched 212, with nine strict background hits. Factorial controls showed that fixed-base substitutions, rather than degeneracy itself, explained the preceding candidate's loss of exact matching. Common coverage panels contained 240 species for 12S and 67 for 16S, highlighting differences in reference availability among windows. Reference uniqueness depended on barcode location as well as length. The results prioritize 12S XSD for short-fragment studies, 12S MD for matching and reference discrimination, and 16S LD for broader target coverage where relaxed background matching is acceptable. These computational comparisons provide a basis for selecting assays according to target taxa and required resolution.
+Sea-anemone environmental DNA surveys require primers that accommodate target variation while retaining informative barcode regions. We evaluated 22 mitochondrial ordinary and degenerate primer pairs across five mitochondrial 12S and 16S rRNA windows and an additional manually designed 16S site. Reference panels contained 250 and 265 named species, respectively. Paired matching, common-species comparisons, multi-record analyses and genus-blocked reselection at fixed windows assessed compatibility and reference discrimination. The adopted 12S XSD covered 227 of 245 evaluable species and exactly matched 212, with nine strict background hits. Factorial controls showed that fixed-base substitutions, rather than degeneracy itself, explained the preceding candidate's loss of exact matching. Common coverage panels contained 240 species for 12S and 67 for 16S, highlighting differences in reference availability among windows. Reference uniqueness depended on barcode location as well as length. The results prioritize 12S XSD for short-fragment studies, 12S MD for matching and reference discrimination, and 16S LD for broader target coverage where relaxed background matching is acceptable. These computational comparisons provide a basis for selecting assays according to target taxa and required resolution.
 
 **Keywords:** Actiniaria; environmental DNA; mitochondrial rRNA; degenerate primers; reference databases; in silico PCR
+
+The nuclear 28S panel adds 221 sea-anemone species and 448 other hexacorallian species. Eight ordinary/D pairs share coordinates within XS, S, M and L; degeneracy is at most eight per oligo. The 95% position-wise consensus guided a finite search, not a claim of 95% paired coverage. Strict background hits are zero, but relaxed hits remain high. Of 112 species pairs sharing all comparable 12S and 16S inserts, 67 have evaluable 28S L inserts; 64 differ, and LD covers both species in 63 pairs. Names link reference species across markers, not individual specimens.
 
 ## Introduction
 
@@ -58,7 +60,7 @@ Background selection limits of ten strict and 50 relaxed hits were heuristic tol
 
 ### Consensus revisions and factorial controls
 
-Before the XSD replacement, every one of the 912 positions across all 44 oligos, including D oligos, was audited against complete binding motifs. Replacements were tested when an excluded template base was more frequent than every base already represented at that position. Single substitutions and combinations within pairs produced 23 alternatives after the adopted XS G10A change. We tracked gained and lost species, all four original background models, terminal filters and thermodynamics.
+Before the XSD replacement, every one of the 912 positions across all 44 mitochondrial oligos, including D oligos, was audited against complete binding motifs. Replacements were tested when an excluded template base was more frequent than every base already represented at that position. Single substitutions and combinations within pairs produced 23 alternatives after the adopted XS G10A change. We tracked gained and lost species, all four original background models, terminal filters and thermodynamics.
 
 The exception allowing a temperature difference up to 6°C for G10A was formulated after inspecting that candidate.  Its criteria were a nonterminal substitution, new-base frequency ≥90%, exact-match gain ≥10 percentage points, retention of every previously covered species and no added background record. We now expose sensitivity to temperature limits of 4, 5, 6 and 7°C and frequency limits of 80%, 85%, 90% and 95%. The threshold grid quantifies the sensitivity of candidate selection.
 
@@ -83,6 +85,14 @@ Cross-assay heterodimers were screened across concrete variants of all pairs wit
 ### Independent implementation checks
 
 A Python seed-and-extension scanner and an independent C++ exhaustive all-window scanner checked the original frozen-panel outputs. The original 8,940 and 45,780 comparisons combine one target model with two background model families; each background family checks its strict and relaxed flags together. The new equal-geometry comparison checked 57,584 evaluable-record/model combinations at k = 2 and terminal protection of three bases, with no discrepancies. Agreement supports computational reproducibility on the frozen inputs.
+
+### Nuclear 28S reference curation and fixed-window refinement
+
+NCBI title queries retrieved 11,964 records across Actiniaria and five background groups. Annotated 28S features were extracted in strand orientation; unambiguous single-locus rRNA titles were also accepted. Non-binomial labels, sequences shorter than 150 nt and sequences with more than 2% ambiguous bases were excluded. Representatives maximized concrete length, then total length and accession ordering within each source binomial. The resulting target contained 221 species; backgrounds comprised 338 Scleractinia, 51 Zoantharia, 37 Antipatharia, 14 Corallimorpharia and eight Ceriantharia. Source names were not subjected to a new synonym audit.
+
+MAFFT aligned target representatives with direction correction; backgrounds were added with the 6-mer distance option and fixed alignment length. Coordinates refer to the extracted Halcampoides purpureus MT676790.1 28S. An initial 3-nt-grid search evaluated 18–24 nt oligos and short to long windows. Following the consensus-design principle of Anth-28S (McCartin et al., 2024), fixed-window refinement used per-position 95% consensus and observed motifs, with at most eight variants per oligo. Ambiguity was not restricted to the 3′ half. Ordinary alternatives included frequent observed sequences and concrete D variants. Every retained combination passed terminal and expanded-variant thermal screening at 50 nM per variant and 200 nM per direction: structure Tm below 55°C, minimum duplex Tm at least 45°C and F/R midpoint difference at most 5°C. Candidate branching was bounded; optimality was not established.
+
+Both target and background raw scans used 100–500 bp products and at least 50 internal bases. Strict compatibility allowed at most two mismatches per end and required compatible terminal three bases; relaxed WC3/GT2 omitted the terminal rule. C++ and independent Python implementations agreed on 90,984 strict coverage/exact checks across 34 refined/control pairs. Homologous-window availability required concrete, length-compatible binding segments. Internal insert identity was evaluated separately from primer matching. Cross-marker conflict rescue linked source binomials in frozen 12S/16S panels; it did not phase markers from the same individual or establish a barcode gap.
 
 ## Results
 
@@ -150,6 +160,14 @@ In the multi-record analysis, a positive observed barcode gap was found for only
 
 The cross-assay screen identified strong complementarities between the 12S XS forward and M/MD reverse oligos, and between SD forward and M/MD reverse oligos. Their maximum heterodimer Tm exceeded the 55°C screening threshold; S forward with an MD reverse variant also exceeded it. The shared 574-region explains these interactions. They should not be combined as a multiplex on the basis of the present single-pair design. Other combinations, including 16S oligos with shorter terminal complementarities, are tabulated but have not been experimentally cleared for multiplexing. Actual product lengths are reported in Table 2; nominal read-overlap counts are supplied in `revision/length_summary.csv`. Adapter-bearing structures require the final adapter sequences.
 
+### Nuclear 28S supplements reference discrimination
+
+The nuclear 28S panel adds 221 sea-anemone species and 448 other hexacorallian species. Eight ordinary/D pairs share coordinates within XS, S, M and L; degeneracy is at most eight per oligo. The 95% position-wise consensus guided a finite search, not a claim of 95% paired coverage. Strict background hits are zero, but relaxed hits remain high. Of 112 species pairs sharing all comparable 12S and 16S inserts, 67 have evaluable 28S L inserts; 64 differ, and LD covers both species in 63 pairs. Names link reference species across markers, not individual specimens. Ordinary/D coordinates are identical in all four 28S windows. No refined alternative improved the retained combinations under the selection rule. Ordinary XS and L have low exact matching and are retained as same-coordinate comparators rather than equivalent recommendations. Table 4 supplies all eight pairs. Full per-species base diagrams are available for every pair in the repository.
+
+![Figure 7](../figures/template_matching/28S_LD_preview.svg)
+
+**Figure 7.** Primer-oriented 28S LD template letters for one evaluable representative from each of the first eight source families in alphabetical order. Blue denotes compatibility, orange a mismatch and grey uncertain data; terminal three bases are boxed. The preview is a deterministic display subset, not a validation panel. Full diagrams include every window-evaluable species for each of the eight pairs.
+
 ## Discussion
 
 The comparison identifies three complementary priorities: 12S XSD for short fragments, 12S MD for compatibility and reference discrimination, and 16S LD for broader target coverage. Their trade-offs follow from binding-site variation and the information carried by the intervening sequence. G10A improves exact compatibility with many complete motifs, but the unchanged two-mismatch coverage and its internal position prevent translating that gain into a measured detection improvement. Similarly, a 5′ substitution can move a species across an arbitrary mismatch boundary without establishing that amplification is biologically impossible.
@@ -173,13 +191,15 @@ Slow anthozoan mitochondrial evolution provides biological context for shared in
 
 The background panels comprise other cnidarians. Co-amplification of fishes, crustaceans and other non-cnidarian organisms was not evaluated, an important consideration for the 12S candidates. This computational study evaluates binding compatibility and reference discrimination. Environmental mixtures introduce template competition and reaction-dependent amplification, which require assay-level evaluation.
 
+The 28S L window adds reference discrimination for mitochondrial conflicts, but its zero strict background count depends on terminal constraints: relaxed models recover hundreds of other hexacorallian references. This is a computational candidate for further evaluation, not demonstrated experimental specificity. The existing mitochondrial holdout and multi-record analyses do not extend to 28S.
+
 ## Conclusions
 
-MiAnemone provides a reproducible computational comparison of 22 candidate primer pairs. The revision separates fixed-base changes from degeneracy, evaluates common species panels, adds record and genus-block sensitivity analyses, and links predicted amplification to reference discrimination. These analyses support selecting assays according to the target taxa and required resolution, while showing that the highest exact-match count or the longest insert alone is insufficient.
+MiAnemone provides a reproducible computational comparison of 30 candidate primer pairs: 22 mitochondrial and eight nuclear 28S pairs. The revision separates fixed-base changes from degeneracy, evaluates common species panels, adds record and genus-block sensitivity analyses, and links predicted amplification to reference discrimination. These analyses support selecting assays according to the target taxa and required resolution, while showing that the highest exact-match count or the longest insert alone is insufficient.
 
 ## Data availability and reproducibility
 
-The project is hosted at [https://github.com/GUIBA-EX/MiAnemone](https://github.com/GUIBA-EX/MiAnemone). The revision directory contains accession-level diagnostics, frozen input archives, calculation scripts and a reproduction guide. The revision data and scripts are archived with GitHub preprint v1.3.
+The project is hosted at [https://github.com/GUIBA-EX/MiAnemone](https://github.com/GUIBA-EX/MiAnemone). The revision directory contains accession-level diagnostics, frozen input archives, calculation scripts and a reproduction guide. The integrated data, scripts and nuclear 28S extension are archived with GitHub preprint v1.5.
 
 ## References
 
@@ -306,3 +326,19 @@ Fixed changes and degeneracy changes are applied separately (1 = applied, 0 = ab
 
 
 [Supplementary candidate audit](MiAnemone_supplement.md)
+
+
+## Table 4. Nuclear 28S primer sequences and paired matching
+
+Spans are gene-relative reference spans, not universal product lengths. Background values are species counts from 448 representatives.
+
+| Pair | Span bp | F (5′–3′) | R (5′–3′) | Deg F/R | Covered | Exact | Strict WC/GT | Relaxed WC3/GT2 |
+|---|---:|---|---|---|---|---|---|---|
+| XS | 125 | GGGTTGTTTGGGAATGCA | TTGACTCTCTTTTCAAAGTG | 1/1 | 179/182 | 7/182 | 0/0 | 354/355 |
+| XSD | 125 | GGGTTGTTYKGGAATGCA | TKRACTCTCTTTTCAAAGTG | 4/4 | 179/182 | 177/182 | 0/0 | 354/355 |
+| S | 191 | CGTCATAGAGGGTGACAA | TTAACTCTCTTTTCAAAGTG | 1/1 | 163/182 | 134/182 | 0/0 | 354/344 |
+| SD | 191 | CGTCRTAGAGGGTGASAA | TTRACTCTCTTTTCAAAGTG | 4/2 | 172/182 | 148/182 | 0/0 | 354/354 |
+| M | 211 | AAGTTGCTTGGAACAGCA | TTTTAACTCTCTTTTCAAAGTG | 1/1 | 169/180 | 139/180 | 0/0 | 342/342 |
+| MD | 211 | AAGTTGCTTGGAACAGCA | KTTTAACTCTCTTTTCAAAGTG | 1/2 | 169/180 | 154/180 | 0/0 | 342/342 |
+| L | 378 | TGAGGGAAAGGTGAAAAGCA | ACTGCAAGCAGTCCACCG | 1/1 | 94/172 | 0/172 | 0/0 | 340/339 |
+| LD | 378 | TGAGGGAAAGRTGAAAAGCA | ACTGCAHGCAGTCCACCR | 2/6 | 166/172 | 158/172 | 0/0 | 340/339 |

@@ -21,6 +21,7 @@ jobs:
         run: |
           python scripts/verify.py
           python scripts/check_figures.py
+          python scripts/check_28S.py
           pdftotext -layout publications/MiAnemone_preprint.pdf /tmp/paper.txt
           python scripts/check_preprint.py /tmp/paper.txt
           python scripts/check_publication.py

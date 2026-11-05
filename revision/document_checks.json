@@ -1,6 +1,6 @@
 {
-  "pair_count": 22,
-  "oligo_count": 44,
+  "pair_count": 30,
+  "oligo_count": 60,
   "factorial_controls": 12,
   "substitution_candidates": 23,
   "threshold_combinations": 368,
