@@ -11,8 +11,6 @@
 <!-- publication:end -->
 
 
-Computational preprint · 4 November 2026 · Revision 2
-
 [中文](README.md) · [Revision PDF](publications/MiAnemone_preprint.pdf) · [Response to review](publications/response_to_review.md) · [Reproduction guide](revision/README.md)
 
 ## Start here
@@ -22,14 +20,17 @@ Computational preprint · 4 November 2026 · Revision 2
 | Short fragments | 12S XSD |
 | Matching and reference discrimination | 12S MD |
 | Broader target coverage | 16S LD |
+| Complement mitochondrial barcode discrimination | 28S LD; background amplification needs evaluation |
 
-[Primer sequences](primers.fasta) · [Nucleotide matching](figures/12S_base_matching.svg) · [PDF](publications/MiAnemone_preprint.pdf)
+[Primer sequences](primers.fasta) · [Primer diagrams](#primers-and-base-matching-diagrams) · [PDF](publications/MiAnemone_preprint.pdf)
 
 ## Abstract
 
 Sea-anemone environmental DNA surveys require primers that accommodate target variation while retaining informative barcode regions. We evaluated 22 ordinary and degenerate primer pairs across five mitochondrial 12S and 16S rRNA windows and an additional manually designed 16S site. Reference panels contained 250 and 265 named species, respectively. Paired matching, common-species comparisons, multi-record analyses and genus-blocked reselection at fixed windows assessed compatibility and reference discrimination. The adopted 12S XSD covered 227 of 245 evaluable species and exactly matched 212, with nine strict background hits. Factorial controls showed that fixed-base substitutions, rather than degeneracy itself, explained the preceding candidate's loss of exact matching. Common coverage panels contained 240 species for 12S and 67 for 16S, highlighting differences in reference availability among windows. Reference uniqueness depended on barcode location as well as length. The results prioritize 12S XSD for short-fragment studies, 12S MD for matching and reference discrimination, and 16S LD for broader target coverage where relaxed background matching is acceptable. These computational comparisons provide a basis for selecting assays according to target taxa and required resolution.
 
-**Keywords:** Actiniaria; environmental DNA; mitochondrial rRNA; degenerate primers; reference databases; in silico PCR
+Eight nuclear 28S pairs bring the catalogue to 30 pairs. 28S LD covers 166/172 species with 158/172 exact matches. Of 67 mitochondrial-conflict pairs evaluable at 28S L, 64 have distinct inserts and LD covers both species in 63. Strict background hits are zero, but relaxed WC/GT hits reach 340/339 species; specificity therefore depends strongly on terminal constraints.
+
+**Keywords:** Actiniaria; environmental DNA; mitochondrial and nuclear rRNA; degenerate primers; reference databases; in silico PCR
 
 ## Introduction
 
@@ -79,7 +80,7 @@ Background selection limits of ten strict and 50 relaxed hits were heuristic tol
 
 ### Consensus revisions and factorial controls
 
-Before the XSD replacement, every one of the 912 positions across all 44 oligos, including D oligos, was audited against complete binding motifs. Replacements were tested when an excluded template base was more frequent than every base already represented at that position. Single substitutions and combinations within pairs produced 23 alternatives after the adopted XS G10A change. We tracked gained and lost species, all four original background models, terminal filters and thermodynamics.
+Before the XSD replacement, every one of the 912 positions across all 44 mitochondrial oligos, including D oligos, was audited against complete binding motifs. Replacements were tested when an excluded template base was more frequent than every base already represented at that position. Single substitutions and combinations within pairs produced 23 alternatives after the adopted XS G10A change. We tracked gained and lost species, all four original background models, terminal filters and thermodynamics.
 
 The exception allowing a temperature difference up to 6°C for G10A was formulated after inspecting that candidate.  Its criteria were a nonterminal substitution, new-base frequency ≥90%, exact-match gain ≥10 percentage points, retention of every previously covered species and no added background record. We now expose sensitivity to temperature limits of 4, 5, 6 and 7°C and frequency limits of 80%, 85%, 90% and 95%. The threshold grid quantifies the sensitivity of candidate selection.
 
@@ -104,6 +105,12 @@ Cross-assay heterodimers were screened across concrete variants of all pairs wit
 ### Independent implementation checks
 
 A Python seed-and-extension scanner and an independent C++ exhaustive all-window scanner checked the original frozen-panel outputs. The original 8,940 and 45,780 comparisons combine one target model with two background model families; each background family checks its strict and relaxed flags together. The new equal-geometry comparison checked 57,584 evaluable-record/model combinations at k = 2 and terminal protection of three bases, with no discrepancies. Agreement supports computational reproducibility on the frozen inputs.
+
+### Nuclear 28S references and selection
+
+The 28S search retrieved 11,964 records. Annotated nuclear rRNA and unambiguous single-locus titles were curated, excluding non-binomial names, sequences shorter than 150 nt and more than 2% ambiguous bases. One representative per species maximized concrete length, yielding 221 Actiniaria and 448 other hexacorallian species. MAFFT aligned direction-corrected targets and added backgrounds at fixed alignment length. Coordinates refer to *Halcampoides purpureus* MT676790.1. Anth-28S-inspired 95% position-wise consensus and observed motifs guided a bounded search; each D oligo has at most eight variants, without restricting ambiguity to its 3′ half. Ordinary/D endpoints are identical; expanded variants pass terminal and thermal filters.
+
+Both target and background scans use 100–500 bp products and at least 50 internal bases. Strict matching allows at most two mismatches per end and requires compatible terminal three bases; relaxed WC3/GT2 removes terminal protection. Independent C++ and Python scans agreed on 90,984 checks. Cross-marker comparisons link species names and compare primer-trimmed inserts. Mitochondrial genus-holdout results do not validate 28S. See [28S methods and evidence](28S/README.md).
 
 ## Results
 
@@ -171,6 +178,10 @@ In the multi-record analysis, a positive observed barcode gap was found for only
 
 The cross-assay screen identified strong complementarities between the 12S XS forward and M/MD reverse oligos, and between SD forward and M/MD reverse oligos. Their maximum heterodimer Tm exceeded the 55°C screening threshold; S forward with an MD reverse variant also exceeded it. The shared 574-region explains these interactions. They should not be combined as a multiplex on the basis of the present single-pair design. Other combinations, including 16S oligos with shorter terminal complementarities, are tabulated but have not been experimentally cleared for multiplexing. Actual product lengths are reported in Table 2; nominal read-overlap counts are supplied in `revision/length_summary.csv`. Adapter-bearing structures require the final adapter sequences.
 
+### Nuclear 28S complementary discrimination
+
+The nuclear 28S panel adds 221 sea-anemone species and 448 other hexacorallian species. Eight ordinary/D pairs share coordinates within XS, S, M and L; degeneracy is at most eight per oligo. The 95% position-wise consensus guided a finite search, not a claim of 95% paired coverage. Strict background hits are zero, but relaxed hits remain high. Of 112 species pairs sharing all comparable 12S and 16S inserts, 67 have evaluable 28S L inserts; 64 differ, and LD covers both species in 63 pairs. Names link reference species across markers, not individual specimens.
+
 ## Discussion
 
 The comparison identifies three complementary priorities: 12S XSD for short fragments, 12S MD for compatibility and reference discrimination, and 16S LD for broader target coverage. Their trade-offs follow from binding-site variation and the information carried by the intervening sequence. G10A improves exact compatibility with many complete motifs, but the unchanged two-mismatch coverage and its internal position prevent translating that gain into a measured detection improvement. Similarly, a 5′ substitution can move a species across an arbitrary mismatch boundary without establishing that amplification is biologically impossible.
@@ -194,78 +205,163 @@ Slow anthozoan mitochondrial evolution provides biological context for shared in
 
 The background panels comprise other cnidarians. Co-amplification of fishes, crustaceans and other non-cnidarian organisms was not evaluated, an important consideration for the 12S candidates. This computational study evaluates binding compatibility and reference discrimination. Environmental mixtures introduce template competition and reaction-dependent amplification, which require assay-level evaluation.
 
-## Conclusions
 
-MiAnemone provides a reproducible computational comparison of 22 candidate primer pairs. The revision separates fixed-base changes from degeneracy, evaluates common species panels, adds record and genus-block sensitivity analyses, and links predicted amplification to reference discrimination. These analyses support selecting assays according to the target taxa and required resolution, while showing that the highest exact-match count or the longest insert alone is insufficient.
+## Primers and base-matching diagrams
 
-## Data availability and reproducibility
+All 30 pairs are organized by 12S, 16S and 28S. Sequences run 5′→3′; D denotes a degenerate version. Binding maps use gene-specific reference coordinates; arrows indicate orientation and spans include primers. Coverage/exact counts use window-specific evaluable species and are not equal-denominator rankings.
 
-The project is hosted at [https://github.com/GUIBA-EX/MiAnemone](https://github.com/GUIBA-EX/MiAnemone). The revision directory contains accession-level diagnostics, frozen input archives, calculation scripts and a reproduction guide. The revision data and scripts are archived with GitHub preprint v1.3.
+[FASTA](primers.fasta) · [CSV](all_results.csv)
 
-## Nuclear 28S / 核28S
+### 12S
 
-The nuclear 28S panel adds 221 sea-anemone species and 448 other hexacorallian species. Eight ordinary/D pairs share coordinates within XS, S, M and L; degeneracy is at most eight per oligo. The 95% position-wise consensus guided a finite search, not a claim of 95% paired coverage. Strict background hits are zero, but relaxed hits remain high. Of 112 species pairs sharing all comparable 12S and 16S inserts, 67 have evaluable 28S L inserts; 64 differ, and LD covers both species in 63 pairs. Names link reference species across markers, not individual specimens.
+![12S binding positions](figures/12S_binding.svg)
 
-| Pair | Span bp | F (5′–3′) | R (5′–3′) | Deg F/R | Covered | Exact | Strict WC/GT | Relaxed WC3/GT2 |
-|---|---:|---|---|---|---|---|---|---|
-| XS | 125 | GGGTTGTTTGGGAATGCA | TTGACTCTCTTTTCAAAGTG | 1/1 | 179/182 | 7/182 | 0/0 | 354/355 |
-| XSD | 125 | GGGTTGTTYKGGAATGCA | TKRACTCTCTTTTCAAAGTG | 4/4 | 179/182 | 177/182 | 0/0 | 354/355 |
-| S | 191 | CGTCATAGAGGGTGACAA | TTAACTCTCTTTTCAAAGTG | 1/1 | 163/182 | 134/182 | 0/0 | 354/344 |
-| SD | 191 | CGTCRTAGAGGGTGASAA | TTRACTCTCTTTTCAAAGTG | 4/2 | 172/182 | 148/182 | 0/0 | 354/354 |
-| M | 211 | AAGTTGCTTGGAACAGCA | TTTTAACTCTCTTTTCAAAGTG | 1/1 | 169/180 | 139/180 | 0/0 | 342/342 |
-| MD | 211 | AAGTTGCTTGGAACAGCA | KTTTAACTCTCTTTTCAAAGTG | 1/2 | 169/180 | 154/180 | 0/0 | 342/342 |
-| L | 378 | TGAGGGAAAGGTGAAAAGCA | ACTGCAAGCAGTCCACCG | 1/1 | 94/172 | 0/172 | 0/0 | 340/339 |
-| LD | 378 | TGAGGGAAAGRTGAAAAGCA | ACTGCAHGCAGTCCACCR | 2/6 | 166/172 | 158/172 | 0/0 | 340/339 |
+| Pair | F (5′–3′) | R (5′–3′) | Degeneracy F/R | Covered | Exact | Base matching |
+|---|---|---|---|---|---|---|
+| XS | CGAAAGGTAAAATCTTCCGCCT | CGACGGCCATGCAATACCGG | 1/1 | 205/245 | 192/245 | [F / R](figures/template_matching/12S_XS.svg) |
+| XSD | CGAAAGGTAAAATCTTCCGCCT | CGACGGCCATGCARTACCDG | 1/6 | 227/245 | 212/245 | [F / R](figures/template_matching/12S_XSD.svg) |
+| S | CGAAAGGTCAAATCTTCCGC | CGGGTTGGGTCCCTTTTAGC | 1/1 | 173/246 | 0/246 | [F / R](figures/template_matching/12S_S.svg) |
+| SD | CGAAAGGTAAAATCTTCCGC | CGGATTGGGTCCCTTYTAGY | 1/4 | 195/246 | 26/246 | [F / R](figures/template_matching/12S_SD.svg) |
+| M | AAGGCGTAAAGGATGTGTAG | GCGGAAGATTTTACCTTTCG | 1/1 | 220/242 | 198/242 | [F / R](figures/template_matching/12S_M.svg) |
+| MD | AAGGCGTAAAGGATGTGTVG | GCGGAAGATTTDACCTTTCR | 3/6 | 224/242 | 208/242 | [F / R](figures/template_matching/12S_MD.svg) |
+| L | TGAAAGGTAAAATCTTCCGC | TATAAGAAAATGTAGCGCAT | 1/1 | 226/246 | 1/246 | [F / R](figures/template_matching/12S_L.svg) |
+| LD | TGAAAGGTAAAATCTTCCGC | TATAAGAAAATGTAGCGCAY | 1/2 | 229/246 | 1/246 | [F / R](figures/template_matching/12S_LD.svg) |
+| XL | GCGTAAAGGATGTGTAGGCC | CTTAACACACGGACTTACGACG | 1/1 | 185/243 | 46/243 | [F / R](figures/template_matching/12S_XL.svg) |
+| XLD | GCGTAAAGGATGTGTARGYY | CTTAACACACGRACTTACGACG | 8/2 | 225/243 | 52/243 | [F / R](figures/template_matching/12S_XLD.svg) |
 
-### 28S XS
+<details>
+<summary>12S MD — base-matching preview</summary>
+
+![12S MD](figures/template_matching/12S_MD_preview.svg)
+
+[Full species](figures/template_matching/12S_MD.svg)
+
+</details>
+
+### 16S
+
+![16S binding positions](figures/16S_binding.svg)
+
+| Pair | F (5′–3′) | R (5′–3′) | Degeneracy F/R | Covered | Exact | Base matching |
+|---|---|---|---|---|---|---|
+| H | AAGACCCCATTGAGCTTTACTA | CCCCATGGTAGCTTTTATTCGT | 1/1 | 146/165 | 122/165 | [F / R](figures/template_matching/16S_H.svg) |
+| HD | AAGACCCCATTGAGCTTTACYW | CCCCATGGTAGCTTTTATYCRT | 4/4 | 154/165 | 136/165 | [F / R](figures/template_matching/16S_HD.svg) |
+| XS | AGTTTAGATAATGTGGGATC | TAACTACGGACCTTAAGCTC | 1/1 | 165/262 | 132/262 | [F / R](figures/template_matching/16S_XS.svg) |
+| XSD | AGTTTAGATAATGTGGARBC | TAATTACGGACCTTAAGCTC | 6/1 | 223/262 | 1/262 | [F / R](figures/template_matching/16S_XSD.svg) |
+| S | CGTAGTTAATAGCAAGTGGCCT | AGGTCGCAAACATCGTTGTCGA | 1/1 | 63/77 | 0/77 | [F / R](figures/template_matching/16S_S.svg) |
+| SD | CGTAGTTAATAGCHRGTGGCCT | AGGTCGCAAACATCGKYGTCRA | 6/8 | 70/77 | 56/77 | [F / R](figures/template_matching/16S_SD.svg) |
+| M | AAGCTAAATGCTGAAGTATG | TTCGTCTTACAATATGGACG | 1/1 | 61/76 | 51/76 | [F / R](figures/template_matching/16S_M.svg) |
+| MD | AAGCTAAATGCTGAAGTATG | TTCGTCTTACAATWTGDACG | 1/6 | 61/76 | 52/76 | [F / R](figures/template_matching/16S_MD.svg) |
+| L | GGCCGGTATGAATGGCGTCACG | CCCCTTGCAGTCAGGCCACCGG | 1/1 | 138/258 | 106/258 | [F / R](figures/template_matching/16S_L.svg) |
+| LD | GGCCGGTATGAATGGCRYYACG | CCCCTTGCAGTCAGGCCACYDG | 8/6 | 231/258 | 180/258 | [F / R](figures/template_matching/16S_LD.svg) |
+| XL | AAGCTAAATGCTGAAGTATG | AACCAAACTATCCAACTTAC | 1/1 | 41/76 | 36/76 | [F / R](figures/template_matching/16S_XL.svg) |
+| XLD | AAGCTAAATGCTGAAGTATG | AACCAAACTATCYAACTYRC | 1/8 | 61/76 | 52/76 | [F / R](figures/template_matching/16S_XLD.svg) |
+
+<details>
+<summary>16S LD — base-matching preview</summary>
+
+![16S LD](figures/template_matching/16S_LD_preview.svg)
+
+[Full species](figures/template_matching/16S_LD.svg)
+
+</details>
+
+### 28S
+
+![28S binding positions](figures/28S_binding.svg)
+
+| Pair | F (5′–3′) | R (5′–3′) | Degeneracy F/R | Covered | Exact | Base matching |
+|---|---|---|---|---|---|---|
+| XS | GGGTTGTTTGGGAATGCA | TTGACTCTCTTTTCAAAGTG | 1/1 | 179/182 | 7/182 | [F / R](figures/template_matching/28S_XS.svg) |
+| XSD | GGGTTGTTYKGGAATGCA | TKRACTCTCTTTTCAAAGTG | 4/4 | 179/182 | 177/182 | [F / R](figures/template_matching/28S_XSD.svg) |
+| S | CGTCATAGAGGGTGACAA | TTAACTCTCTTTTCAAAGTG | 1/1 | 163/182 | 134/182 | [F / R](figures/template_matching/28S_S.svg) |
+| SD | CGTCRTAGAGGGTGASAA | TTRACTCTCTTTTCAAAGTG | 4/2 | 172/182 | 148/182 | [F / R](figures/template_matching/28S_SD.svg) |
+| M | AAGTTGCTTGGAACAGCA | TTTTAACTCTCTTTTCAAAGTG | 1/1 | 169/180 | 139/180 | [F / R](figures/template_matching/28S_M.svg) |
+| MD | AAGTTGCTTGGAACAGCA | KTTTAACTCTCTTTTCAAAGTG | 1/2 | 169/180 | 154/180 | [F / R](figures/template_matching/28S_MD.svg) |
+| L | TGAGGGAAAGGTGAAAAGCA | ACTGCAAGCAGTCCACCG | 1/1 | 94/172 | 0/172 | [F / R](figures/template_matching/28S_L.svg) |
+| LD | TGAGGGAAAGRTGAAAAGCA | ACTGCAHGCAGTCCACCR | 2/6 | 166/172 | 158/172 | [F / R](figures/template_matching/28S_LD.svg) |
+
+<details>
+<summary>28S XS — base-matching preview</summary>
 
 ![28S XS](figures/template_matching/28S_XS_preview.svg)
 
-[Full species base matching / 全部物种碱基匹配图](figures/template_matching/28S_XS.svg)
+[Full species](figures/template_matching/28S_XS.svg)
 
-### 28S XSD
+</details>
+
+<details>
+<summary>28S XSD — base-matching preview</summary>
 
 ![28S XSD](figures/template_matching/28S_XSD_preview.svg)
 
-[Full species base matching / 全部物种碱基匹配图](figures/template_matching/28S_XSD.svg)
+[Full species](figures/template_matching/28S_XSD.svg)
 
-### 28S S
+</details>
+
+<details>
+<summary>28S S — base-matching preview</summary>
 
 ![28S S](figures/template_matching/28S_S_preview.svg)
 
-[Full species base matching / 全部物种碱基匹配图](figures/template_matching/28S_S.svg)
+[Full species](figures/template_matching/28S_S.svg)
 
-### 28S SD
+</details>
+
+<details>
+<summary>28S SD — base-matching preview</summary>
 
 ![28S SD](figures/template_matching/28S_SD_preview.svg)
 
-[Full species base matching / 全部物种碱基匹配图](figures/template_matching/28S_SD.svg)
+[Full species](figures/template_matching/28S_SD.svg)
 
-### 28S M
+</details>
+
+<details>
+<summary>28S M — base-matching preview</summary>
 
 ![28S M](figures/template_matching/28S_M_preview.svg)
 
-[Full species base matching / 全部物种碱基匹配图](figures/template_matching/28S_M.svg)
+[Full species](figures/template_matching/28S_M.svg)
 
-### 28S MD
+</details>
+
+<details>
+<summary>28S MD — base-matching preview</summary>
 
 ![28S MD](figures/template_matching/28S_MD_preview.svg)
 
-[Full species base matching / 全部物种碱基匹配图](figures/template_matching/28S_MD.svg)
+[Full species](figures/template_matching/28S_MD.svg)
 
-### 28S L
+</details>
+
+<details>
+<summary>28S L — base-matching preview</summary>
 
 ![28S L](figures/template_matching/28S_L_preview.svg)
 
-[Full species base matching / 全部物种碱基匹配图](figures/template_matching/28S_L.svg)
+[Full species](figures/template_matching/28S_L.svg)
 
-### 28S LD
+</details>
+
+<details>
+<summary>28S LD — base-matching preview</summary>
 
 ![28S LD](figures/template_matching/28S_LD_preview.svg)
 
-[Full species base matching / 全部物种碱基匹配图](figures/template_matching/28S_LD.svg)
+[Full species](figures/template_matching/28S_LD.svg)
 
-[28S methods and evidence](28S/README.md) · [FASTA](28S/primers.fasta)
+</details>
+
+## Data and reproducibility
+
+[12S/16S analysis](revision/README.md) · [28S analysis](28S/README.md) · [Preprint and build](publications/README.md) · [Supplement](publications/MiAnemone_supplement.md)
+
+## Citation
+
+Xia, F. (2026). *MiAnemone: in silico design and evaluation of mitochondrial and nuclear rRNA primers for sea anemone (Actiniaria) eDNA metabarcoding*. Computational preprint v1.5. [GitHub Release](https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.5).
+
+[Copyright and permissions](COPYRIGHT.md)
 
 ## References
 
@@ -290,111 +386,3 @@ Shearer TL, Van Oppen MJH, Romano SL, Wörheide G. 2002. Slow mitochondrial DNA 
 Untergasser A et al. 2012. Primer3—new capabilities and interfaces. *Nucleic Acids Research* 40:e115. https://doi.org/10.1093/nar/gks596
 
 Wilson EB. 1927. Probable inference, the law of succession, and statistical inference. *Journal of the American Statistical Association* 22:209–212. https://doi.org/10.2307/2276774
-
-## Table 1. Oligos and predicted properties
-
-All sequences run 5′–3′. The adopted G10A base is bold. Tm is at 50 nM per concrete variant; the 200 nM-per-direction scenario is supplied in `revision/oligo_properties.csv`. Variant count is per end, not the product of forward and reverse degeneracies.
-
-| Gene | Oligo | Sequence | nt | Variants | GC % | Tm °C |
-| --- | --- | --- | --- | --- | --- | --- |
-| 12S | XS-F | CGAAAGGTA**A**AATCTTCCGCCT | 22 | 1 | 45 | 59.0 |
-| 12S | XS-R | CGACGGCCATGCAATACCGG | 20 | 1 | 65 | 64.2 |
-| 12S | XSD-F | CGAAAGGTAAAATCTTCCGCCT | 22 | 1 | 45 | 59.0 |
-| 12S | XSD-R | CGACGGCCATGCARTACCDG | 20 | 6 | 60–70 | 61.8–65.9 |
-| 12S | S-F | CGAAAGGTCAAATCTTCCGC | 20 | 1 | 50 | 57.5 |
-| 12S | S-R | CGGGTTGGGTCCCTTTTAGC | 20 | 1 | 60 | 61.0 |
-| 12S | SD-F | CGAAAGGTAAAATCTTCCGC | 20 | 1 | 45 | 55.1 |
-| 12S | SD-R | CGGATTGGGTCCCTTYTAGY | 20 | 4 | 50–60 | 57.2–59.9 |
-| 12S | M-F | AAGGCGTAAAGGATGTGTAG | 20 | 1 | 45 | 55.2 |
-| 12S | M-R | GCGGAAGATTTTACCTTTCG | 20 | 1 | 45 | 55.1 |
-| 12S | MD-F | AAGGCGTAAAGGATGTGTVG | 20 | 3 | 45–50 | 55.2–58.3 |
-| 12S | MD-R | GCGGAAGATTTDACCTTTCR | 20 | 6 | 40–50 | 53.9–57.5 |
-| 12S | L-F | TGAAAGGTAAAATCTTCCGC | 20 | 1 | 40 | 53.9 |
-| 12S | L-R | TATAAGAAAATGTAGCGCAT | 20 | 1 | 30 | 50.3 |
-| 12S | LD-F | TGAAAGGTAAAATCTTCCGC | 20 | 1 | 40 | 53.9 |
-| 12S | LD-R | TATAAGAAAATGTAGCGCAY | 20 | 2 | 30–35 | 50.3–51.4 |
-| 12S | XL-F | GCGTAAAGGATGTGTAGGCC | 20 | 1 | 55 | 58.7 |
-| 12S | XL-R | CTTAACACACGGACTTACGACG | 22 | 1 | 50 | 59.3 |
-| 12S | XLD-F | GCGTAAAGGATGTGTARGYY | 20 | 8 | 40–55 | 53.7–58.7 |
-| 12S | XLD-R | CTTAACACACGRACTTACGACG | 22 | 2 | 45–50 | 57.7–59.3 |
-| 16S | H-F | AAGACCCCATTGAGCTTTACTA | 22 | 1 | 41 | 56.8 |
-| 16S | H-R | CCCCATGGTAGCTTTTATTCGT | 22 | 1 | 45 | 58.4 |
-| 16S | HD-F | AAGACCCCATTGAGCTTTACYW | 22 | 4 | 41–45 | 56.8–59.6 |
-| 16S | HD-R | CCCCATGGTAGCTTTTATYCRT | 22 | 4 | 41–50 | 56.2–60.2 |
-| 16S | XS-F | AGTTTAGATAATGTGGGATC | 20 | 1 | 35 | 49.5 |
-| 16S | XS-R | TAACTACGGACCTTAAGCTC | 20 | 1 | 45 | 53.9 |
-| 16S | XSD-F | AGTTTAGATAATGTGGARBC | 20 | 6 | 30–40 | 47.7–52.3 |
-| 16S | XSD-R | TAATTACGGACCTTAAGCTC | 20 | 1 | 40 | 52.1 |
-| 16S | S-F | CGTAGTTAATAGCAAGTGGCCT | 22 | 1 | 45 | 58.2 |
-| 16S | S-R | AGGTCGCAAACATCGTTGTCGA | 22 | 1 | 50 | 63.0 |
-| 16S | SD-F | CGTAGTTAATAGCHRGTGGCCT | 22 | 6 | 45–55 | 57.1–62.2 |
-| 16S | SD-R | AGGTCGCAAACATCGKYGTCRA | 22 | 8 | 45–59 | 61.3–67.2 |
-| 16S | M-F | AAGCTAAATGCTGAAGTATG | 20 | 1 | 35 | 51.2 |
-| 16S | M-R | TTCGTCTTACAATATGGACG | 20 | 1 | 40 | 52.9 |
-| 16S | MD-F | AAGCTAAATGCTGAAGTATG | 20 | 1 | 35 | 51.2 |
-| 16S | MD-R | TTCGTCTTACAATWTGDACG | 20 | 6 | 35–40 | 50.5–54.0 |
-| 16S | L-F | GGCCGGTATGAATGGCGTCACG | 22 | 1 | 64 | 66.3 |
-| 16S | L-R | CCCCTTGCAGTCAGGCCACCGG | 22 | 1 | 73 | 69.8 |
-| 16S | LD-F | GGCCGGTATGAATGGCRYYACG | 22 | 8 | 55–68 | 62.0–68.7 |
-| 16S | LD-R | CCCCTTGCAGTCAGGCCACYDG | 22 | 6 | 64–73 | 64.9–69.8 |
-| 16S | XL-F | AAGCTAAATGCTGAAGTATG | 20 | 1 | 35 | 51.2 |
-| 16S | XL-R | AACCAAACTATCCAACTTAC | 20 | 1 | 35 | 50.6 |
-| 16S | XLD-F | AAGCTAAATGCTGAAGTATG | 20 | 1 | 35 | 51.2 |
-| 16S | XLD-R | AACCAAACTATCYAACTYRC | 20 | 8 | 30–45 | 47.6–56.1 |
-
-## Table 2. Coverage, exact matching, product lengths and joint discrimination
-
-Own denotes the window-specific species panel; common denotes the same evaluable species across all windows. Product lengths are minimum/median/maximum among distinct accession–length predictions under strict WC. Joint uniqueness uses the smaller common panel with complete inserts at every window. Computational priorities are discussed above; no pair is wet-laboratory validated.
-
-| Gene | Pair | Own covered (%) | Own exact | Common covered | Common exact | Product bp | Covered + unique |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 12S | XS | 205/245 (83.7%) | 192/245 | 202/240 | 189/240 | 161/161/161 | 18/237 |
-| 12S | XSD | 227/245 (92.7%) | 212/245 | 222/240 | 208/240 | 160/161/194 | 23/237 |
-| 12S | S | 173/246 (70.3%) | 0/246 | 167/240 | 0/240 | 197/197/198 | 19/237 |
-| 12S | SD | 195/246 (79.3%) | 26/246 | 189/240 | 26/240 | 197/197/198 | 24/237 |
-| 12S | M | 220/242 (90.9%) | 198/242 | 218/240 | 197/240 | 223/230/271 | 73/237 |
-| 12S | MD | 224/242 (92.6%) | 208/242 | 222/240 | 206/240 | 223/230/271 | 75/237 |
-| 12S | L | 226/246 (91.9%) | 1/246 | 220/240 | 1/240 | 256/269/270 | 51/237 |
-| 12S | LD | 229/246 (93.1%) | 1/246 | 223/240 | 1/240 | 256/269/270 | 54/237 |
-| 12S | XL | 185/243 (76.1%) | 46/243 | 184/240 | 45/240 | 364/385/426 | 79/237 |
-| 12S | XLD | 225/243 (92.6%) | 52/243 | 224/240 | 51/240 | 358/385/426 | 93/237 |
-| 16S | H | 146/165 (88.5%) | 122/165 | 60/67 | 51/67 | 290/335/378 | 31/66 |
-| 16S | HD | 154/165 (93.3%) | 136/165 | 65/67 | 56/67 | 290/335/378 | 34/66 |
-| 16S | XS | 165/262 (63.0%) | 132/262 | 35/67 | 32/67 | 151/153/156 | 9/66 |
-| 16S | XSD | 223/262 (85.1%) | 1/262 | 55/67 | 0/67 | 150/153/156 | 14/66 |
-| 16S | S | 63/77 (81.8%) | 0/77 | 56/67 | 0/67 | 182/185/211 | 20/66 |
-| 16S | SD | 70/77 (90.9%) | 56/77 | 62/67 | 50/67 | 176/185/211 | 23/66 |
-| 16S | M | 61/76 (80.3%) | 51/76 | 58/67 | 49/67 | 247/247/268 | 17/66 |
-| 16S | MD | 61/76 (80.3%) | 52/76 | 58/67 | 50/67 | 247/247/268 | 17/66 |
-| 16S | L | 138/258 (53.5%) | 106/258 | 40/67 | 31/67 | 296/340/349 | 14/66 |
-| 16S | LD | 231/258 (89.5%) | 180/258 | 59/67 | 46/67 | 296/335/384 | 29/66 |
-| 16S | XL | 41/76 (53.9%) | 36/76 | 41/67 | 36/67 | 403/409/417 | 18/66 |
-| 16S | XLD | 61/76 (80.3%) | 52/76 | 58/67 | 50/67 | 398/409/425 | 32/66 |
-
-## Table 3. Factorial decomposition of non-nested pairs
-
-Fixed changes and degeneracy changes are applied separately (1 = applied, 0 = absent). The 0/1 state is the nested control; the 1/1 state is the preceding D candidate. The 12S XS 0/1 state is now the released XSD; the other two D pairs retain their 1/1 states. Thermal pass requires minimum variant Tm ≥45°C, structure Tm <55°C, and maximum F/R difference ≤5°C in both concentration scenarios. The adopted 12S XSD is prioritized for short-fragment evaluation.
-
-| Gene | D pair | Fixed | Degenerate | Covered | Exact | Evaluable | Terminal | Thermal |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 12S | XSD | 0 | 0 | 205 | 192 | 245 | Pass | Fail |
-| 12S | XSD | 0 | 1 | 227 | 212 | 245 | Pass | Pass |
-| 12S | XSD | 1 | 0 | 205 | 0 | 245 | Pass | Fail |
-| 12S | XSD | 1 | 1 | 230 | 0 | 245 | Pass | Pass |
-| 12S | SD | 0 | 0 | 173 | 0 | 246 | Pass | Pass |
-| 12S | SD | 0 | 1 | 194 | 1 | 246 | Pass | Pass |
-| 12S | SD | 1 | 0 | 171 | 0 | 246 | Pass | Pass |
-| 12S | SD | 1 | 1 | 195 | 26 | 246 | Pass | Pass |
-| 16S | XSD | 0 | 0 | 165 | 132 | 262 | Pass | Pass |
-| 16S | XSD | 0 | 1 | 223 | 167 | 262 | Fail | Pass |
-| 16S | XSD | 1 | 0 | 160 | 0 | 262 | Pass | Pass |
-| 16S | XSD | 1 | 1 | 223 | 1 | 262 | Pass | Pass |
-
-
-[Supplementary candidate audit](publications/MiAnemone_supplement.md)
-
-## Citation
-
-Xia, F. (2026). *MiAnemone: in silico design and evaluation of mitochondrial and nuclear rRNA primers for sea anemone (Actiniaria) eDNA metabarcoding*. Computational preprint v1.5. [GitHub Release](https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.5).
-
-[Copyright and permissions](COPYRIGHT.md)

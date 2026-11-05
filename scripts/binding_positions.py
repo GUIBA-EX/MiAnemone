@@ -26,12 +26,13 @@ def draw(gene, rows):
     svg = ET.Element('svg', xmlns='http://www.w3.org/2000/svg', width='1100', height=str(height),
                      viewBox=f'0 0 1100 {height}', role='img')
     element(svg, 'title').text = f'MiAnemone {gene} primer binding positions'
-    element(svg, 'rect', width='100%', height='100%', rx=18, fill='#f7fbff')
-    g = element(svg, 'g', font_family='Arial, sans-serif', fill='#173647')
+    element(svg, 'rect', width='100%', height='100%', rx=18, fill='#ffffff')
+    g = element(svg, 'g', font_family='Avenir Next, Arial, sans-serif', fill='#173647')
     def label(px, y, s, size, **attrs):
         element(g, 'text', x=px, y=y, font_size=size, **attrs).text = s
     label(30, 40, f'MiAnemone  |  {gene} binding positions', 27, font_weight='bold')
-    label(30, 69, 'Metridium senile  ·  NC_000933.1  ·  gene-relative coordinates (1-based, inclusive)', 17)
+    reference = 'Halcampoides purpureus  ·  MT676790.1' if gene == '28S' else 'Metridium senile  ·  NC_000933.1'
+    label(30, 69, reference + '  ·  gene-relative coordinates (1-based, inclusive)', 17)
     for n in range(lo, hi+1, 50):
         element(g, 'line', x1=x(n), x2=x(n), y1=102, y2=height-40, stroke='#dce7ef')
         label(x(n), 97, str(n), 13, text_anchor='middle')
@@ -55,5 +56,5 @@ def draw(gene, rows):
 if __name__=='__main__':
     with (ROOT/'all_results.csv').open() as f:
         rows=list(csv.DictReader(f))
-    for gene in ('12S','16S'):
+    for gene in ('12S','16S','28S'):
         draw(gene,[r for r in rows if r['gene']==gene])

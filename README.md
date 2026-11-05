@@ -20,12 +20,15 @@
 | 短片段检测 | 12S XSD |
 | 匹配与参考序列区分度 | 12S MD |
 | 更广的目标覆盖 | 16S LD |
+| 补充线粒体共享条形码的区分度 | 28S LD；需进一步评估背景扩增 |
 
-[引物序列](primers.fasta) · [碱基匹配图](figures/12S_base_matching.svg) · [论文PDF](publications/MiAnemone_preprint.pdf)
+[引物序列](primers.fasta) · [引物与匹配图](#引物与碱基匹配图) · [论文PDF](publications/MiAnemone_preprint.pdf)
 
 ## 摘要
 
 本研究对海葵目线粒体12S和16S rRNA的22对普通与简并引物进行计算评估。原设计面板分别包含250和265个具名物种。本轮补充公共物种面板、非嵌套普通/D的因子分解、错配位置、统一目标/背景模型、全部具名记录敏感性、固定窗口属级留出及条形码区分度。12S XS的G10A使完全匹配从2增至192/245，覆盖仍为205种，但该替换使用了事后放宽的温差门槛。原候选中三组D还改变了固定碱基。现已用嵌套候选替换12S XSD，覆盖227/245、完全匹配212/245，严格背景仍为9条。现有结果支持不同用途下的计算候选优先级，本研究建立了后续试剂评价的计算优先级。
+
+核28S补充8对引物，项目共30对。28S LD覆盖166/172、完全匹配158/172；在67对有可评价28S L序列的线粒体共享条形码物种对中，64对内部序列不同，LD同时覆盖其中63对。严格背景为0，但宽松背景命中340/339个物种，因此其特异性高度依赖末端约束。
 
 ## 引言
 
@@ -45,7 +48,7 @@ MAFFT 7.526参数为`--adjustdirection --retree 2 --maxiterate 0 --thread 4`，�
 
 末端过滤排除可形成五连同碱基、末三位同碱基及不符合GC条件的候选。末位可简并，但兼容须由实际变体提供。primer3-py 2.4.0使用50 mM单价盐、1.5 mM二价盐、0.6 mM dNTP，分别评估50 nM/变体和200 nM/方向均分两种情景。初始最低Tm为45°C、结构Tm低于55°C、F/R温差≤5°C，没有额外全序列GC百分比门槛。
 
-G10A所用6°C例外是检查该候选后提出的事后规则。补充表列出了23个后续候选在ΔTm 4–7°C及新碱基频率80–95%网格下的全部判定。正式22对序列未因本轮解释性控制而自动替换。
+G10A所用6°C例外是检查该候选后提出的事后规则。补充表列出了23个后续候选在ΔTm 4–7°C及新碱基频率80–95%网格下的全部判定。线粒体22对序列未因本轮解释性控制而自动替换。
 
 ### 配对模型与评价指标
 
@@ -56,6 +59,12 @@ G10A所用6°C例外是检查该候选后提出的事后规则。补充表列出
 公共覆盖面板取各窗口均可评价的物种；公共区分度进一步要求各窗口内部序列全部明确。计算物种唯一性、覆盖∩唯一性、最近邻编辑距离、属/科归属、多记录观察barcode gap和留一记录最近邻分类。Wilson区间以当前面板为条件，不代表海葵目随机抽样。
 
 全部具名记录池为694条12S和1,116条16S，报告任一/多数/全部记录匹配及种内位点变异。五折按属分块，在训练属内重建普通/D并经过热力学过滤，再扫描留出属。端点与比对仍来自全数据，背景未用于调节这些诊断候选，因此属于固定窗口条件测试，不是完全独立的窗口发现验证。
+
+### 核28S参考与筛选
+
+28S检索获得11,964条记录；依据注释提取核rRNA，排除非明确双名、长度不足150 nt或模糊碱基超过2%的记录，每种保留明确碱基数最多的代表。最终包含221个海葵物种及448个其他六放珊瑚物种。MAFFT进行方向校正比对，背景以固定目标比对长度加入；参考为 *Halcampoides purpureus* MT676790.1。借鉴Anth-28S逐位点95%共识并结合实际模体进行有限候选搜索，每条D简并度≤8，不限于3′半段。普通/D四端点一致，所有变体通过末端与热力学筛查。
+
+28S目标和背景统一使用100–500 bp产物、内部≥50 bp；严格模型要求每端≤2错配且末三位兼容，宽松WC3/GT2取消末端限制。C++与独立Python扫描的90,984项检查无差异。跨标记区分度按物种名称关联，去除引物后比较内部序列；线粒体属级留出结果不外推至28S。详见[28S方法与证据](28S/README.md)。
 
 ## 结果
 
@@ -107,6 +116,10 @@ G10A所用6°C例外是检查该候选后提出的事后规则。补充表列出
 
 12S XS-F与M/MD-R、SD-F与M/MD-R等共享区域的互补作用使跨配对异二聚体Tm超过55°C，不宜直接混为多重体系。实际产物的最小/中位/最大长度和名义双端20 bp重叠统计见论文Table2及`revision/length_summary.csv`。实际接头待定，尚未评估带接头结构。
 
+### 核28S补充分辨率
+
+核28S新增221个海葵物种与448个其他六放珊瑚背景物种。XS、S、M、L各保留普通及D引物，同窗端点一致，每条简并度≤8。逐位点95%共识用于有限候选搜索，不代表整对95%覆盖。严格背景均为0，但宽松命中仍较高。所有可比较12S、16S窗口均共享条形码的112个物种对中，67对有可评价28S L序列；64对可区分，LD覆盖其中63对的两个物种。跨标记按物种名称关联，不代表相同个体。
+
 ## 使用优先级与讨论
 
 | 用途 | 计算优先候选 | 主要取舍 |
@@ -120,45 +133,163 @@ G10A所用6°C例外是检查该候选后提出的事后规则。补充表列出
 
 同坐标隔离的是位置差异，只有嵌套序列才能进一步解释简并效应。覆盖、完全匹配和物种分辨率需要分别报告。当前模型不是环境样本检出率；没有新增湿实验。背景结果限定于原刺胞动物参考库。独立窗口发现、冻结后时间外推及分类名称全面核验尚未完成。
 
-## 引物与逐碱基匹配图
 
-正式序列见[FASTA](primers.fasta)；每条oligo的绝对Tm、GC、长度与简并度见[属性表](revision/oligo_properties.csv)。原有逐碱基匹配图仍保留，下列每一对均可单独查看。
+## 引物与碱基匹配图
 
+按12S、16S、28S依次列出全部30对。序列均为5′→3′；D表示简并版本。结合位置图使用各基因独立参考坐标，箭头表示方向，跨度包含两端引物。覆盖/完全匹配为各自可评价物种计数，分母不同的窗口不能直接排名。
 
-12S：[12S_base_matching](figures/12S_base_matching.svg)
+[FASTA](primers.fasta) · [CSV](all_results.csv)
 
-16S：[16S_base_matching](figures/16S_base_matching.svg)
+### 12S
 
-[12S_L](figures/template_matching/12S_L.svg) · [12S_LD](figures/template_matching/12S_LD.svg) · [12S_M](figures/template_matching/12S_M.svg) · [12S_MD](figures/template_matching/12S_MD.svg) · [12S_S](figures/template_matching/12S_S.svg) · [12S_SD](figures/template_matching/12S_SD.svg) · [12S_XL](figures/template_matching/12S_XL.svg) · [12S_XLD](figures/template_matching/12S_XLD.svg) · [12S_XS](figures/template_matching/12S_XS.svg) · [12S_XSD](figures/template_matching/12S_XSD.svg) · [16S_H](figures/template_matching/16S_H.svg) · [16S_HD](figures/template_matching/16S_HD.svg) · [16S_L](figures/template_matching/16S_L.svg) · [16S_LD](figures/template_matching/16S_LD.svg) · [16S_M](figures/template_matching/16S_M.svg) · [16S_MD](figures/template_matching/16S_MD.svg) · [16S_S](figures/template_matching/16S_S.svg) · [16S_SD](figures/template_matching/16S_SD.svg) · [16S_XL](figures/template_matching/16S_XL.svg) · [16S_XLD](figures/template_matching/16S_XLD.svg) · [16S_XS](figures/template_matching/16S_XS.svg) · [16S_XSD](figures/template_matching/16S_XSD.svg)
+![12S 结合位置](figures/12S_binding.svg)
 
-| 基因 | 配对 | F（5′–3′） | R（5′–3′） |
-| --- | --- | --- | --- |
-| 12S | XS | CGAAAGGTAAAATCTTCCGCCT | CGACGGCCATGCAATACCGG |
-| 12S | XSD | CGAAAGGTAAAATCTTCCGCCT | CGACGGCCATGCARTACCDG |
-| 12S | S | CGAAAGGTCAAATCTTCCGC | CGGGTTGGGTCCCTTTTAGC |
-| 12S | SD | CGAAAGGTAAAATCTTCCGC | CGGATTGGGTCCCTTYTAGY |
-| 12S | M | AAGGCGTAAAGGATGTGTAG | GCGGAAGATTTTACCTTTCG |
-| 12S | MD | AAGGCGTAAAGGATGTGTVG | GCGGAAGATTTDACCTTTCR |
-| 12S | L | TGAAAGGTAAAATCTTCCGC | TATAAGAAAATGTAGCGCAT |
-| 12S | LD | TGAAAGGTAAAATCTTCCGC | TATAAGAAAATGTAGCGCAY |
-| 12S | XL | GCGTAAAGGATGTGTAGGCC | CTTAACACACGGACTTACGACG |
-| 12S | XLD | GCGTAAAGGATGTGTARGYY | CTTAACACACGRACTTACGACG |
-| 16S | H | AAGACCCCATTGAGCTTTACTA | CCCCATGGTAGCTTTTATTCGT |
-| 16S | HD | AAGACCCCATTGAGCTTTACYW | CCCCATGGTAGCTTTTATYCRT |
-| 16S | XS | AGTTTAGATAATGTGGGATC | TAACTACGGACCTTAAGCTC |
-| 16S | XSD | AGTTTAGATAATGTGGARBC | TAATTACGGACCTTAAGCTC |
-| 16S | S | CGTAGTTAATAGCAAGTGGCCT | AGGTCGCAAACATCGTTGTCGA |
-| 16S | SD | CGTAGTTAATAGCHRGTGGCCT | AGGTCGCAAACATCGKYGTCRA |
-| 16S | M | AAGCTAAATGCTGAAGTATG | TTCGTCTTACAATATGGACG |
-| 16S | MD | AAGCTAAATGCTGAAGTATG | TTCGTCTTACAATWTGDACG |
-| 16S | L | GGCCGGTATGAATGGCGTCACG | CCCCTTGCAGTCAGGCCACCGG |
-| 16S | LD | GGCCGGTATGAATGGCRYYACG | CCCCTTGCAGTCAGGCCACYDG |
-| 16S | XL | AAGCTAAATGCTGAAGTATG | AACCAAACTATCCAACTTAC |
-| 16S | XLD | AAGCTAAATGCTGAAGTATG | AACCAAACTATCYAACTYRC |
+| 名称 | F（5′–3′） | R（5′–3′） | F/R简并度 | 覆盖 | 完全匹配 | 碱基匹配图 |
+|---|---|---|---|---|---|---|
+| XS | CGAAAGGTAAAATCTTCCGCCT | CGACGGCCATGCAATACCGG | 1/1 | 205/245 | 192/245 | [F / R](figures/template_matching/12S_XS.svg) |
+| XSD | CGAAAGGTAAAATCTTCCGCCT | CGACGGCCATGCARTACCDG | 1/6 | 227/245 | 212/245 | [F / R](figures/template_matching/12S_XSD.svg) |
+| S | CGAAAGGTCAAATCTTCCGC | CGGGTTGGGTCCCTTTTAGC | 1/1 | 173/246 | 0/246 | [F / R](figures/template_matching/12S_S.svg) |
+| SD | CGAAAGGTAAAATCTTCCGC | CGGATTGGGTCCCTTYTAGY | 1/4 | 195/246 | 26/246 | [F / R](figures/template_matching/12S_SD.svg) |
+| M | AAGGCGTAAAGGATGTGTAG | GCGGAAGATTTTACCTTTCG | 1/1 | 220/242 | 198/242 | [F / R](figures/template_matching/12S_M.svg) |
+| MD | AAGGCGTAAAGGATGTGTVG | GCGGAAGATTTDACCTTTCR | 3/6 | 224/242 | 208/242 | [F / R](figures/template_matching/12S_MD.svg) |
+| L | TGAAAGGTAAAATCTTCCGC | TATAAGAAAATGTAGCGCAT | 1/1 | 226/246 | 1/246 | [F / R](figures/template_matching/12S_L.svg) |
+| LD | TGAAAGGTAAAATCTTCCGC | TATAAGAAAATGTAGCGCAY | 1/2 | 229/246 | 1/246 | [F / R](figures/template_matching/12S_LD.svg) |
+| XL | GCGTAAAGGATGTGTAGGCC | CTTAACACACGGACTTACGACG | 1/1 | 185/243 | 46/243 | [F / R](figures/template_matching/12S_XL.svg) |
+| XLD | GCGTAAAGGATGTGTARGYY | CTTAACACACGRACTTACGACG | 8/2 | 225/243 | 52/243 | [F / R](figures/template_matching/12S_XLD.svg) |
+
+<details>
+<summary>12S MD — 碱基匹配预览</summary>
+
+![12S MD](figures/template_matching/12S_MD_preview.svg)
+
+[Full species](figures/template_matching/12S_MD.svg)
+
+</details>
+
+### 16S
+
+![16S 结合位置](figures/16S_binding.svg)
+
+| 名称 | F（5′–3′） | R（5′–3′） | F/R简并度 | 覆盖 | 完全匹配 | 碱基匹配图 |
+|---|---|---|---|---|---|---|
+| H | AAGACCCCATTGAGCTTTACTA | CCCCATGGTAGCTTTTATTCGT | 1/1 | 146/165 | 122/165 | [F / R](figures/template_matching/16S_H.svg) |
+| HD | AAGACCCCATTGAGCTTTACYW | CCCCATGGTAGCTTTTATYCRT | 4/4 | 154/165 | 136/165 | [F / R](figures/template_matching/16S_HD.svg) |
+| XS | AGTTTAGATAATGTGGGATC | TAACTACGGACCTTAAGCTC | 1/1 | 165/262 | 132/262 | [F / R](figures/template_matching/16S_XS.svg) |
+| XSD | AGTTTAGATAATGTGGARBC | TAATTACGGACCTTAAGCTC | 6/1 | 223/262 | 1/262 | [F / R](figures/template_matching/16S_XSD.svg) |
+| S | CGTAGTTAATAGCAAGTGGCCT | AGGTCGCAAACATCGTTGTCGA | 1/1 | 63/77 | 0/77 | [F / R](figures/template_matching/16S_S.svg) |
+| SD | CGTAGTTAATAGCHRGTGGCCT | AGGTCGCAAACATCGKYGTCRA | 6/8 | 70/77 | 56/77 | [F / R](figures/template_matching/16S_SD.svg) |
+| M | AAGCTAAATGCTGAAGTATG | TTCGTCTTACAATATGGACG | 1/1 | 61/76 | 51/76 | [F / R](figures/template_matching/16S_M.svg) |
+| MD | AAGCTAAATGCTGAAGTATG | TTCGTCTTACAATWTGDACG | 1/6 | 61/76 | 52/76 | [F / R](figures/template_matching/16S_MD.svg) |
+| L | GGCCGGTATGAATGGCGTCACG | CCCCTTGCAGTCAGGCCACCGG | 1/1 | 138/258 | 106/258 | [F / R](figures/template_matching/16S_L.svg) |
+| LD | GGCCGGTATGAATGGCRYYACG | CCCCTTGCAGTCAGGCCACYDG | 8/6 | 231/258 | 180/258 | [F / R](figures/template_matching/16S_LD.svg) |
+| XL | AAGCTAAATGCTGAAGTATG | AACCAAACTATCCAACTTAC | 1/1 | 41/76 | 36/76 | [F / R](figures/template_matching/16S_XL.svg) |
+| XLD | AAGCTAAATGCTGAAGTATG | AACCAAACTATCYAACTYRC | 1/8 | 61/76 | 52/76 | [F / R](figures/template_matching/16S_XLD.svg) |
+
+<details>
+<summary>16S LD — 碱基匹配预览</summary>
+
+![16S LD](figures/template_matching/16S_LD_preview.svg)
+
+[Full species](figures/template_matching/16S_LD.svg)
+
+</details>
+
+### 28S
+
+![28S 结合位置](figures/28S_binding.svg)
+
+| 名称 | F（5′–3′） | R（5′–3′） | F/R简并度 | 覆盖 | 完全匹配 | 碱基匹配图 |
+|---|---|---|---|---|---|---|
+| XS | GGGTTGTTTGGGAATGCA | TTGACTCTCTTTTCAAAGTG | 1/1 | 179/182 | 7/182 | [F / R](figures/template_matching/28S_XS.svg) |
+| XSD | GGGTTGTTYKGGAATGCA | TKRACTCTCTTTTCAAAGTG | 4/4 | 179/182 | 177/182 | [F / R](figures/template_matching/28S_XSD.svg) |
+| S | CGTCATAGAGGGTGACAA | TTAACTCTCTTTTCAAAGTG | 1/1 | 163/182 | 134/182 | [F / R](figures/template_matching/28S_S.svg) |
+| SD | CGTCRTAGAGGGTGASAA | TTRACTCTCTTTTCAAAGTG | 4/2 | 172/182 | 148/182 | [F / R](figures/template_matching/28S_SD.svg) |
+| M | AAGTTGCTTGGAACAGCA | TTTTAACTCTCTTTTCAAAGTG | 1/1 | 169/180 | 139/180 | [F / R](figures/template_matching/28S_M.svg) |
+| MD | AAGTTGCTTGGAACAGCA | KTTTAACTCTCTTTTCAAAGTG | 1/2 | 169/180 | 154/180 | [F / R](figures/template_matching/28S_MD.svg) |
+| L | TGAGGGAAAGGTGAAAAGCA | ACTGCAAGCAGTCCACCG | 1/1 | 94/172 | 0/172 | [F / R](figures/template_matching/28S_L.svg) |
+| LD | TGAGGGAAAGRTGAAAAGCA | ACTGCAHGCAGTCCACCR | 2/6 | 166/172 | 158/172 | [F / R](figures/template_matching/28S_LD.svg) |
+
+<details>
+<summary>28S XS — 碱基匹配预览</summary>
+
+![28S XS](figures/template_matching/28S_XS_preview.svg)
+
+[Full species](figures/template_matching/28S_XS.svg)
+
+</details>
+
+<details>
+<summary>28S XSD — 碱基匹配预览</summary>
+
+![28S XSD](figures/template_matching/28S_XSD_preview.svg)
+
+[Full species](figures/template_matching/28S_XSD.svg)
+
+</details>
+
+<details>
+<summary>28S S — 碱基匹配预览</summary>
+
+![28S S](figures/template_matching/28S_S_preview.svg)
+
+[Full species](figures/template_matching/28S_S.svg)
+
+</details>
+
+<details>
+<summary>28S SD — 碱基匹配预览</summary>
+
+![28S SD](figures/template_matching/28S_SD_preview.svg)
+
+[Full species](figures/template_matching/28S_SD.svg)
+
+</details>
+
+<details>
+<summary>28S M — 碱基匹配预览</summary>
+
+![28S M](figures/template_matching/28S_M_preview.svg)
+
+[Full species](figures/template_matching/28S_M.svg)
+
+</details>
+
+<details>
+<summary>28S MD — 碱基匹配预览</summary>
+
+![28S MD](figures/template_matching/28S_MD_preview.svg)
+
+[Full species](figures/template_matching/28S_MD.svg)
+
+</details>
+
+<details>
+<summary>28S L — 碱基匹配预览</summary>
+
+![28S L](figures/template_matching/28S_L_preview.svg)
+
+[Full species](figures/template_matching/28S_L.svg)
+
+</details>
+
+<details>
+<summary>28S LD — 碱基匹配预览</summary>
+
+![28S LD](figures/template_matching/28S_LD_preview.svg)
+
+[Full species](figures/template_matching/28S_LD.svg)
+
+</details>
 
 ## 数据与复现
 
-[GitHub项目](https://github.com/GUIBA-EX/MiAnemone) · [分析索引与复现命令](revision/README.md) · [逐条审稿回复](publications/response_to_review.md)。本目录是独立工作稿，没有将其标记为已公开的新版本。作者单位、ORCID、资助及利益冲突声明均待定，未代填。著作权声明沿用[COPYRIGHT.md](COPYRIGHT.md)。
+[12S/16S analysis](revision/README.md) · [28S analysis](28S/README.md) · [Preprint and build](publications/README.md) · [Supplement](publications/MiAnemone_supplement.md)
+
+## 引用 / Citation
+
+Xia, F. (2026). *MiAnemone: in silico design and evaluation of mitochondrial and nuclear rRNA primers for sea anemone (Actiniaria) eDNA metabarcoding*. Computational preprint v1.5. [GitHub Release](https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.5).
+
+[著作权声明](COPYRIGHT.md)
 
 ## 参考文献
 
@@ -184,75 +315,3 @@ Shearer TL, Van Oppen MJH, Romano SL, Wörheide G. 2002. Slow mitochondrial DNA 
 Untergasser A et al. 2012. Primer3—new capabilities and interfaces. *Nucleic Acids Research* 40:e115. https://doi.org/10.1093/nar/gks596
 
 Wilson EB. 1927. Probable inference, the law of succession, and statistical inference. *Journal of the American Statistical Association* 22:209–212. https://doi.org/10.2307/2276774
-
-
-## 引用 / Citation
-
-Xia, F. (2026). *MiAnemone: in silico design and evaluation of mitochondrial and nuclear rRNA primers for sea anemone (Actiniaria) eDNA metabarcoding*. Computational preprint v1.5. [GitHub Release](https://github.com/GUIBA-EX/MiAnemone/releases/tag/preprint-v1.5).
-
-[著作权声明](COPYRIGHT.md)
-
-## Nuclear 28S / 核28S
-
-核28S新增221个海葵物种与448个其他六放珊瑚背景物种。XS、S、M、L各保留普通及D引物，同窗端点一致，每条简并度≤8。逐位点95%共识用于有限候选搜索，不代表整对95%覆盖。严格背景均为0，但宽松命中仍较高。所有可比较12S、16S窗口均共享条形码的112个物种对中，67对有可评价28S L序列；64对可区分，LD覆盖其中63对的两个物种。跨标记按物种名称关联，不代表相同个体。
-
-| Pair | Span bp | F (5′–3′) | R (5′–3′) | Deg F/R | Covered | Exact | Strict WC/GT | Relaxed WC3/GT2 |
-|---|---:|---|---|---|---|---|---|---|
-| XS | 125 | GGGTTGTTTGGGAATGCA | TTGACTCTCTTTTCAAAGTG | 1/1 | 179/182 | 7/182 | 0/0 | 354/355 |
-| XSD | 125 | GGGTTGTTYKGGAATGCA | TKRACTCTCTTTTCAAAGTG | 4/4 | 179/182 | 177/182 | 0/0 | 354/355 |
-| S | 191 | CGTCATAGAGGGTGACAA | TTAACTCTCTTTTCAAAGTG | 1/1 | 163/182 | 134/182 | 0/0 | 354/344 |
-| SD | 191 | CGTCRTAGAGGGTGASAA | TTRACTCTCTTTTCAAAGTG | 4/2 | 172/182 | 148/182 | 0/0 | 354/354 |
-| M | 211 | AAGTTGCTTGGAACAGCA | TTTTAACTCTCTTTTCAAAGTG | 1/1 | 169/180 | 139/180 | 0/0 | 342/342 |
-| MD | 211 | AAGTTGCTTGGAACAGCA | KTTTAACTCTCTTTTCAAAGTG | 1/2 | 169/180 | 154/180 | 0/0 | 342/342 |
-| L | 378 | TGAGGGAAAGGTGAAAAGCA | ACTGCAAGCAGTCCACCG | 1/1 | 94/172 | 0/172 | 0/0 | 340/339 |
-| LD | 378 | TGAGGGAAAGRTGAAAAGCA | ACTGCAHGCAGTCCACCR | 2/6 | 166/172 | 158/172 | 0/0 | 340/339 |
-
-### 28S XS
-
-![28S XS](figures/template_matching/28S_XS_preview.svg)
-
-[Full species base matching / 全部物种碱基匹配图](figures/template_matching/28S_XS.svg)
-
-### 28S XSD
-
-![28S XSD](figures/template_matching/28S_XSD_preview.svg)
-
-[Full species base matching / 全部物种碱基匹配图](figures/template_matching/28S_XSD.svg)
-
-### 28S S
-
-![28S S](figures/template_matching/28S_S_preview.svg)
-
-[Full species base matching / 全部物种碱基匹配图](figures/template_matching/28S_S.svg)
-
-### 28S SD
-
-![28S SD](figures/template_matching/28S_SD_preview.svg)
-
-[Full species base matching / 全部物种碱基匹配图](figures/template_matching/28S_SD.svg)
-
-### 28S M
-
-![28S M](figures/template_matching/28S_M_preview.svg)
-
-[Full species base matching / 全部物种碱基匹配图](figures/template_matching/28S_M.svg)
-
-### 28S MD
-
-![28S MD](figures/template_matching/28S_MD_preview.svg)
-
-[Full species base matching / 全部物种碱基匹配图](figures/template_matching/28S_MD.svg)
-
-### 28S L
-
-![28S L](figures/template_matching/28S_L_preview.svg)
-
-[Full species base matching / 全部物种碱基匹配图](figures/template_matching/28S_L.svg)
-
-### 28S LD
-
-![28S LD](figures/template_matching/28S_LD_preview.svg)
-
-[Full species base matching / 全部物种碱基匹配图](figures/template_matching/28S_LD.svg)
-
-[28S methods and evidence](28S/README.md) · [FASTA](28S/primers.fasta)
